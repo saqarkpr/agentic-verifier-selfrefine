@@ -1,0 +1,11 @@
+# Feedback-protocol ablation. Every value here is read by src/config.py and
+# can be overridden per-run with an env var (AVS_N_SEEDS=8 ...), which is how
+# the Slurm array job sweeps without editing code or writing one file per point.
+model_choice: sft_dpo      # sft_dpo | sft | base
+n_per_family: 15           # x3 families = 45 held-out problems
+held_out_seed: 99          # disjoint from every training seed
+max_turns: 3
+n_seeds: 3                 # sampling seeds; raise for the final numbers
+temperature: 0.7
+measure_regression: true   # keep revising past a correct answer, to observe
+                           # correct -> wrong, which a stopping loop cannot see
