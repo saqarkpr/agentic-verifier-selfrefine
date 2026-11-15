@@ -1,0 +1,722 @@
+{
+  "_README": [
+    "Single source of truth for every number this repository reports.",
+    "Figures read from this file. tests/test_reported_numbers.py asserts the",
+    "tables in README.md match it. Nothing quotes a literal it typed itself.",
+    "",
+    "`status` is the only field that decides how a number may be presented:",
+    "  valid              reproducible from committed code and data today",
+    "  pending_rerun      recorded honestly, but produced by code since found",
+    "                     defective; must NOT be quoted as a result until it is",
+    "                     regenerated. See `invalidated_by`.",
+    "  superseded         kept on the record, replaced by a later experiment",
+    "",
+    "A number with status `pending_rerun` is not 'probably still about right'.",
+    "It is a measurement taken with a broken instrument, and the direction of",
+    "the error is stated per entry where it can be reasoned about at all."
+  ],
+  "defects": {
+    "bug5_no_solution_format": {
+      "summary": "The verifier rejected `x = no solution`, the exact form its own prompt demands, accepting only the bare `no solution`.",
+      "affects": "Every GPU run. 8 of the 45 held-out problems have no real solution.",
+      "direction_on_solve_rates": "Understates them. A model answering correctly in the requested format was scored wrong, so every solve rate below is a LOWER bound -- base, SFT and SFT+DPO alike. The sign of the change in any DIFFERENCE between two models cannot be determined without re-measuring.",
+      "direction_on_the_agent_experiment": "Not determinable, and not symmetric between conditions as an earlier version of README.md claimed. The control's turn-2/3 prompt does not depend on the verifier's verdict at all; the feedback condition's prompt is a function of `result.reason`. Corrupting the reason corrupts the input to one arm and not the other. It could have hurt the feedback arm (a false 'fix your format' instruction) or helped it (that instruction names the bare `no solution` spelling the verifier did accept). The gap is therefore as unusable as the absolute rates.",
+      "measured_effect": "Confirmed on regeneration: SFT went 13/45 -> 15/45, two problems, and its unparsable count went to zero. The understatement was real and small for SFT. The DPO stage moved far more than two problems and in the opposite direction, so bug 5 alone does not account for the change there."
+    },
+    "bug6_empty_generation": {
+      "summary": "An empty generation was extracted as the string `no solution`, i.e. as the correct answer on exactly those 8 problems.",
+      "affects": "All GPU runs in principle.",
+      "direction_on_solve_rates": "Overstates them, opposite in sign to bug 5. No recorded run is known to have triggered it; the base model's 0/45 rules it out for that row."
+    },
+    "bug7_contamination": {
+      "summary": "6 of 45 held-out equations (13.3%) appeared in data/sft_pairs.jsonl with their correct answers; 3 of 45 (6.7%) in dpo_pairs_zeroshot.jsonl.",
+      "affects": "The absolute held-out solve rates, as a measure of generalisation.",
+      "direction_on_solve_rates": "Overstates generalisation. Does NOT affect the SFT-vs-DPO difference, which is measured on the same 45 problems in both arms.",
+      "status": "FIXED at the source, 2026-09-21",
+      "fix": "src/splits.py defines the canonical held-out set once. splits.training() excludes every held-out equation by construction and asserts the result inside the build, and every script that needs the benchmark now calls splits.held_out() instead of rebuilding it. Both shipped datasets now measure 0/45 overlap. The held-out set itself is byte-identical, so new numbers remain comparable to the superseded ones.",
+      "how_to_measure_it": "tasks.contamination(train, held_out) -- compare equation_str, NEVER problem_id. Ids are positional within a draw: the held-out and 100-per-family training draws share the ids linear_0000..linear_0014 while not one of them is the same equation, so an id-based comparison reports 15 of 45 (33%) where the truth is 6 of 45 (13.3%). That mistake was made once during the regeneration and is pinned by tests/test_splits_and_data.py::test_problem_id_is_positional_and_means_nothing_across_draws."
+    },
+    "bug8_dpo_no_solution_coverage": {
+      "summary": "build_dpo_pairs_zeroshot.py dropped every training problem with no real solution, because flawed_solver cannot produce a wrong answer for one (its 'wrong' answer is the empty set = `no solution` = correct, so chosen == rejected). data/dpo_pairs_zeroshot.jsonl has 118 pairs and `no solution` appears on neither side of any of them; all 25 no-real-root training problems are missing, and every quadratic pair is 'two roots beats one root'.",
+      "affects": "Every DPO stage ever trained (all GPU runs). Not the SFT stage, which does contain 38 no-solution targets.",
+      "direction_on_solve_rates": "Not determinable as a single sign, which is why it hid: it OVERSTATES quadratic accuracy (DPO answers `no solution` to almost everything quadratic, which is correct on the 7 no-real-root quadratics: 0.125 -> 0.768) and UNDERSTATES linear accuracy (0.808 -> 0.400, a quarter of linear answers become `no solution`). The aggregate DPO delta is the sum of the two.",
+      "direction_on_the_paper": "Does not affect the feedback ladder or agent-loop comparisons, which are paired within one checkpoint. It is the mechanism behind the DPO result, and is reported as the main finding rather than as a nuisance.",
+      "found_by": "paper_analysis.py, splitting the DPO delta by equation family: linear 0/8 passes positive, quadratic 8/8 positive -- a pattern far too consistent to be GPU noise.",
+      "fix": "build_dpo_pairs_zeroshot.py --variant v2 -> data/dpo_pairs_zeroshot_v2.jsonl (168 pairs; `no solution` chosen in 25 and rejected in 25). The v1 file is unchanged because every recorded run trained on it; tests/test_dpo_coverage.py pins both.",
+      "status": "FIXED in the data builder; the v2 data has NOT been trained on yet (notebooks/colab_followup.ipynb, section D)."
+    }
+  },
+  "cpu_turn_budget": {
+    "status": "valid",
+    "why_valid": "Produced by flawed_solver, which emits only `x = <value>` and the bare `no solution`. Neither bug 5 nor bug 6 can fire. Re-running run_experiment.py after all fixes reproduces results/summary.csv and results/trajectories.csv byte-for-byte, and CI checks that.",
+    "standing_caveat": "circular by construction: the synthetic solver's error rate is defined to fall each turn and it never reads the feedback. See tests/test_agent_loop.py::test_the_synthetic_solver_improves_without_reading_feedback.",
+    "n_problems": 120,
+    "n_seeds": 8,
+    "solve_rate_by_budget": {
+      "1": 0.295,
+      "2": 0.54,
+      "3": 0.797
+    },
+    "paired_t": {
+      "1_vs_2": 63.79,
+      "2_vs_3": 31.77
+    },
+    "turn1_error_modes": {
+      "wrong_value": 0.725,
+      "extraneous_root": 0.155,
+      "incomplete": 0.12
+    },
+    "n_turn1_errors": 677
+  },
+  "held_out_eval": {
+    "status": "superseded",
+    "invalidated_by": [
+      "bug5_no_solution_format",
+      "bug6_empty_generation",
+      "bug7_contamination"
+    ],
+    "how_to_regenerate": "src/rerun_all.py stage `eval` (GPU).",
+    "n_problems": 45,
+    "held_out_seed": 99,
+    "decoding": "greedy",
+    "runs": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "base": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sft": [
+      0.289,
+      0.289,
+      0.289,
+      0.289
+    ],
+    "sft_dpo": [
+      0.444,
+      0.378,
+      0.378,
+      0.311
+    ],
+    "sft_solved_count": 13,
+    "dpo_gain": {
+      "mean": 0.089,
+      "sd": 0.054,
+      "t": 3.27,
+      "p": 0.047
+    },
+    "sft_dpo_summary": {
+      "mean": 0.378,
+      "sd": 0.054
+    },
+    "what_survives": "base 0/45 with SFT at 13/45 is a large gap on a model that otherwise solves nothing, and the SFT stage was identical on all four runs. The ORDERING base < SFT is not in doubt. The SIZE of every number here is.",
+    "contamination_bound": {
+      "memorisable_of_45": 6,
+      "worst_case_clean_solved": 7,
+      "worst_case_clean_total": 39,
+      "worst_case_clean_rate": 0.179
+    },
+    "superseded_by": "clean_split_rerun"
+  },
+  "agent_experiment": {
+    "status": "superseded",
+    "invalidated_by": [
+      "bug5_no_solution_format",
+      "bug6_empty_generation"
+    ],
+    "how_to_regenerate": "src/rerun_all.py stage `agent` (GPU), both prompt styles.",
+    "n_problems": 45,
+    "n_seeds": 3,
+    "temperature": 0.7,
+    "runs": {
+      "verbose": {
+        "checkpoint": "C (0.378 greedy)",
+        "prompt_style": "verbose",
+        "feedback_by_budget": [
+          0.289,
+          0.356,
+          0.393
+        ],
+        "control_by_budget": [
+          0.289,
+          0.385,
+          0.422
+        ],
+        "unparsable": {
+          "turn2": {
+            "feedback": 0.385,
+            "control": 0.062
+          },
+          "turn3": {
+            "feedback": 0.195,
+            "control": 0.012
+          }
+        },
+        "per_seed_diff_at_budget3": [
+          -0.022,
+          0.0,
+          -0.066
+        ]
+      },
+      "minimal": {
+        "checkpoint": "D (0.311 greedy)",
+        "prompt_style": "minimal",
+        "feedback_by_budget": [
+          0.274,
+          0.326,
+          0.363
+        ],
+        "control_by_budget": [
+          0.274,
+          0.356,
+          0.415
+        ],
+        "unparsable": {
+          "turn2": {
+            "feedback": 0.265,
+            "control": 0.092
+          },
+          "turn3": {
+            "feedback": 0.275,
+            "control": 0.046
+          }
+        },
+        "per_seed_diff_at_budget3": [
+          0.022,
+          -0.133,
+          -0.044
+        ]
+      }
+    },
+    "pooled": {
+      "mean": -0.041,
+      "sd": 0.055,
+      "t": -1.805,
+      "p": 0.131,
+      "at_or_below_zero": 5,
+      "of": 6
+    },
+    "withdrawn_claims": [
+      "Anchoring (32.8% vs 21.8% repeated answers in the verbose run) reversed in the minimal run (24.3% vs 27.6%). An effect that flips sign between runs is not an effect."
+    ],
+    "what_survives": "Nothing quantitative. The DESIGN survives: a paired control under identical sampling seeds is what turned an apparent +0.104 self-refinement gain into a visible pass@k artefact, and that reasoning does not depend on the corrupted verdicts.",
+    "raw_csv_committed": false,
+    "raw_csv_note": "Produced in Colab, not committed, and now superseded anyway. The rerun writes results/raw/ and those files are committed.",
+    "superseded_by": "agent_experiment_clean"
+  },
+  "legacy_null_result": {
+    "status": "superseded",
+    "superseded_by": "held_out_eval",
+    "note": "Kept on the record. Prompt-format mismatch between revision-conditioned training pairs and an unconditioned zero-shot eval. Also subject to bug 5.",
+    "base": 0.022,
+    "dpo": 0.0,
+    "n_problems": 45
+  },
+  "feedback_protocol_ablation": {
+    "status": "valid_one_checkpoint",
+    "produced_by": "rerun_all.py ablation, 2026-09-22, 2025 generations, 52 min on a T4",
+    "checkpoint": "same pass-4 checkpoint as agent_experiment_clean (greedy 0.133)",
+    "n_problems": 45,
+    "n_seeds": 3,
+    "temperature": 0.7,
+    "solve_rate_budget3": {
+      "retry": 0.267,
+      "generic": 0.304,
+      "diagnostic": 0.348,
+      "actionable": 0.333,
+      "constrained": 0.259
+    },
+    "vs_retry": {
+      "generic": 0.037,
+      "diagnostic": 0.081,
+      "actionable": 0.067,
+      "constrained": -0.007
+    },
+    "per_seed_vs_retry": {
+      "generic": [
+        0.022,
+        0.044,
+        0.044
+      ],
+      "diagnostic": [
+        0.133,
+        0.111,
+        0.0
+      ],
+      "actionable": [
+        0.067,
+        0.089,
+        0.044
+      ],
+      "constrained": [
+        0.022,
+        0.0,
+        -0.044
+      ]
+    },
+    "paired_sign_test_135_units": {
+      "generic": {
+        "wins": 11,
+        "losses": 6,
+        "net": 5,
+        "p": 0.332
+      },
+      "diagnostic": {
+        "wins": 15,
+        "losses": 4,
+        "net": 11,
+        "p": 0.019
+      },
+      "actionable": {
+        "wins": 12,
+        "losses": 3,
+        "net": 9,
+        "p": 0.035
+      },
+      "constrained": {
+        "wins": 6,
+        "losses": 7,
+        "net": -1,
+        "p": 1.0
+      }
+    },
+    "format_validity_by_turn": {
+      "retry": [
+        0.941,
+        0.879,
+        0.903
+      ],
+      "generic": [
+        0.941,
+        0.738,
+        0.735
+      ],
+      "diagnostic": [
+        0.941,
+        0.645,
+        0.691
+      ],
+      "actionable": [
+        0.941,
+        0.579,
+        0.571
+      ],
+      "constrained": [
+        0.941,
+        0.15,
+        0.087
+      ]
+    },
+    "repair_rate": {
+      "retry": 0.075,
+      "generic": 0.121,
+      "diagnostic": 0.178,
+      "actionable": 0.159,
+      "constrained": 0.065
+    },
+    "findings": [
+      "The verifier's message CONTENT is what helps, not merely being told 'wrong'. `diagnostic` (+0.081, sign-test p=0.019 over 135 problem-seed units) and `actionable` (+0.067, p=0.035) beat the pure re-sampling control; `generic` (+0.037, p=0.332) does not. That is exactly the comparison the ladder was built to make.",
+      "THE FORMAT-PROTECTION HYPOTHESIS IS INVERTED. `constrained` adds an explicit restatement of the answer format in order to protect it. It has by far the WORST format validity of any condition -- 8.7% parsable at turn 3 against the control's 90.3% -- and no accuracy benefit at all. Adding a second format instruction made unreadable output ten times more likely than adding none.",
+      "Format validity degrades monotonically with prompt elaboration, not with feedback content per se: retry 0.903, generic 0.735, diagnostic 0.691, actionable 0.571, constrained 0.087 at turn 3. Every feedback condition pays a format cost, and diagnostic/actionable still come out ahead, so the benefit exceeds the cost up to a point. `constrained` is past that point.",
+      "Turn 1 is identical across all five conditions in both solve rate (0.207) and format validity (0.941), which is the built-in check that the pairing holds.",
+      "`retry` is EXACTLY 0.267 on all three seeds, zero variance. Re-sampling saturates on the same problems, as it did in the superseded runs."
+    ],
+    "caveats": [
+      "One checkpoint, and a collapsed one (greedy 0.133). A damaged model leaves more for feedback to recover.",
+      "Four comparisons against a shared control. Bonferroni at alpha=0.05 would require p<0.0125; diagnostic's 0.019 and actionable's 0.035 do not clear that bar. Treat as suggestive under a pre-registered ordered ladder, not as established.",
+      "The feedback-utilisation metric is uninformative here. `retry` scores 0.448 on it while showing the model no feedback at all, and `generic` scores highest at 0.546 while carrying no content. It is measuring chance, not use."
+    ],
+    "raw_files": "results/recorded/2026-09-22/",
+    "replication": "NOT REPLICATED. Re-run on two further checkpoints in November: diagnostic -0.015 (Nov pass 4) and -0.022 (Nov selected); actionable -0.089 and +0.007. Re-analysed with the problem as the unit (three seeds of one problem are not independent), September's own diagnostic result is p=0.042 unadjusted and p=0.166 after Holm over four conditions -- the reported p=0.019 came from a sign test treating 135 problem-seed units as independent. See results/paper/analysis.json."
+  },
+  "held_out_eval_regenerated": {
+    "status": "superseded",
+    "why_not_yet_final": "One training pass only. GPU training is not bit-reproducible, so this is one draw from a distribution, not a measurement -- exactly the point the four recorded passes established. Needs `rerun_all.py sft dpo eval --repeat=4`. The first regeneration attempt used `eval --repeat=4`, which re-evaluated ONE checkpoint four times under greedy decoding and returned four byte-identical tables; rerun_all.py now refuses that combination.",
+    "produced_by": "rerun_all.py sft dpo (2026-09-20, Colab T4, trl 1.13.0)",
+    "n_problems": 45,
+    "held_out_seed": 99,
+    "decoding": "greedy",
+    "base": 0.0,
+    "sft": 0.333,
+    "sft_dpo": 0.244,
+    "counts": {
+      "base": 0,
+      "sft": 15,
+      "sft_dpo": 11
+    },
+    "dpo_delta": -0.089,
+    "reasons": {
+      "base": {
+        "correct": 0,
+        "does_not_satisfy": 1,
+        "incomplete": 0,
+        "unparsable": 36,
+        "wrong": 8
+      },
+      "sft": {
+        "correct": 15,
+        "does_not_satisfy": 5,
+        "incomplete": 1,
+        "unparsable": 0,
+        "wrong": 24
+      },
+      "sft_dpo": {
+        "correct": 11,
+        "does_not_satisfy": 2,
+        "incomplete": 14,
+        "unparsable": 1,
+        "wrong": 17
+      }
+    },
+    "training_metrics": {
+      "sft_eval_loss": 0.1124,
+      "sft_token_accuracy": 0.9648,
+      "dpo_eval_loss": 0.235,
+      "dpo_reward_accuracy": 0.8333,
+      "dpo_reward_margin": 1.806
+    },
+    "what_this_settles": [
+      "The base model's 0/45 is mostly a FORMAT failure, not a capability floor. 36 of 45 attempts are unparsable and only 8 are parsable-but-wrong. The question flagged as open in README and report is answered by this run: base 0/45 measures capability-plus-format, dominated by format.",
+      "SFT rose from the recorded 0.289 (13/45) to 0.333 (15/45), exactly the two-problem direction bug 5 predicted -- correct `x = no solution` answers that used to be graded unparsable. SFT now produces zero unparsable answers.",
+      "The DPO stage REVERSED SIGN. Recorded as +0.089 mean across four passes; measured here at -0.089 on one pass. Not a small shift in a noisy number: it is outside the recorded four-pass range (0.311-0.444) on the low side.",
+      "The DPO stage's damage has a specific shape: `incomplete` went from 1 to 14 while `wrong` fell from 24 to 17. The model is dropping roots. DPO fit its preference data well (reward accuracy 0.833, margin 1.81) while making the held-out result worse, which is the training-metrics-do-not-predict-solve-rate finding again, now with the sign against the stage."
+    ],
+    "open": [
+      "Why the DPO stage now drops roots. The naive explanation -- that `rejected` usually has fewer values, teaching the model to shorten -- is wrong: of the 118 pairs, 31 have a rejected with FEWER values (all quadratics) against 21 with MORE (all rationals), so the pressure runs the other way. Diagnosing it needs per-problem eval output, which the script did not save; it does now.",
+      "Whether -0.089 is the DPO stage's true central tendency or one bad draw. Four passes of `sft dpo eval` settle it."
+    ],
+    "superseded_by": "clean_split_rerun",
+    "why_superseded": "Trained on the contaminated draw (6 of 45 held-out equations present). Its numbers stay on the record as the measurement that exposed both the format fix and the DPO sign reversal, but the checkpoint itself is contaminated and cannot be the final result."
+  },
+  "clean_split_rerun": {
+    "status": "valid",
+    "produced_by": "rerun_all.py sft dpo eval --repeat=4, Colab T4, 2026-09-22",
+    "split": "disjoint by construction (splits.training excludes held_out; 0/45 asserted in the build)",
+    "n_problems": 45,
+    "decoding": "greedy",
+    "passes": 4,
+    "base": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sft": [
+      0.289,
+      0.267,
+      0.311,
+      0.289
+    ],
+    "sft_dpo": [
+      0.289,
+      0.289,
+      0.133,
+      0.133
+    ],
+    "sft_summary": {
+      "mean": 0.289,
+      "sd": 0.018
+    },
+    "sft_dpo_summary": {
+      "mean": 0.211,
+      "sd": 0.09
+    },
+    "dpo_delta": [
+      0.0,
+      0.022,
+      -0.178,
+      -0.156
+    ],
+    "dpo_delta_summary": {
+      "mean": -0.078,
+      "sd": 0.103,
+      "helped": 1,
+      "hurt": 3,
+      "of": 4
+    },
+    "reasons_mean_per_pass": {
+      "base": {
+        "correct": 0.0,
+        "does_not_satisfy": 1.0,
+        "incomplete": 0.0,
+        "unparsable": 36.0,
+        "wrong": 8.0
+      },
+      "sft": {
+        "correct": 13.0,
+        "does_not_satisfy": 6.8,
+        "incomplete": 2.0,
+        "unparsable": 0.8,
+        "wrong": 22.5
+      },
+      "sft_dpo": {
+        "correct": 9.5,
+        "does_not_satisfy": 3.8,
+        "incomplete": 9.8,
+        "unparsable": 3.5,
+        "wrong": 18.5
+      }
+    },
+    "findings": [
+      "The DPO stage does not help on a clean split. Deltas +0.000, +0.022, -0.178, -0.156; mean -0.078. The superseded '+0.089, p=0.047' is replaced by a negative result, and the earlier four-pass table's positive sign does not survive either the verifier fix or the split fix.",
+      "The failure is BIMODAL, not noisy. Two passes land at 0.289 and two collapse to 0.133; there is nothing in between. This is a training instability with a cliff, not a spread.",
+      "In the collapsed passes the model answers `no solution` to quadratics that have real roots, and breaks the answer line into prose ('The result is 4/5.', \"x = 7'.\", 'Solution: -8/5'). Both failure modes are visible in results/recorded/2026-09-22/eval/attempts_20260922T184529Z.csv.",
+      "SFT is unaffected by cleaning the split: 0.289 mean, identical to the contaminated draw's 0.289. The 6 contaminated problems were therefore NOT being memorised, and bug 7 did not inflate the SFT figure after all. The fix was still necessary; the worry it addressed turned out to be unfounded.",
+      "Base 0/45 is a format failure, confirmed: 36 of 45 attempts unparsable, 8 parsable-but-wrong, 0 correct. The question flagged as open since the first write-up is closed."
+    ],
+    "environment": {
+      "source": "run manifest written by rerun_all.py in the 2026-09-22 Colab session",
+      "python": "3.13.15",
+      "device": "Tesla T4",
+      "torch": "2.11.0+cu128",
+      "cuda": "12.8",
+      "transformers": "5.17.0",
+      "trl": "1.13.0",
+      "peft": "0.21.0",
+      "sympy": "1.14.0",
+      "not_recorded": [
+        "accelerate",
+        "datasets"
+      ],
+      "note": "requirements-colab.txt pins trl, peft and transformers to these versions; tests/test_environment.py fails if the two drift apart. torch is left to whatever Colab ships, on purpose."
+    },
+    "raw_files": "results/recorded/2026-09-22/eval/"
+  },
+  "agent_experiment_clean": {
+    "status": "valid_one_checkpoint",
+    "produced_by": "rerun_all.py agent, 2026-09-22, prompt style `minimal`",
+    "checkpoint": "pass 4 of clean_split_rerun (greedy 0.133) -- SEE CAVEAT",
+    "n_problems": 45,
+    "n_seeds": 3,
+    "temperature": 0.7,
+    "feedback_by_budget": [
+      0.207,
+      0.267,
+      0.341
+    ],
+    "control_by_budget": [
+      0.207,
+      0.237,
+      0.267
+    ],
+    "difference": [
+      0.0,
+      0.03,
+      0.074
+    ],
+    "paired_t": {
+      "budget2": {
+        "t": 4.0,
+        "p": 0.0572
+      },
+      "budget3": {
+        "t": 3.78,
+        "p": 0.0634
+      }
+    },
+    "finding": "THE SIGN FLIPPED. In every previous run feedback lost to the re-sampling control. Here it wins at both budgets. This is the first positive evidence the project has produced for its central hypothesis.",
+    "caveat": "Run on a COLLAPSED checkpoint. Both this and the ablation used the model from pass 4, which scored 0.133 greedy -- one of the two passes that failed. A damaged model has more headroom, so feedback has more to recover. Whether the benefit survives on a healthy checkpoint (0.289) is untested and is now the single highest-value GPU run available.",
+    "raw_files": "results/recorded/2026-09-22/",
+    "replication": "NOT REPLICATED: +0.074 at budget 3 here; +0.007 on Nov pass 4 (problem-level p=1.0)."
+  },
+  "clean_split_rerun_nov": {
+    "status": "valid",
+    "produced_by": "rerun_all.py sft dpo eval --repeat=4, Colab T4, 2026-11-14 (trl 1.13.0, transformers 5.17.0, peft 0.21.0)",
+    "split": "disjoint by construction, as clean_split_rerun",
+    "n_problems": 45,
+    "decoding": "greedy",
+    "passes": 4,
+    "base": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sft": [
+      0.311,
+      0.289,
+      0.311,
+      0.333
+    ],
+    "sft_dpo": [
+      0.289,
+      0.267,
+      0.4,
+      0.244
+    ],
+    "dpo_delta": [
+      -0.022,
+      -0.022,
+      0.089,
+      -0.089
+    ],
+    "findings": [
+      "Replicates the September SFT result (mean 0.311 vs 0.289) and the DPO stage's lack of a stable direction (1 of 4 passes positive), but NOT the September bimodal collapse to 0.133: the lowest pass is 0.244.",
+      "Pooled with September (8 passes): SFT 0.300 (sd 0.021); DPO delta mean -0.044, sd 0.090, t=-1.39, p=0.21.",
+      "The DPO delta is not noise around zero. By family it is linear -0.408 (0 of 8 passes positive) and quadratic +0.292 (8 of 8 positive); see bug8_dpo_no_solution_coverage and paper_analysis."
+    ],
+    "raw_files": "results/recorded/2026-11-14/eval/"
+  },
+  "selected_checkpoint_eval": {
+    "status": "valid_one_checkpoint",
+    "produced_by": "select_checkpoint.py (1 attempt, kept; validation SFT 0.333 / SFT+DPO 0.311) then evaluate_redesign_v2.py once on the benchmark, 2026-11-15",
+    "checkpoint": "Nov selected (one retrained SFT+DPO pair, chosen on the validation set without consulting the benchmark)",
+    "sft": 0.333,
+    "sft_dpo": 0.444,
+    "dpo_delta": 0.111,
+    "caveats": [
+      "One checkpoint. It is a tenth draw from the same training distribution, chosen on validation, and must never be averaged with the eight passes.",
+      "Selection did nothing: the first attempt was kept (validation delta -0.022). Its benchmark delta of +0.111 vs a validation delta of -0.022 is itself a measure of how little one 45-problem score says about a checkpoint.",
+      "The same displacement is present at lower intensity: `no solution` on solvable problems 0.054 (SFT) -> 0.189 (SFT+DPO)."
+    ],
+    "raw_files": "results/recorded/2026-11-14/selected_eval/"
+  },
+  "feedback_protocol_ablation_nov_pass4": {
+    "status": "valid_one_checkpoint",
+    "produced_by": "rerun_all.py ablation, 2026-11-15, Colab T4",
+    "checkpoint": "Nov pass 4 (greedy 0.244)",
+    "n_problems": 45,
+    "n_seeds": 3,
+    "temperature": 0.7,
+    "solve_rate_budget3": {
+      "retry": 0.378,
+      "generic": 0.385,
+      "diagnostic": 0.363,
+      "actionable": 0.289,
+      "constrained": 0.304
+    },
+    "vs_retry_problem_level": {
+      "generic": {
+        "diff": 0.007,
+        "ci95": [
+          -0.052,
+          0.067
+        ],
+        "p_perm": 1.0,
+        "p_holm": 1.0
+      },
+      "diagnostic": {
+        "diff": -0.015,
+        "ci95": [
+          -0.074,
+          0.044
+        ],
+        "p_perm": 0.809,
+        "p_holm": 1.0
+      },
+      "actionable": {
+        "diff": -0.089,
+        "ci95": [
+          -0.148,
+          -0.03
+        ],
+        "p_perm": 0.009,
+        "p_holm": 0.035
+      },
+      "constrained": {
+        "diff": -0.074,
+        "ci95": [
+          -0.148,
+          -0.007
+        ],
+        "p_perm": 0.063,
+        "p_holm": 0.189
+      }
+    },
+    "format_validity_by_turn": {
+      "retry": [
+        0.948,
+        0.92,
+        0.932
+      ],
+      "generic": [
+        0.948,
+        0.86,
+        0.773
+      ],
+      "diagnostic": [
+        0.948,
+        0.78,
+        0.774
+      ],
+      "actionable": [
+        0.948,
+        0.49,
+        0.626
+      ],
+      "constrained": [
+        0.948,
+        0.16,
+        0.121
+      ]
+    },
+    "raw_files": "results/recorded/2026-11-14/pass4_checkpoint/",
+    "caveats": [
+      "One checkpoint (Nov pass 4, greedy 0.244). The September positive result does NOT replicate on it: diagnostic -0.015, actionable -0.089 (Holm p=0.035, i.e. significantly WORSE than re-sampling)."
+    ]
+  },
+  "feedback_protocol_ablation_nov_selected": {
+    "status": "valid_one_checkpoint",
+    "produced_by": "rerun_all.py ablation, 2026-11-15, Colab T4",
+    "checkpoint": "Nov selected (greedy 0.444)",
+    "n_problems": 45,
+    "n_seeds": 3,
+    "temperature": 0.7,
+    "solve_rate_budget3": {
+      "retry": 0.437,
+      "generic": 0.437,
+      "diagnostic": 0.415,
+      "actionable": 0.444,
+      "constrained": 0.393
+    },
+    "format_ok_all_turns": {
+      "retry": 0.956,
+      "generic": 0.88,
+      "diagnostic": 0.799,
+      "actionable": 0.725,
+      "constrained": 0.635
+    },
+    "raw_csv_committed": false,
+    "raw_files": "results/recorded/2026-11-14/selected_checkpoint/feedback_protocol_ablation.txt (summary transcribed from the executed notebook)",
+    "caveats": [
+      "One checkpoint (Nov selected, greedy 0.444). Summary only: the per-attempt CSV is inside a 1.8 GB backup zip on Drive and has not been committed, so no problem-level inference is possible yet (notebooks/colab_followup.ipynb, section C). No condition beats retry by more than +0.007."
+    ]
+  },
+  "agent_experiment_nov_pass4": {
+    "status": "valid_one_checkpoint",
+    "produced_by": "rerun_all.py agent, 2026-11-14, prompt style `minimal`",
+    "checkpoint": "Nov pass 4 (greedy 0.244)",
+    "n_problems": 45,
+    "n_seeds": 3,
+    "temperature": 0.7,
+    "feedback_by_budget": [
+      0.259,
+      0.304,
+      0.385
+    ],
+    "control_by_budget": [
+      0.259,
+      0.348,
+      0.378
+    ],
+    "caveats": [
+      "One checkpoint (Nov pass 4, greedy 0.244). The September +0.074 at budget 3 shrinks to +0.007 (problem-level p=1.0)."
+    ],
+    "raw_files": "results/recorded/2026-11-14/pass4_checkpoint/"
+  },
+  "agent_experiment_nov_selected": {
+    "status": "not_run",
+    "checkpoint": "Nov selected (greedy 0.444)",
+    "note": "Section 17 of the clean-run notebook was started (a model record was written at 01:00) but produced no CSV and no run manifest; the backup taken after it contains no agent output. Re-run: notebooks/colab_followup.ipynb, section B, which restores the selected weights from Drive."
+  },
+  "paper_analysis": {
+    "file": "results/paper/analysis.json",
+    "produced_by": "src/paper_analysis.py (CPU, reads only results/recorded/)",
+    "note": "The paper's numbers come from this file. It re-analyses every recorded run with the problem as the unit, Holm correction, and pools across checkpoints."
+  }
+}

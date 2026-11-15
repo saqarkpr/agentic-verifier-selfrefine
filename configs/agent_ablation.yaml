@@ -1,0 +1,16 @@
+# Feedback-protocol ablation. Every value here is read by src/config.py and
+# can be overridden per-run with an env var (AVS_N_SEEDS=8 ...), which is how
+# the Slurm array job sweeps without editing code or writing one file per point.
+model_choice: sft_dpo      # sft_dpo | sft | base
+n_per_family: 15           # x3 families = 45 held-out problems
+held_out_seed: 99          # a different seed from training -- which is NOT a
+                           # disjoint split; see PROVENANCE.md, bug #7
+max_turns: 3
+n_seeds: 3                 # sampling seeds; raise for the final numbers
+temperature: 0.7
+measure_regression: false  # OFF by default, deliberately: with an exact verifier
+                           # a deployed agent stops at the first correct answer, so
+                           # regression cannot occur in deployment. Turning this on
+                           # prompts the model after a correct answer, which is a
+                           # robustness probe, not a deployed failure mode. See the
+                           # long comment in src/feedback_protocol_ablation.py.

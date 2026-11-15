@@ -1,0 +1,6 @@
+# Everything needed to run the test suite. The suite is CPU-only and needs no
+# GPU stack: the prompt-construction logic was deliberately split out of
+# feedback_protocol_ablation.py (into feedback_prompts.py) so the assertions
+# that guard the experiment's validity run without torch.
+-r requirements.txt
+pytest>=8.0

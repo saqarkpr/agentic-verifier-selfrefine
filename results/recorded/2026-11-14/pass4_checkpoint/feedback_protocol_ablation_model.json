@@ -1,0 +1,15 @@
+{
+  "model_choice": "sft_dpo",
+  "conditions": [
+    "retry",
+    "generic",
+    "diagnostic",
+    "actionable",
+    "constrained"
+  ],
+  "n_problems": 45,
+  "n_seeds": 3,
+  "measure_regression": false,
+  "sft_merged": "2026-11-14T23:21:08",
+  "dpo_adapter": "2026-11-14T23:24:37"
+}

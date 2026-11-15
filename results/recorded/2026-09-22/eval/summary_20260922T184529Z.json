@@ -1,0 +1,44 @@
+{
+  "utc": "20260922T184529Z",
+  "n_problems": 45,
+  "held_out_seed": 99,
+  "decoding": "greedy",
+  "base": 0.0,
+  "sft": 0.3111111111111111,
+  "sft_dpo": 0.13333333333333333,
+  "reasons": {
+    "base": {
+      "unparsable": 36,
+      "wrong": 8,
+      "does_not_satisfy": 1
+    },
+    "sft": {
+      "correct": 14,
+      "wrong": 23,
+      "does_not_satisfy": 6,
+      "incomplete": 1,
+      "unparsable": 1
+    },
+    "sft+dpo": {
+      "correct": 6,
+      "wrong": 23,
+      "unparsable": 5,
+      "does_not_satisfy": 6,
+      "incomplete": 5
+    }
+  },
+  "dpo_gained": [
+    "quadratic_0020"
+  ],
+  "dpo_lost": [
+    "linear_0001",
+    "linear_0004",
+    "linear_0007",
+    "linear_0008",
+    "linear_0009",
+    "linear_0010",
+    "linear_0012",
+    "linear_0013",
+    "rational_0033"
+  ]
+}

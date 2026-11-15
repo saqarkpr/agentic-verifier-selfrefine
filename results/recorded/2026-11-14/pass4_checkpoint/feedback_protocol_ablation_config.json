@@ -1,0 +1,30 @@
+{
+  "model_choice": {
+    "value": "sft_dpo",
+    "source": "default"
+  },
+  "held_out_seed": {
+    "value": 99,
+    "source": "default"
+  },
+  "n_per_family": {
+    "value": 15,
+    "source": "default"
+  },
+  "max_turns": {
+    "value": 3,
+    "source": "default"
+  },
+  "n_seeds": {
+    "value": 3,
+    "source": "default"
+  },
+  "temperature": {
+    "value": 0.7,
+    "source": "default"
+  },
+  "measure_regression": {
+    "value": false,
+    "source": "default"
+  }
+}

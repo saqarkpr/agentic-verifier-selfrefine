@@ -1,0 +1,44 @@
+
+==============================================================================
+SOLVE RATE BY TURN BUDGET (first correct turn, as a stopping loop would)
+==============================================================================
+   condition |  turn<=1 |  turn<=2 |  turn<=3 | vs retry@3
+------------------------------------------------------------
+       retry |    0.207 |    0.237 |    0.267 |     +0.000
+     generic |    0.207 |    0.274 |    0.304 |     +0.037
+  diagnostic |    0.207 |    0.281 |    0.348 |     +0.081
+  actionable |    0.207 |    0.274 |    0.333 |     +0.067
+ constrained |    0.207 |    0.237 |    0.259 |     -0.007
+
+  Turn-1 identical across all conditions (0.207) -- pairing holds.
+
+==============================================================================
+MECHANISM METRICS
+==============================================================================
+   condition |   repair |  regress | format ok |  changed |  used fb
+----------------------------------------------------------------------
+       retry |    0.075 |    0.000 |     0.910 |    0.652 |    0.448
+     generic |    0.121 |    0.000 |     0.818 |    0.741 |    0.546
+  diagnostic |    0.178 |    0.000 |     0.776 |    0.848 |    0.456
+  actionable |    0.159 |    0.000 |     0.721 |    0.873 |    0.459
+ constrained |    0.065 |    0.000 |     0.441 |    0.986 |    0.433
+
+  repair    = of answers wrong at turn 1, fraction corrected later
+  regress   = of answers correct at turn 1, fraction later broken
+  format ok = fraction of all attempts the extractor could read
+  changed   = fraction of revisions that differ from the previous answer
+  used fb   = when the verifier named a bad value, fraction of revisions
+              that dropped it (the direct test of using the message)
+
+==============================================================================
+HOW TO READ THIS
+==============================================================================
+  'retry' carries no information, so any condition that fails to beat it
+  is not being helped by the verifier's message.
+  generic vs retry        -> does being told 'wrong' matter at all?
+  diagnostic vs generic   -> does the verifier's CONTENT matter?
+  actionable vs diagnostic-> does phrasing it as a procedure matter?
+  constrained vs actionable-> does protecting the answer format recover
+                             the loss caused by format degradation?
+  If 'format ok' is much lower for the feedback conditions, the accuracy
+  comparison is still partly measuring formatting, not reasoning.

@@ -1,0 +1,20 @@
+# The GPU stack, pinned to the versions the recorded runs actually used
+# (results/recorded/manifest.json -> clean_split_rerun.environment, taken from
+# the run manifest of the 2026-09-22 Colab session).
+#
+# Pinned because an unpinned `pip install -U` installs whatever is newest on
+# the day, and the training scripts sit directly on APIs that move: trl's
+# SFTConfig / DPOConfig arguments, peft's merge_and_unload, transformers'
+# `dtype=` keyword. A run that dies two hours in on a renamed argument is the
+# expensive way to find that out; src/smoke_test.py is the cheap way.
+#
+# torch is deliberately NOT pinned. Colab ships a torch build matched to its
+# own CUDA runtime, and replacing it is the one install most likely to break
+# the GPU. The recorded runs used torch 2.11.0+cu128 on Python 3.13; whatever
+# Colab provides is used as-is and written into every run manifest.
+#
+# accelerate and datasets are left to whatever Colab has, because the recorded
+# session did not write their versions down. Run manifests record them now.
+trl==1.13.0
+peft==0.21.0
+transformers==5.17.0

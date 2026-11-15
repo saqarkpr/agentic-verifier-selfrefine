@@ -1,0 +1,1710 @@
+condition,seed,problem_id,family,turn,candidate,correct,reason,parsable,changed,acted_on_named_value
+retry,0,linear_0000,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0000,linear,2,x = -1/3,False,wrong,True,True,True
+retry,0,linear_0000,linear,3,no solution,False,incomplete,True,True,False
+retry,0,linear_0001,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0001,linear,2,no solution,False,incomplete,True,False,True
+retry,0,linear_0001,linear,3,x = 1.5.,False,unparsable,False,True,False
+retry,0,linear_0002,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0002,linear,2,no solution,False,incomplete,True,False,True
+retry,0,linear_0002,linear,3,no solution,False,incomplete,True,False,True
+retry,0,linear_0003,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0003,linear,2,no solution,False,incomplete,True,False,True
+retry,0,linear_0003,linear,3,no solution,False,incomplete,True,False,True
+retry,0,linear_0004,linear,1,"This is linear with a coefficient of 5 negative 4, so the solution is positive. X = 4/5.",False,unparsable,False,False,
+retry,0,linear_0004,linear,2,x = 4/5,True,correct,True,True,True
+retry,0,linear_0005,linear,1,x = 7,True,correct,True,False,
+retry,0,linear_0006,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0006,linear,2,no solution,False,incomplete,True,False,True
+retry,0,linear_0006,linear,3,x = 3/4.,False,wrong,True,True,True
+retry,0,linear_0007,linear,1,x = -8/5.,True,correct,True,False,
+retry,0,linear_0008,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0008,linear,2,no solution,False,incomplete,True,False,True
+retry,0,linear_0008,linear,3,no solution,False,incomplete,True,False,True
+retry,0,linear_0009,linear,1,x = 4,False,wrong,True,False,
+retry,0,linear_0009,linear,2,no solution,False,incomplete,True,True,False
+retry,0,linear_0009,linear,3,x = 1,False,wrong,True,True,False
+retry,0,linear_0010,linear,1,x = -4.,True,correct,True,False,
+retry,0,linear_0011,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0011,linear,2,x = 9/2,False,wrong,True,True,True
+retry,0,linear_0011,linear,3,This is easy: Add 9 to both sides. The answer is 18.,False,unparsable,False,True,False
+retry,0,linear_0012,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0012,linear,2,x = 2,False,wrong,True,True,True
+retry,0,linear_0012,linear,3,x = -2,True,correct,True,True,False
+retry,0,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+retry,0,linear_0013,linear,2,Solution: 1,False,unparsable,False,False,False
+retry,0,linear_0013,linear,3,"Final answer:, no solution",False,unparsable,False,True,True
+retry,0,linear_0014,linear,1,no solution,False,incomplete,True,False,
+retry,0,linear_0014,linear,2,"This is linear with a coefficient of 3 negative 10, so the solution is positive. X = 2.5.",False,unparsable,False,True,True
+retry,0,linear_0014,linear,3,x = -3.,False,wrong,True,True,True
+retry,0,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+retry,0,quadratic_0016,quadratic,1,no solution,False,incomplete,True,False,
+retry,0,quadratic_0016,quadratic,2,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0016,quadratic,3,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0017,quadratic,1,"x = 4 - sqrt(36/1-4*1*7)/2, -sqrt(36/1-4*1*7)/2",False,wrong,True,False,
+retry,0,quadratic_0017,quadratic,2,no solution,False,incomplete,True,True,False
+retry,0,quadratic_0017,quadratic,3,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+retry,0,quadratic_0018,quadratic,2,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0018,quadratic,3,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+retry,0,quadratic_0019,quadratic,2,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0019,quadratic,3,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+retry,0,quadratic_0021,quadratic,1,x = -1/3,False,wrong,True,False,
+retry,0,quadratic_0021,quadratic,2,x = 1 and x = -6.,False,unparsable,False,True,False
+retry,0,quadratic_0021,quadratic,3,no solution,False,incomplete,True,True,True
+retry,0,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+retry,0,quadratic_0023,quadratic,1,x = -5/8,False,wrong,True,False,
+retry,0,quadratic_0023,quadratic,2,no solution,False,incomplete,True,True,False
+retry,0,quadratic_0023,quadratic,3,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+retry,0,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+retry,0,quadratic_0025,quadratic,2,sqrt(145)/6 - sqrt(19)/6,False,wrong,True,True,True
+retry,0,quadratic_0025,quadratic,3,no solution,False,incomplete,True,True,False
+retry,0,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+retry,0,quadratic_0027,quadratic,1,x = no solution,True,correct,True,False,
+retry,0,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+retry,0,quadratic_0029,quadratic,1,no solution,False,incomplete,True,False,
+retry,0,quadratic_0029,quadratic,2,no solution,False,incomplete,True,False,True
+retry,0,quadratic_0029,quadratic,3,no solution,False,incomplete,True,False,True
+retry,0,rational_0030,rational,1,x = -17/3,False,wrong,True,False,
+retry,0,rational_0030,rational,2,x = -17/3,False,wrong,True,False,False
+retry,0,rational_0030,rational,3,x = 3,False,wrong,True,True,False
+retry,0,rational_0031,rational,1,x = -10,False,wrong,True,False,
+retry,0,rational_0031,rational,2,x = -10,False,wrong,True,False,False
+retry,0,rational_0031,rational,3,x = -10,False,wrong,True,False,False
+retry,0,rational_0032,rational,1,x = 21/2,False,wrong,True,False,
+retry,0,rational_0032,rational,2,x = -1/4,False,wrong,True,True,False
+retry,0,rational_0032,rational,3,x = 79,False,wrong,True,True,False
+retry,0,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+retry,0,rational_0033,rational,2,x = -18/7,False,wrong,True,True,False
+retry,0,rational_0033,rational,3,x = -18/7,False,wrong,True,False,False
+retry,0,rational_0034,rational,1,x = -1/2,False,wrong,True,False,
+retry,0,rational_0034,rational,2,x = -1/7,False,wrong,True,True,False
+retry,0,rational_0034,rational,3,x = -30/7,False,wrong,True,True,False
+retry,0,rational_0035,rational,1,x = 7,False,wrong,True,False,
+retry,0,rational_0035,rational,2,x = 6,False,wrong,True,True,False
+retry,0,rational_0035,rational,3,x = 9,False,wrong,True,True,False
+retry,0,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+retry,0,rational_0036,rational,2,x = -9,False,wrong,True,True,False
+retry,0,rational_0036,rational,3,x = -9,False,wrong,True,False,False
+retry,0,rational_0037,rational,1,x = -14/2,False,wrong,True,False,
+retry,0,rational_0037,rational,2,x = -9/2,False,wrong,True,True,False
+retry,0,rational_0037,rational,3,x = -14/2,False,wrong,True,True,False
+retry,0,rational_0038,rational,1,x = 9,False,wrong,True,False,
+retry,0,rational_0038,rational,2,x = 9/2,False,wrong,True,True,False
+retry,0,rational_0038,rational,3,x = -3/4,False,wrong,True,True,False
+retry,0,rational_0039,rational,1,This is linear and has a slope of -1 and a y-intercept of 12. So the solution is 7. No effort required. 7 = 0,False,unparsable,False,False,
+retry,0,rational_0039,rational,2,x = -24/5,False,wrong,True,True,True
+retry,0,rational_0039,rational,3,x = -18/7,False,wrong,True,True,False
+retry,0,rational_0040,rational,1,x = -1/3,False,wrong,True,False,
+retry,0,rational_0040,rational,2,x = -2/3,False,wrong,True,True,False
+retry,0,rational_0040,rational,3,x = 7,False,wrong,True,True,False
+retry,0,rational_0041,rational,1,x = 4,False,does_not_satisfy,True,False,
+retry,0,rational_0041,rational,2,x = 0,False,does_not_satisfy,True,True,False
+retry,0,rational_0041,rational,3,x = 2,False,does_not_satisfy,True,True,False
+retry,0,rational_0042,rational,1,x = -13/5,False,wrong,True,False,
+retry,0,rational_0042,rational,2,x = -13/17,False,wrong,True,True,False
+retry,0,rational_0042,rational,3,x = -2,False,wrong,True,True,False
+retry,0,rational_0043,rational,1,x = -8,False,wrong,True,False,
+retry,0,rational_0043,rational,2,x = -6/5,False,wrong,True,True,False
+retry,0,rational_0043,rational,3,x = -2,False,wrong,True,True,False
+retry,0,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+retry,0,rational_0044,rational,2,x = -13/2,False,wrong,True,False,False
+retry,0,rational_0044,rational,3,x = -13/2,False,wrong,True,False,False
+retry,1,linear_0000,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0000,linear,2,x = -1/2. The answer is no solution.,False,unparsable,False,True,True
+retry,1,linear_0000,linear,3,no solution,False,incomplete,True,True,True
+retry,1,linear_0001,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0001,linear,2,x = 3,False,wrong,True,True,True
+retry,1,linear_0001,linear,3,no solution,False,incomplete,True,True,False
+retry,1,linear_0002,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0002,linear,2,no solution,False,incomplete,True,False,True
+retry,1,linear_0002,linear,3,x = 9'.,False,unparsable,False,True,True
+retry,1,linear_0003,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0003,linear,2,no solution,False,incomplete,True,False,True
+retry,1,linear_0003,linear,3,no solution,False,incomplete,True,False,True
+retry,1,linear_0004,linear,1,x = 4/5,True,correct,True,False,
+retry,1,linear_0005,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0005,linear,2,x = 7,True,correct,True,True,True
+retry,1,linear_0006,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0006,linear,2,no solution,False,incomplete,True,False,True
+retry,1,linear_0006,linear,3,no solution,False,incomplete,True,False,True
+retry,1,linear_0007,linear,1,x = -8/5,True,correct,True,False,
+retry,1,linear_0008,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0008,linear,2,no solution,False,incomplete,True,False,True
+retry,1,linear_0008,linear,3,no solution,False,incomplete,True,False,True
+retry,1,linear_0009,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0009,linear,2,x = 4,False,wrong,True,True,True
+retry,1,linear_0009,linear,3,x = 8/3,False,wrong,True,True,False
+retry,1,linear_0010,linear,1,x = -4,True,correct,True,False,
+retry,1,linear_0011,linear,1,x = 9,True,correct,True,False,
+retry,1,linear_0012,linear,1,no solution,False,incomplete,True,False,
+retry,1,linear_0012,linear,2,no solution,False,incomplete,True,False,True
+retry,1,linear_0012,linear,3,x = -2,True,correct,True,True,True
+retry,1,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+retry,1,linear_0013,linear,2,Solution: 1,False,unparsable,False,False,False
+retry,1,linear_0013,linear,3,Solution: 1,False,unparsable,False,False,False
+retry,1,linear_0014,linear,1,"This is linear with a coefficient of 3 positive and a constant term positive, so there's a negative solution. The answer is 'no solution'.",False,unparsable,False,False,
+retry,1,linear_0014,linear,2,no solution,False,incomplete,True,True,True
+retry,1,linear_0014,linear,3,x = -3.,False,wrong,True,True,True
+retry,1,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+retry,1,quadratic_0016,quadratic,1,x = 1/6,False,wrong,True,False,
+retry,1,quadratic_0016,quadratic,2,no solution,False,incomplete,True,True,False
+retry,1,quadratic_0016,quadratic,3,x = -3,False,wrong,True,True,True
+retry,1,quadratic_0017,quadratic,1,"x = 2 - sqrt(14), x = 2 + sqrt(14)",False,wrong,True,False,
+retry,1,quadratic_0017,quadratic,2,no solution,False,incomplete,True,True,False
+retry,1,quadratic_0017,quadratic,3,no solution,False,incomplete,True,False,True
+retry,1,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+retry,1,quadratic_0018,quadratic,2,no solution,False,incomplete,True,False,True
+retry,1,quadratic_0018,quadratic,3,x = 3/2 + 3√57/2,False,unparsable,False,True,True
+retry,1,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+retry,1,quadratic_0019,quadratic,2,x = -2/3 + sqrt(-769)/6 + 4/3sqrt(-769)/12+i/12sqrt(-769)/12-2/12sqrt(-769)/24-i/24sqrt(-769)/24+i/24sqrt(-769)/24+sqrt(-76,False,unparsable,False,True,True
+retry,1,quadratic_0019,quadratic,3,no solution,False,incomplete,True,True,True
+retry,1,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+retry,1,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+retry,1,quadratic_0021,quadratic,2,x = -b / (2a) simplified.,False,unparsable,False,True,False
+retry,1,quadratic_0021,quadratic,3,x = -1/3,False,wrong,True,True,True
+retry,1,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+retry,1,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+retry,1,quadratic_0023,quadratic,2,no solution,False,incomplete,True,False,True
+retry,1,quadratic_0023,quadratic,3,no solution,False,incomplete,True,False,True
+retry,1,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+retry,1,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+retry,1,quadratic_0025,quadratic,2,no solution,False,incomplete,True,False,True
+retry,1,quadratic_0025,quadratic,3,x = -6/(-2),False,wrong,True,True,True
+retry,1,quadratic_0026,quadratic,1,x = -1.,False,does_not_satisfy,True,False,
+retry,1,quadratic_0026,quadratic,2,x = -4/4 + sqrt(37)/4 - 1/2,False,does_not_satisfy,True,True,False
+retry,1,quadratic_0026,quadratic,3,x = (-1/2 - sqrt(17)/2) + (sqrt(17)/2)*I,False,does_not_satisfy,True,True,False
+retry,1,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+retry,1,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+retry,1,quadratic_0029,quadratic,1,x = -5/2,False,wrong,True,False,
+retry,1,quadratic_0029,quadratic,2,no solution,False,incomplete,True,True,False
+retry,1,quadratic_0029,quadratic,3,no solution,False,incomplete,True,False,True
+retry,1,rational_0030,rational,1,x = 3,False,wrong,True,False,
+retry,1,rational_0030,rational,2,x = 3,False,wrong,True,False,False
+retry,1,rational_0030,rational,3,x = -19/3,False,wrong,True,True,False
+retry,1,rational_0031,rational,1,x = 18/2,False,wrong,True,False,
+retry,1,rational_0031,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+retry,1,rational_0031,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,False,True
+retry,1,rational_0032,rational,1,no solution,False,incomplete,True,False,
+retry,1,rational_0032,rational,2,x = 9,False,wrong,True,True,True
+retry,1,rational_0032,rational,3,x = -4/3,False,wrong,True,True,False
+retry,1,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+retry,1,rational_0033,rational,2,x = -18/5,False,wrong,True,False,False
+retry,1,rational_0033,rational,3,x = -18/5,False,wrong,True,False,False
+retry,1,rational_0034,rational,1,no solution,False,incomplete,True,False,
+retry,1,rational_0034,rational,2,x = -1/2,False,wrong,True,True,True
+retry,1,rational_0034,rational,3,x = -1/3,False,wrong,True,True,False
+retry,1,rational_0035,rational,1,x = 7,False,wrong,True,False,
+retry,1,rational_0035,rational,2,no solution,False,incomplete,True,True,False
+retry,1,rational_0035,rational,3,x = 5/2,False,wrong,True,True,True
+retry,1,rational_0036,rational,1,x = -9,False,wrong,True,False,
+retry,1,rational_0036,rational,2,x = -9,False,wrong,True,False,False
+retry,1,rational_0036,rational,3,x = -30/7,False,wrong,True,True,False
+retry,1,rational_0037,rational,1,x = -18/2,False,wrong,True,False,
+retry,1,rational_0037,rational,2,x = -14/2,False,wrong,True,True,False
+retry,1,rational_0037,rational,3,x = -10,False,wrong,True,True,False
+retry,1,rational_0038,rational,1,x = -3/4,False,wrong,True,False,
+retry,1,rational_0038,rational,2,x = 9,False,wrong,True,True,False
+retry,1,rational_0038,rational,3,x = -3/2,False,wrong,True,True,False
+retry,1,rational_0039,rational,1,x = 24,False,wrong,True,False,
+retry,1,rational_0039,rational,2,x = 24/5,False,wrong,True,True,False
+retry,1,rational_0039,rational,3,x = -18/5,False,wrong,True,True,False
+retry,1,rational_0040,rational,1,x = -8/3,False,wrong,True,False,
+retry,1,rational_0040,rational,2,x = 4,False,wrong,True,True,False
+retry,1,rational_0040,rational,3,x = -2/3,False,wrong,True,True,False
+retry,1,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+retry,1,rational_0041,rational,2,x = 2,False,does_not_satisfy,True,False,False
+retry,1,rational_0041,rational,3,x = -2,False,does_not_satisfy,True,True,False
+retry,1,rational_0042,rational,1,x = -13/17,False,wrong,True,False,
+retry,1,rational_0042,rational,2,x = -11/3,False,wrong,True,True,False
+retry,1,rational_0042,rational,3,x = 41/3,False,wrong,True,True,False
+retry,1,rational_0043,rational,1,x = -8/2,False,wrong,True,False,
+retry,1,rational_0043,rational,2,x = -8,False,wrong,True,True,False
+retry,1,rational_0043,rational,3,x = -2,False,wrong,True,True,False
+retry,1,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+retry,1,rational_0044,rational,2,x = -13/2,False,wrong,True,False,False
+retry,1,rational_0044,rational,3,x = -13/2,False,wrong,True,False,False
+retry,2,linear_0000,linear,1,no solution,False,incomplete,True,False,
+retry,2,linear_0000,linear,2,"This is linear with a coefficient of 3 negative 2, so the equation has no solution. The answer is no solution.",False,unparsable,False,True,True
+retry,2,linear_0000,linear,3,x = -2/3,True,correct,True,True,True
+retry,2,linear_0001,linear,1,(no solution),False,unparsable,False,False,
+retry,2,linear_0001,linear,2,no solution,False,incomplete,True,True,True
+retry,2,linear_0001,linear,3,no solution,False,incomplete,True,False,True
+retry,2,linear_0002,linear,1,no solution,False,incomplete,True,False,
+retry,2,linear_0002,linear,2,no solution,False,incomplete,True,False,True
+retry,2,linear_0002,linear,3,no solution,False,incomplete,True,False,True
+retry,2,linear_0003,linear,1,no solution,False,incomplete,True,False,
+retry,2,linear_0003,linear,2,no solution,False,incomplete,True,False,True
+retry,2,linear_0003,linear,3,no solution,False,incomplete,True,False,True
+retry,2,linear_0004,linear,1,x = -4/5,False,wrong,True,False,
+retry,2,linear_0004,linear,2,x = 4/5'.,False,unparsable,False,True,False
+retry,2,linear_0004,linear,3,no solution,False,incomplete,True,True,True
+retry,2,linear_0005,linear,1,x = 7,True,correct,True,False,
+retry,2,linear_0006,linear,1,no solution,False,incomplete,True,False,
+retry,2,linear_0006,linear,2,no solution,False,incomplete,True,False,True
+retry,2,linear_0006,linear,3,no solution,False,incomplete,True,False,True
+retry,2,linear_0007,linear,1,no solution,False,incomplete,True,False,
+retry,2,linear_0007,linear,2,x = -8/5,True,correct,True,True,True
+retry,2,linear_0008,linear,1,no solution,False,incomplete,True,False,
+retry,2,linear_0008,linear,2,no solution,False,incomplete,True,False,True
+retry,2,linear_0008,linear,3,no solution,False,incomplete,True,False,True
+retry,2,linear_0009,linear,1,x = 8/3,False,wrong,True,False,
+retry,2,linear_0009,linear,2,"This is linear with a coefficient of 6 negative 8, so the equation has no solution. The answer is no solution.",False,unparsable,False,True,False
+retry,2,linear_0009,linear,3,x = 4,False,wrong,True,True,True
+retry,2,linear_0010,linear,1,"This is linear with a coefficient of 2 negative 8, so the equation has no solution. The answer is 'no solution'.",False,unparsable,False,False,
+retry,2,linear_0010,linear,2,x = -4,True,correct,True,True,True
+retry,2,linear_0011,linear,1,x = 9,True,correct,True,False,
+retry,2,linear_0012,linear,1,x = 2,False,wrong,True,False,
+retry,2,linear_0012,linear,2,no solution,False,incomplete,True,True,False
+retry,2,linear_0012,linear,3,x = 2,False,wrong,True,True,True
+retry,2,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+retry,2,linear_0013,linear,2,Solution: 1,False,unparsable,False,False,False
+retry,2,linear_0013,linear,3,Solution: 1,False,unparsable,False,False,False
+retry,2,linear_0014,linear,1,x = -3. 5,False,wrong,True,False,
+retry,2,linear_0014,linear,2,no solution,False,incomplete,True,True,False
+retry,2,linear_0014,linear,3,no solution,False,incomplete,True,False,True
+retry,2,quadratic_0015,quadratic,1,x = -1/2,False,does_not_satisfy,True,False,
+retry,2,quadratic_0015,quadratic,2,x = -frac{-b}{2a},False,unparsable,False,True,False
+retry,2,quadratic_0015,quadratic,3,no solution,True,correct,True,True,True
+retry,2,quadratic_0016,quadratic,1,x = -1/2-sqrt(5)/1,False,wrong,True,False,
+retry,2,quadratic_0016,quadratic,2,no solution,False,incomplete,True,True,False
+retry,2,quadratic_0016,quadratic,3,"This is linear and has a negative leading coefficient, so the square root part will be imaginary. The answer is no solution.",False,unparsable,False,True,True
+retry,2,quadratic_0017,quadratic,1,no solution,False,incomplete,True,False,
+retry,2,quadratic_0017,quadratic,2,no solution,False,incomplete,True,False,True
+retry,2,quadratic_0017,quadratic,3,no solution,False,incomplete,True,False,True
+retry,2,quadratic_0018,quadratic,1,"x = -1/2 + sqrt(-769)/2, x = -sqrt(-769)/2 - 1/2",False,wrong,True,False,
+retry,2,quadratic_0018,quadratic,2,"x = -3/2 + sqrt(-649)/2, x = -sqrt(-649)/2 - 3/2",False,wrong,True,True,False
+retry,2,quadratic_0018,quadratic,3,x = no solution,False,incomplete,True,True,False
+retry,2,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+retry,2,quadratic_0019,quadratic,2,"x = -1/3, -7/3",False,wrong,True,True,True
+retry,2,quadratic_0019,quadratic,3,no solution,False,incomplete,True,True,False
+retry,2,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+retry,2,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+retry,2,quadratic_0021,quadratic,2,x = -1.5,False,wrong,True,True,True
+retry,2,quadratic_0021,quadratic,3,no solution,False,incomplete,True,True,False
+retry,2,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+retry,2,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+retry,2,quadratic_0023,quadratic,2,no solution,False,incomplete,True,False,True
+retry,2,quadratic_0023,quadratic,3,no solution,False,incomplete,True,False,True
+retry,2,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+retry,2,quadratic_0025,quadratic,1,x = -1/2,False,wrong,True,False,
+retry,2,quadratic_0025,quadratic,2,x = -3.0,False,wrong,True,True,False
+retry,2,quadratic_0025,quadratic,3,"x = (-b - sqrt(b_squared - four_a_c_) / three_a) - sqrt(b_squared - four_a_c_), -(sqrt(b_squared - four_a_c_)+three_a)/six_a",False,unparsable,False,True,False
+retry,2,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+retry,2,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+retry,2,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+retry,2,quadratic_0029,quadratic,1,x = -5/4,False,wrong,True,False,
+retry,2,quadratic_0029,quadratic,2,no solution,False,incomplete,True,True,False
+retry,2,quadratic_0029,quadratic,3,no solution,False,incomplete,True,False,True
+retry,2,rational_0030,rational,1,x = -7/3,False,wrong,True,False,
+retry,2,rational_0030,rational,2,x = -3/2,False,wrong,True,True,False
+retry,2,rational_0030,rational,3,x = 3,False,wrong,True,True,False
+retry,2,rational_0031,rational,1,x = -20/3,False,wrong,True,False,
+retry,2,rational_0031,rational,2,x = -5,False,wrong,True,True,False
+retry,2,rational_0031,rational,3,x = -5,False,wrong,True,False,False
+retry,2,rational_0032,rational,1,x = 27/4,False,wrong,True,False,
+retry,2,rational_0032,rational,2,x = -1/4,False,wrong,True,True,False
+retry,2,rational_0032,rational,3,no solution,False,incomplete,True,True,False
+retry,2,rational_0033,rational,1,x = -18/3,False,extraneous_root,True,False,
+retry,2,rational_0033,rational,2,no solution,False,incomplete,True,True,True
+retry,2,rational_0033,rational,3,x = -18/7,False,wrong,True,True,True
+retry,2,rational_0034,rational,1,x = -1/3,False,wrong,True,False,
+retry,2,rational_0034,rational,2,no solution,False,incomplete,True,True,False
+retry,2,rational_0034,rational,3,x = -1/30,False,wrong,True,True,True
+retry,2,rational_0035,rational,1,x = 6,False,wrong,True,False,
+retry,2,rational_0035,rational,2,x = 7,False,wrong,True,True,False
+retry,2,rational_0035,rational,3,x = 6,False,wrong,True,True,False
+retry,2,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+retry,2,rational_0036,rational,2,no solution,False,incomplete,True,True,False
+retry,2,rational_0036,rational,3,x = 9,False,wrong,True,True,True
+retry,2,rational_0037,rational,1,x = -14,False,wrong,True,False,
+retry,2,rational_0037,rational,2,x = -11,False,wrong,True,True,False
+retry,2,rational_0037,rational,3,x = -14/2,False,wrong,True,True,False
+retry,2,rational_0038,rational,1,x = -3/2,False,wrong,True,False,
+retry,2,rational_0038,rational,2,x = -3/2,False,wrong,True,False,False
+retry,2,rational_0038,rational,3,x = -3/2,False,wrong,True,False,False
+retry,2,rational_0039,rational,1,x = -14/5,False,wrong,True,False,
+retry,2,rational_0039,rational,2,no solution,False,incomplete,True,True,False
+retry,2,rational_0039,rational,3,x = -14,False,wrong,True,True,True
+retry,2,rational_0040,rational,1,x = 8,False,wrong,True,False,
+retry,2,rational_0040,rational,2,x = -2/3,False,wrong,True,True,False
+retry,2,rational_0040,rational,3,x = -2/3,False,wrong,True,False,False
+retry,2,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+retry,2,rational_0041,rational,2,x = 6,False,does_not_satisfy,True,True,False
+retry,2,rational_0041,rational,3,x = 2,False,does_not_satisfy,True,True,False
+retry,2,rational_0042,rational,1,x = -2,False,wrong,True,False,
+retry,2,rational_0042,rational,2,x = -2,False,wrong,True,False,False
+retry,2,rational_0042,rational,3,x = -11/3,False,wrong,True,True,False
+retry,2,rational_0043,rational,1,x = -14/2,False,wrong,True,False,
+retry,2,rational_0043,rational,2,x = -2,False,wrong,True,True,False
+retry,2,rational_0043,rational,3,x = -8,False,wrong,True,True,False
+retry,2,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+retry,2,rational_0044,rational,2,x = -13/2,False,wrong,True,False,False
+retry,2,rational_0044,rational,3,x = 4/3,False,wrong,True,True,False
+generic,0,linear_0000,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0000,linear,2,This is correct so the solution is unlimited. The answer is 'no solution'.,False,unparsable,False,True,True
+generic,0,linear_0000,linear,3,"This is linear with a coefficient of 3 negative 2, so no solution.",False,unparsable,False,True,False
+generic,0,linear_0001,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0001,linear,2,x = 1.5.,False,unparsable,False,True,False
+generic,0,linear_0001,linear,3,This is correct so the solution is simple and doesn't require any estimation or approximation.  Subtract 3 from both sides of the equation to solve for x. xx + 3 = 3,False,unparsable,False,True,True
+generic,0,linear_0002,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0002,linear,2,x = 3,True,correct,True,True,True
+generic,0,linear_0003,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0003,linear,2,x = 1/2.,True,correct,True,True,True
+generic,0,linear_0004,linear,1,"This is linear with a coefficient of 5 negative 4, so the solution is positive. X = 4/5.",False,unparsable,False,False,
+generic,0,linear_0004,linear,2,no solution,False,incomplete,True,True,True
+generic,0,linear_0004,linear,3,"This is linear with a coefficient of 5 negative 4, so the solution is positive. The answer is 1.",False,unparsable,False,True,False
+generic,0,linear_0005,linear,1,x = 7,True,correct,True,False,
+generic,0,linear_0006,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0006,linear,2,x = 3,False,wrong,True,True,True
+generic,0,linear_0006,linear,3,x = 3/4.,False,wrong,True,True,False
+generic,0,linear_0007,linear,1,x = -8/5.,True,correct,True,False,
+generic,0,linear_0008,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0008,linear,2,no solution,False,incomplete,True,False,True
+generic,0,linear_0008,linear,3,no solution,False,incomplete,True,False,True
+generic,0,linear_0009,linear,1,x = 4,False,wrong,True,False,
+generic,0,linear_0009,linear,2,no solution,False,incomplete,True,True,False
+generic,0,linear_0009,linear,3,x = 48/(-1)/6.,False,wrong,True,True,True
+generic,0,linear_0010,linear,1,x = -4.,True,correct,True,False,
+generic,0,linear_0011,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0011,linear,2,This is easy to solve by adding 9 to both sides. The answer is 18.,False,unparsable,False,True,True
+generic,0,linear_0011,linear,3,This is linear with -9 multiplied by the variable x giving 0. Solution is +9.,False,unparsable,False,True,True
+generic,0,linear_0012,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0012,linear,2,no solution,False,incomplete,True,False,True
+generic,0,linear_0012,linear,3,no solution,False,incomplete,True,False,True
+generic,0,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+generic,0,linear_0013,linear,2,no solution,False,incomplete,True,True,True
+generic,0,linear_0013,linear,3,no solution,False,incomplete,True,False,True
+generic,0,linear_0014,linear,1,no solution,False,incomplete,True,False,
+generic,0,linear_0014,linear,2,no solution,False,incomplete,True,False,True
+generic,0,linear_0014,linear,3,"This is linear with a coefficient of 3 negative 10, so no solution.",False,unparsable,False,True,True
+generic,0,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+generic,0,quadratic_0016,quadratic,1,no solution,False,incomplete,True,False,
+generic,0,quadratic_0016,quadratic,2,x = -sqrt(3/4),False,wrong,True,True,True
+generic,0,quadratic_0016,quadratic,3,x = -3,False,wrong,True,True,False
+generic,0,quadratic_0017,quadratic,1,"x = 4 - sqrt(36/1-4*1*7)/2, -sqrt(36/1-4*1*7)/2",False,wrong,True,False,
+generic,0,quadratic_0017,quadratic,2,no solution,False,incomplete,True,True,False
+generic,0,quadratic_0017,quadratic,3,"x = 2/1 and x=7/1. Therefore, the answer is 2/1, 7/1.",False,unparsable,False,True,True
+generic,0,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+generic,0,quadratic_0018,quadratic,2,"x = -1, just check that in the original equation.",False,unparsable,False,True,True
+generic,0,quadratic_0018,quadratic,3,"This is symmetric and has a negative discriminant, so the roots are real and equal. The answer is -2.",False,unparsable,False,True,True
+generic,0,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+generic,0,quadratic_0019,quadratic,2,no solution,False,incomplete,True,False,True
+generic,0,quadratic_0019,quadratic,3,no solution,False,incomplete,True,False,True
+generic,0,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+generic,0,quadratic_0021,quadratic,1,x = -1/3,False,wrong,True,False,
+generic,0,quadratic_0021,quadratic,2,no solution,False,incomplete,True,True,False
+generic,0,quadratic_0021,quadratic,3,no solution,False,incomplete,True,False,True
+generic,0,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+generic,0,quadratic_0023,quadratic,1,x = -5/8,False,wrong,True,False,
+generic,0,quadratic_0023,quadratic,2,no solution,False,incomplete,True,True,False
+generic,0,quadratic_0023,quadratic,3,"This is quadratic with a=-4, b=5, c=5. The discriminant (b squared minus four*a*c) is -89, which is negative, so there is no solution.",False,unparsable,False,True,True
+generic,0,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+generic,0,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+generic,0,quadratic_0025,quadratic,2,x = -1.,False,wrong,True,True,True
+generic,0,quadratic_0025,quadratic,3,"This is quadratic with a=-2, b=-1, c=6. Using the formula -b ± √(b²-4ac) / (2a), we get the solution v1 = -2, v2 = 3/2.",False,unparsable,False,True,False
+generic,0,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+generic,0,quadratic_0027,quadratic,1,x = no solution,True,correct,True,False,
+generic,0,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+generic,0,quadratic_0029,quadratic,1,no solution,False,incomplete,True,False,
+generic,0,quadratic_0029,quadratic,2,no solution,False,incomplete,True,False,True
+generic,0,quadratic_0029,quadratic,3,no solution,False,incomplete,True,False,True
+generic,0,rational_0030,rational,1,x = -17/3,False,wrong,True,False,
+generic,0,rational_0030,rational,2,x = -17/3,False,wrong,True,False,False
+generic,0,rational_0030,rational,3,no solution,False,incomplete,True,True,False
+generic,0,rational_0031,rational,1,x = -10,False,wrong,True,False,
+generic,0,rational_0031,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,0,rational_0031,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,False,True
+generic,0,rational_0032,rational,1,x = 21/2,False,wrong,True,False,
+generic,0,rational_0032,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,0,rational_0032,rational,3,no solution,False,incomplete,True,True,True
+generic,0,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+generic,0,rational_0033,rational,2,x = -6/11,False,wrong,True,True,False
+generic,0,rational_0033,rational,3,x = -18/7,False,wrong,True,True,False
+generic,0,rational_0034,rational,1,x = -1/2,False,wrong,True,False,
+generic,0,rational_0034,rational,2,no solution,False,incomplete,True,True,False
+generic,0,rational_0034,rational,3,x = -10,False,wrong,True,True,True
+generic,0,rational_0035,rational,1,x = 7,False,wrong,True,False,
+generic,0,rational_0035,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,0,rational_0035,rational,3,no solution,False,incomplete,True,True,True
+generic,0,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+generic,0,rational_0036,rational,2,x = -9/3,False,wrong,True,True,False
+generic,0,rational_0036,rational,3,no solution,False,incomplete,True,True,False
+generic,0,rational_0037,rational,1,x = -14/2,False,wrong,True,False,
+generic,0,rational_0037,rational,2,no solution,False,incomplete,True,True,False
+generic,0,rational_0037,rational,3,x = -11/2,False,wrong,True,True,True
+generic,0,rational_0038,rational,1,x = 9,False,wrong,True,False,
+generic,0,rational_0038,rational,2,x = -3/2,False,wrong,True,True,False
+generic,0,rational_0038,rational,3,x = -3/4,False,wrong,True,True,False
+generic,0,rational_0039,rational,1,This is linear and has a slope of -1 and a y-intercept of 12. So the solution is 7. No effort required. 7 = 0,False,unparsable,False,False,
+generic,0,rational_0039,rational,2,x = -22/5,False,wrong,True,True,True
+generic,0,rational_0039,rational,3,x = -22/5,False,wrong,True,False,False
+generic,0,rational_0040,rational,1,x = -1/3,False,wrong,True,False,
+generic,0,rational_0040,rational,2,x = -1/3,False,wrong,True,False,False
+generic,0,rational_0040,rational,3,x = -2/3,False,wrong,True,True,False
+generic,0,rational_0041,rational,1,x = 4,False,does_not_satisfy,True,False,
+generic,0,rational_0041,rational,2,This is linear and simplifies to -3.,False,unparsable,False,True,False
+generic,0,rational_0041,rational,3,no solution,True,correct,True,True,True
+generic,0,rational_0042,rational,1,x = -13/5,False,wrong,True,False,
+generic,0,rational_0042,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,0,rational_0042,rational,3,x = -2,False,wrong,True,True,True
+generic,0,rational_0043,rational,1,x = -8,False,wrong,True,False,
+generic,0,rational_0043,rational,2,x = -2,False,wrong,True,True,False
+generic,0,rational_0043,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,0,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+generic,0,rational_0044,rational,2,no solution,False,incomplete,True,True,False
+generic,0,rational_0044,rational,3,x = -13/2,False,wrong,True,True,True
+generic,1,linear_0000,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0000,linear,2,This is correct so the solution is simple and doesn't require any estimation or approximation.  Subtract 2 from all sides.  The result is 3 times the unknown equals -2.  Divide both sides by 3.  This gives the value of the unknown.,False,unparsable,False,True,True
+generic,1,linear_0000,linear,3,x = -2/3,True,correct,True,True,True
+generic,1,linear_0001,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0001,linear,2,no solution,False,incomplete,True,False,True
+generic,1,linear_0001,linear,3,no solution,False,incomplete,True,False,True
+generic,1,linear_0002,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0002,linear,2,no solution,False,incomplete,True,False,True
+generic,1,linear_0002,linear,3,This is correct so there's no solution. The answer is no solution.,False,unparsable,False,True,True
+generic,1,linear_0003,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0003,linear,2,x = 1/2.,True,correct,True,True,True
+generic,1,linear_0004,linear,1,x = 4/5,True,correct,True,False,
+generic,1,linear_0005,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0005,linear,2,"This is linear with -7 multiplied by x giving 0. Solving for x gives -7/1. Therefore, the answer is -7/1.",False,unparsable,False,True,False
+generic,1,linear_0005,linear,3,This is easy to solve by adding 7 to both sides. The answer is 14.,False,unparsable,False,True,True
+generic,1,linear_0006,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0006,linear,2,This is correct: Adding 3 to both sides of the equation results in the equation solving for x.,False,unparsable,False,True,True
+generic,1,linear_0006,linear,3,x = 3/4.,False,wrong,True,True,True
+generic,1,linear_0007,linear,1,x = -8/5,True,correct,True,False,
+generic,1,linear_0008,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0008,linear,2,no solution,False,incomplete,True,False,True
+generic,1,linear_0008,linear,3,no solution,False,incomplete,True,False,True
+generic,1,linear_0009,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0009,linear,2,x = 4,False,wrong,True,True,True
+generic,1,linear_0009,linear,3,"This is linear with a coefficient of 6 negative 8, so moving the constant multiplies the solution number by -1. The answer is -3.",False,unparsable,False,True,False
+generic,1,linear_0010,linear,1,x = -4,True,correct,True,False,
+generic,1,linear_0011,linear,1,x = 9,True,correct,True,False,
+generic,1,linear_0012,linear,1,no solution,False,incomplete,True,False,
+generic,1,linear_0012,linear,2,no solution,False,incomplete,True,False,True
+generic,1,linear_0012,linear,3,no solution,False,incomplete,True,False,True
+generic,1,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+generic,1,linear_0013,linear,2,no solution,False,incomplete,True,True,True
+generic,1,linear_0013,linear,3,no solution,False,incomplete,True,False,True
+generic,1,linear_0014,linear,1,"This is linear with a coefficient of 3 positive and a constant term positive, so there's a negative solution. The answer is 'no solution'.",False,unparsable,False,False,
+generic,1,linear_0014,linear,2,x = -10.000000,False,wrong,True,True,True
+generic,1,linear_0014,linear,3,This is correct: -5 = x,False,unparsable,False,True,False
+generic,1,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+generic,1,quadratic_0016,quadratic,1,x = 1/6,False,wrong,True,False,
+generic,1,quadratic_0016,quadratic,2,x = -3,False,wrong,True,True,False
+generic,1,quadratic_0016,quadratic,3,no solution,False,incomplete,True,True,False
+generic,1,quadratic_0017,quadratic,1,"x = 2 - sqrt(14), x = 2 + sqrt(14)",False,wrong,True,False,
+generic,1,quadratic_0017,quadratic,2,"x = 3+4sqrt(2), which is positive.",False,unparsable,False,True,False
+generic,1,quadratic_0017,quadratic,3,"x = 3+ square root 6, which we round down to x = 3.",False,unparsable,False,True,True
+generic,1,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+generic,1,quadratic_0018,quadratic,2,x = 1+2i.,False,unparsable,False,True,False
+generic,1,quadratic_0018,quadratic,3,no solution,False,incomplete,True,True,True
+generic,1,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+generic,1,quadratic_0019,quadratic,2,no solution,False,incomplete,True,False,True
+generic,1,quadratic_0019,quadratic,3,no solution,False,incomplete,True,False,True
+generic,1,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+generic,1,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+generic,1,quadratic_0021,quadratic,2,no solution,False,incomplete,True,False,True
+generic,1,quadratic_0021,quadratic,3,"This is symmetric and has a discriminant positive under quadratic formula conditions. So, -1.5 equals the root.",False,unparsable,False,True,True
+generic,1,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+generic,1,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+generic,1,quadratic_0023,quadratic,2,no solution,False,incomplete,True,False,True
+generic,1,quadratic_0023,quadratic,3,no solution,False,incomplete,True,False,True
+generic,1,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+generic,1,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+generic,1,quadratic_0025,quadratic,2,no solution,False,incomplete,True,False,True
+generic,1,quadratic_0025,quadratic,3,no solution,False,incomplete,True,False,True
+generic,1,quadratic_0026,quadratic,1,x = -1.,False,does_not_satisfy,True,False,
+generic,1,quadratic_0026,quadratic,2,no solution,True,correct,True,True,False
+generic,1,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+generic,1,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+generic,1,quadratic_0029,quadratic,1,x = -5/2,False,wrong,True,False,
+generic,1,quadratic_0029,quadratic,2,no solution,False,incomplete,True,True,False
+generic,1,quadratic_0029,quadratic,3,no solution,False,incomplete,True,False,True
+generic,1,rational_0030,rational,1,x = 3,False,wrong,True,False,
+generic,1,rational_0030,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to get the equation without the fraction, solve the linear equation for x., no solution",False,unparsable,False,True,False
+generic,1,rational_0030,rational,3,no solution,False,incomplete,True,True,True
+generic,1,rational_0031,rational,1,x = 18/2,False,wrong,True,False,
+generic,1,rational_0031,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,1,rational_0031,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,False,True
+generic,1,rational_0032,rational,1,no solution,False,incomplete,True,False,
+generic,1,rational_0032,rational,2,x = -8/5.,False,wrong,True,True,True
+generic,1,rational_0032,rational,3,x = -4/3,False,wrong,True,True,False
+generic,1,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+generic,1,rational_0033,rational,2,no solution,False,incomplete,True,True,False
+generic,1,rational_0033,rational,3,no solution,False,incomplete,True,False,True
+generic,1,rational_0034,rational,1,no solution,False,incomplete,True,False,
+generic,1,rational_0034,rational,2,This is correct so there is no value for x that makes the equation true. So the answer is no solution.,False,unparsable,False,True,True
+generic,1,rational_0034,rational,3,no solution,False,incomplete,True,True,True
+generic,1,rational_0035,rational,1,x = 7,False,wrong,True,False,
+generic,1,rational_0035,rational,2,no solution,False,incomplete,True,True,False
+generic,1,rational_0035,rational,3,no solution,False,incomplete,True,False,True
+generic,1,rational_0036,rational,1,x = -9,False,wrong,True,False,
+generic,1,rational_0036,rational,2,x = -9,False,wrong,True,False,False
+generic,1,rational_0036,rational,3,x = -9,False,wrong,True,False,False
+generic,1,rational_0037,rational,1,x = -18/2,False,wrong,True,False,
+generic,1,rational_0037,rational,2,no solution,False,incomplete,True,True,False
+generic,1,rational_0037,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,True
+generic,1,rational_0038,rational,1,x = -3/4,False,wrong,True,False,
+generic,1,rational_0038,rational,2,x = -3/4,False,wrong,True,False,False
+generic,1,rational_0038,rational,3,x = -3,False,wrong,True,True,False
+generic,1,rational_0039,rational,1,x = 24,False,wrong,True,False,
+generic,1,rational_0039,rational,2,no solution,False,incomplete,True,True,False
+generic,1,rational_0039,rational,3,x = -12/5,False,wrong,True,True,True
+generic,1,rational_0040,rational,1,x = -8/3,False,wrong,True,False,
+generic,1,rational_0040,rational,2,x = -1/3,False,wrong,True,True,False
+generic,1,rational_0040,rational,3,x = -2/3,False,wrong,True,True,False
+generic,1,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+generic,1,rational_0041,rational,2,no solution,True,correct,True,True,False
+generic,1,rational_0042,rational,1,x = -13/17,False,wrong,True,False,
+generic,1,rational_0042,rational,2,"This is rational and has a domain limitation. After clearing the fraction, the equation is solving for the negative of this result plus 7. The answer is -13.",False,unparsable,False,True,False
+generic,1,rational_0042,rational,3,This is equivalent to 13.0.,False,unparsable,False,True,True
+generic,1,rational_0043,rational,1,x = -8/2,False,wrong,True,False,
+generic,1,rational_0043,rational,2,x = -2,False,wrong,True,True,False
+generic,1,rational_0043,rational,3,x = -2,False,wrong,True,False,False
+generic,1,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+generic,1,rational_0044,rational,2,x = -13/2,False,wrong,True,False,False
+generic,1,rational_0044,rational,3,no solution,False,incomplete,True,True,False
+generic,2,linear_0000,linear,1,no solution,False,incomplete,True,False,
+generic,2,linear_0000,linear,2,x = -2/3,True,correct,True,True,True
+generic,2,linear_0001,linear,1,(no solution),False,unparsable,False,False,
+generic,2,linear_0001,linear,2,no solution,False,incomplete,True,True,True
+generic,2,linear_0001,linear,3,x = 3,False,wrong,True,True,True
+generic,2,linear_0002,linear,1,no solution,False,incomplete,True,False,
+generic,2,linear_0002,linear,2,no solution,False,incomplete,True,False,True
+generic,2,linear_0002,linear,3,no solution,False,incomplete,True,False,True
+generic,2,linear_0003,linear,1,no solution,False,incomplete,True,False,
+generic,2,linear_0003,linear,2,x = 1/2.,True,correct,True,True,True
+generic,2,linear_0004,linear,1,x = -4/5,False,wrong,True,False,
+generic,2,linear_0004,linear,2,"This is linear with a coefficient of 5 negative 4, so the solution is positive. The answer is 1.",False,unparsable,False,True,False
+generic,2,linear_0004,linear,3,x = 4/5.,True,correct,True,True,True
+generic,2,linear_0005,linear,1,x = 7,True,correct,True,False,
+generic,2,linear_0006,linear,1,no solution,False,incomplete,True,False,
+generic,2,linear_0006,linear,2,x = 3/4.,False,wrong,True,True,True
+generic,2,linear_0006,linear,3,no solution,False,incomplete,True,True,False
+generic,2,linear_0007,linear,1,no solution,False,incomplete,True,False,
+generic,2,linear_0007,linear,2,x = -8,False,wrong,True,True,True
+generic,2,linear_0007,linear,3,"This is linear with a coefficient of 5 negative 8, so the solution is positive. Therefore, the answer is 2.",False,unparsable,False,True,False
+generic,2,linear_0008,linear,1,no solution,False,incomplete,True,False,
+generic,2,linear_0008,linear,2,no solution,False,incomplete,True,False,True
+generic,2,linear_0008,linear,3,no solution,False,incomplete,True,False,True
+generic,2,linear_0009,linear,1,x = 8/3,False,wrong,True,False,
+generic,2,linear_0009,linear,2,"This is linear with a coefficient of 6 negative 8, so the equation has no solution. The answer is no solution.",False,unparsable,False,True,False
+generic,2,linear_0009,linear,3,x = 8,False,wrong,True,True,True
+generic,2,linear_0010,linear,1,"This is linear with a coefficient of 2 negative 8, so the equation has no solution. The answer is 'no solution'.",False,unparsable,False,False,
+generic,2,linear_0010,linear,2,x = -4. The answer is -4.,False,unparsable,False,True,True
+generic,2,linear_0010,linear,3,This is correct: -4 = x,False,unparsable,False,True,True
+generic,2,linear_0011,linear,1,x = 9,True,correct,True,False,
+generic,2,linear_0012,linear,1,x = 2,False,wrong,True,False,
+generic,2,linear_0012,linear,2,no solution,False,incomplete,True,True,False
+generic,2,linear_0012,linear,3,no solution,False,incomplete,True,False,True
+generic,2,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+generic,2,linear_0013,linear,2,x = 5,False,wrong,True,True,True
+generic,2,linear_0013,linear,3,x = 1.,True,correct,True,True,False
+generic,2,linear_0014,linear,1,x = -3. 5,False,wrong,True,False,
+generic,2,linear_0014,linear,2,x = -3.,False,wrong,True,True,False
+generic,2,linear_0014,linear,3,x = -10,False,wrong,True,True,False
+generic,2,quadratic_0015,quadratic,1,x = -1/2,False,does_not_satisfy,True,False,
+generic,2,quadratic_0015,quadratic,2,no solution,True,correct,True,True,False
+generic,2,quadratic_0016,quadratic,1,x = -1/2-sqrt(5)/1,False,wrong,True,False,
+generic,2,quadratic_0016,quadratic,2,"This is linear and has a negative discriminant, so there is one real solution. The solution is -3.0.",False,unparsable,False,True,False
+generic,2,quadratic_0016,quadratic,3,x = -1/3.,False,wrong,True,True,True
+generic,2,quadratic_0017,quadratic,1,no solution,False,incomplete,True,False,
+generic,2,quadratic_0017,quadratic,2,"x = 4 + sqrt(5)-3*I), (x = 4 + sqrt(5)+3*I).",False,unparsable,False,True,True
+generic,2,quadratic_0017,quadratic,3,no solution,False,incomplete,True,True,True
+generic,2,quadratic_0018,quadratic,1,"x = -1/2 + sqrt(-769)/2, x = -sqrt(-769)/2 - 1/2",False,wrong,True,False,
+generic,2,quadratic_0018,quadratic,2,no solution,False,incomplete,True,True,False
+generic,2,quadratic_0018,quadratic,3,no solution,False,incomplete,True,False,True
+generic,2,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+generic,2,quadratic_0019,quadratic,2,no solution,False,incomplete,True,False,True
+generic,2,quadratic_0019,quadratic,3,no solution,False,incomplete,True,False,True
+generic,2,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+generic,2,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+generic,2,quadratic_0021,quadratic,2,no solution,False,incomplete,True,False,True
+generic,2,quadratic_0021,quadratic,3,x = -1/1,False,wrong,True,True,True
+generic,2,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+generic,2,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+generic,2,quadratic_0023,quadratic,2,no solution,False,incomplete,True,False,True
+generic,2,quadratic_0023,quadratic,3,no solution,False,incomplete,True,False,True
+generic,2,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+generic,2,quadratic_0025,quadratic,1,x = -1/2,False,wrong,True,False,
+generic,2,quadratic_0025,quadratic,2,no solution,False,incomplete,True,True,False
+generic,2,quadratic_0025,quadratic,3,x = -1.,False,wrong,True,True,True
+generic,2,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+generic,2,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+generic,2,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+generic,2,quadratic_0029,quadratic,1,x = -5/4,False,wrong,True,False,
+generic,2,quadratic_0029,quadratic,2,no solution,False,incomplete,True,True,False
+generic,2,quadratic_0029,quadratic,3,x = -5/2,False,wrong,True,True,True
+generic,2,rational_0030,rational,1,x = -7/3,False,wrong,True,False,
+generic,2,rational_0030,rational,2,x = -13/4,False,wrong,True,True,False
+generic,2,rational_0030,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to get the equation without the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,2,rational_0031,rational,1,x = -20/3,False,wrong,True,False,
+generic,2,rational_0031,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to remove the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,2,rational_0031,rational,3,x = -2,False,wrong,True,True,True
+generic,2,rational_0032,rational,1,x = 27/4,False,wrong,True,False,
+generic,2,rational_0032,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,2,rational_0032,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to begin elimination., no solution",False,unparsable,False,True,True
+generic,2,rational_0033,rational,1,x = -18/3,False,extraneous_root,True,False,
+generic,2,rational_0033,rational,2,x = -6/11,False,wrong,True,True,True
+generic,2,rational_0033,rational,3,no solution,False,incomplete,True,True,False
+generic,2,rational_0034,rational,1,x = -1/3,False,wrong,True,False,
+generic,2,rational_0034,rational,2,no solution,False,incomplete,True,True,False
+generic,2,rational_0034,rational,3,x = -13/7,False,wrong,True,True,True
+generic,2,rational_0035,rational,1,x = 6,False,wrong,True,False,
+generic,2,rational_0035,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,2,rational_0035,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,False,True
+generic,2,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+generic,2,rational_0036,rational,2,x = -9,False,wrong,True,True,False
+generic,2,rational_0036,rational,3,x = -9,False,wrong,True,False,False
+generic,2,rational_0037,rational,1,x = -14,False,wrong,True,False,
+generic,2,rational_0037,rational,2,x = -19/2,False,wrong,True,True,False
+generic,2,rational_0037,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,2,rational_0038,rational,1,x = -3/2,False,wrong,True,False,
+generic,2,rational_0038,rational,2,no solution,False,incomplete,True,True,False
+generic,2,rational_0038,rational,3,x = -3/4,False,wrong,True,True,True
+generic,2,rational_0039,rational,1,x = -14/5,False,wrong,True,False,
+generic,2,rational_0039,rational,2,x = -22/5,False,wrong,True,True,False
+generic,2,rational_0039,rational,3,x = -22/5,False,wrong,True,False,False
+generic,2,rational_0040,rational,1,x = 8,False,wrong,True,False,
+generic,2,rational_0040,rational,2,"x = -6, x = -1.5",False,wrong,True,True,False
+generic,2,rational_0040,rational,3,no solution,False,incomplete,True,True,False
+generic,2,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+generic,2,rational_0041,rational,2,no solution,True,correct,True,True,False
+generic,2,rational_0042,rational,1,x = -2,False,wrong,True,False,
+generic,2,rational_0042,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to clear the fraction, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,2,rational_0042,rational,3,no solution,False,incomplete,True,True,True
+generic,2,rational_0043,rational,1,x = -14/2,False,wrong,True,False,
+generic,2,rational_0043,rational,2,x = -8/7,False,wrong,True,True,False
+generic,2,rational_0043,rational,3,x = -2,False,wrong,True,True,False
+generic,2,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+generic,2,rational_0044,rational,2,"This is rational and has a domain restriction. Multiply both sides by the denominator to cancel it, solve the resulting linear equation for x., no solution",False,unparsable,False,True,False
+generic,2,rational_0044,rational,3,x = -13/7.,False,wrong,True,True,True
+diagnostic,0,linear_0000,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0000,linear,2,x = -2/3,True,correct,True,True,True
+diagnostic,0,linear_0001,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0001,linear,2,This is linear with a negative coefficient. Solution: (-1.5),False,unparsable,False,True,True
+diagnostic,0,linear_0001,linear,3,x = -1.5,True,correct,True,True,True
+diagnostic,0,linear_0002,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0002,linear,2,This is linear with a negative coefficient. Solution: -3,False,unparsable,False,True,True
+diagnostic,0,linear_0002,linear,3,x = 3,True,correct,True,True,True
+diagnostic,0,linear_0003,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0003,linear,2,no solution,False,incomplete,True,False,True
+diagnostic,0,linear_0003,linear,3,This is linear with a negative coefficient. Solution: -1/2,False,unparsable,False,True,True
+diagnostic,0,linear_0004,linear,1,"This is linear with a coefficient of 5 negative 4, so the solution is positive. X = 4/5.",False,unparsable,False,False,
+diagnostic,0,linear_0004,linear,2,x = 4/5,True,correct,True,True,True
+diagnostic,0,linear_0005,linear,1,x = 7,True,correct,True,False,
+diagnostic,0,linear_0006,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0006,linear,2,This is linear with a negative coefficient. Solution: -3/4,False,unparsable,False,True,True
+diagnostic,0,linear_0006,linear,3,-3/4 was incorrect.,False,unparsable,False,True,True
+diagnostic,0,linear_0007,linear,1,x = -8/5.,True,correct,True,False,
+diagnostic,0,linear_0008,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0008,linear,2,This is linear with a negative coefficient. Solution: -2.5,False,unparsable,False,True,True
+diagnostic,0,linear_0008,linear,3,no solution,False,incomplete,True,True,True
+diagnostic,0,linear_0009,linear,1,x = 4,False,wrong,True,False,
+diagnostic,0,linear_0009,linear,2,x = 4.,False,wrong,True,True,False
+diagnostic,0,linear_0009,linear,3,x = 4,False,wrong,True,True,False
+diagnostic,0,linear_0010,linear,1,x = -4.,True,correct,True,False,
+diagnostic,0,linear_0011,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0011,linear,2,This is easy to solve by adding 9 to both sides. The answer is 18.,False,unparsable,False,True,True
+diagnostic,0,linear_0011,linear,3,x = 18,False,wrong,True,True,True
+diagnostic,0,linear_0012,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0012,linear,2,This is linear with a negative coefficient. Solution: (-2),False,unparsable,False,True,True
+diagnostic,0,linear_0012,linear,3,x = -2,True,correct,True,True,True
+diagnostic,0,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+diagnostic,0,linear_0013,linear,2,"no solution, 1",False,unparsable,False,True,False
+diagnostic,0,linear_0013,linear,3,no solution,False,incomplete,True,True,True
+diagnostic,0,linear_0014,linear,1,no solution,False,incomplete,True,False,
+diagnostic,0,linear_0014,linear,2,x = -10/3,True,correct,True,True,True
+diagnostic,0,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+diagnostic,0,quadratic_0016,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,0,quadratic_0016,quadratic,2,x = -3.,False,wrong,True,True,True
+diagnostic,0,quadratic_0016,quadratic,3,x = -1,False,wrong,True,True,False
+diagnostic,0,quadratic_0017,quadratic,1,"x = 4 - sqrt(36/1-4*1*7)/2, -sqrt(36/1-4*1*7)/2",False,wrong,True,False,
+diagnostic,0,quadratic_0017,quadratic,2,x = 4 - sqrt(36/1-4*1*7),False,wrong,True,True,False
+diagnostic,0,quadratic_0017,quadratic,3,x = 4 - sqrt(36/1-4*1*7),False,wrong,True,False,False
+diagnostic,0,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,0,quadratic_0018,quadratic,2,"x = negative(-minus_b sqrt(b^2-4ac)/2a), x = negative((-b+-sqrt(b^2-4ac))/2a)coal",False,unparsable,False,True,False
+diagnostic,0,quadratic_0018,quadratic,3,"x = positive(1/2, -6/)",False,unparsable,False,True,True
+diagnostic,0,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,0,quadratic_0019,quadratic,2,x = -2/3,False,wrong,True,True,True
+diagnostic,0,quadratic_0019,quadratic,3,"thisanswer -2 inteects 0, -4/3",False,unparsable,False,True,False
+diagnostic,0,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+diagnostic,0,quadratic_0021,quadratic,1,x = -1/3,False,wrong,True,False,
+diagnostic,0,quadratic_0021,quadratic,2,"-1/3, 3/2",False,wrong,True,True,False
+diagnostic,0,quadratic_0021,quadratic,3,"final_answer = ""no solution""",False,unparsable,False,True,False
+diagnostic,0,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+diagnostic,0,quadratic_0023,quadratic,1,x = -5/8,False,wrong,True,False,
+diagnostic,0,quadratic_0023,quadratic,2,x = 5/8,False,wrong,True,True,False
+diagnostic,0,quadratic_0023,quadratic,3,no solution,False,incomplete,True,True,False
+diagnostic,0,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+diagnostic,0,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,0,quadratic_0025,quadratic,2,"x = negative1, x = negative3/2",False,unparsable,False,True,True
+diagnostic,0,quadratic_0025,quadratic,3,"thisquadratic(-2*x**2 - x + 6, -6, 3/2)",False,unparsable,False,True,False
+diagnostic,0,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+diagnostic,0,quadratic_0027,quadratic,1,x = no solution,True,correct,True,False,
+diagnostic,0,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+diagnostic,0,quadratic_0029,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,0,quadratic_0029,quadratic,2,x = no solution,False,incomplete,True,True,True
+diagnostic,0,quadratic_0029,quadratic,3,"this equation can be solved by separating variables and factoring the left hand side, which gives two solutions above represented here with their equal sign connected separated by commasstakes",False,unparsable,False,True,True
+diagnostic,0,rational_0030,rational,1,x = -17/3,False,wrong,True,False,
+diagnostic,0,rational_0030,rational,2,x = -17/3,False,wrong,True,False,False
+diagnostic,0,rational_0030,rational,3,"This is rational and has a domain restriction. Multiply both sides by the denominator to begin eliminating the denominator in the numerator, solve the resulting linear equation for the variable, substitute that answer substitution into the general form of the solution to eliminate the trig function, square both sides to remove the trig function, solve the resulting equation for the variable, square both sides again to eliminate the remaining square, solve the simplified equation for the variable, substitute the result into the back-substituted equation to solve the system, simplify and solve the result-to-solution in terms with one single coefficient, bring all x-squares to the right and all constants to the left, combine like terms, move the constant to the left, group variables by squared coefficients, solve the first",False,unparsable,False,True,False
+diagnostic,0,rational_0031,rational,1,x = -10,False,wrong,True,False,
+diagnostic,0,rational_0031,rational,2,x = -10,False,wrong,True,False,False
+diagnostic,0,rational_0031,rational,3,x = 8,False,wrong,True,True,False
+diagnostic,0,rational_0032,rational,1,x = 21/2,False,wrong,True,False,
+diagnostic,0,rational_0032,rational,2,x = 21/2 into the original equation eliminates the denominator and makes the equation simple to solve. Substituting this value into the original equation finds x equals 21/2.,False,unparsable,False,True,False
+diagnostic,0,rational_0032,rational,3,x = 21/2,False,wrong,True,True,True
+diagnostic,0,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+diagnostic,0,rational_0033,rational,2,no solution,False,incomplete,True,True,False
+diagnostic,0,rational_0033,rational,3,"This is linear and can be solved by multiplying each side by the denominator. The solutions are -9/4, -3/5.",False,unparsable,False,True,True
+diagnostic,0,rational_0034,rational,1,x = -1/2,False,wrong,True,False,
+diagnostic,0,rational_0034,rational,2,x = -1/2,False,wrong,True,False,False
+diagnostic,0,rational_0034,rational,3,no solution,False,incomplete,True,True,False
+diagnostic,0,rational_0035,rational,1,x = 7,False,wrong,True,False,
+diagnostic,0,rational_0035,rational,2,x = -16,False,wrong,True,True,False
+diagnostic,0,rational_0035,rational,3,x = -16,False,wrong,True,False,False
+diagnostic,0,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+diagnostic,0,rational_0036,rational,2,x = 3,False,wrong,True,True,False
+diagnostic,0,rational_0036,rational,3,x = 3,False,wrong,True,False,False
+diagnostic,0,rational_0037,rational,1,x = -14/2,False,wrong,True,False,
+diagnostic,0,rational_0037,rational,2,"x = -4 - 1. Dividing both sides by -3 isolates x. Thus, the solution is x = 4/3.",False,unparsable,False,True,False
+diagnostic,0,rational_0037,rational,3,x = -4/3,False,wrong,True,True,True
+diagnostic,0,rational_0038,rational,1,x = 9,False,wrong,True,False,
+diagnostic,0,rational_0038,rational,2,x = 10.5,True,correct,True,True,False
+diagnostic,0,rational_0039,rational,1,This is linear and has a slope of -1 and a y-intercept of 12. So the solution is 7. No effort required. 7 = 0,False,unparsable,False,False,
+diagnostic,0,rational_0039,rational,2,no solution,False,incomplete,True,True,True
+diagnostic,0,rational_0039,rational,3,x = 10,False,wrong,True,True,True
+diagnostic,0,rational_0040,rational,1,x = -1/3,False,wrong,True,False,
+diagnostic,0,rational_0040,rational,2,x = -1/3,False,wrong,True,False,False
+diagnostic,0,rational_0040,rational,3,x = -1/3,False,wrong,True,False,False
+diagnostic,0,rational_0041,rational,1,x = 4,False,does_not_satisfy,True,False,
+diagnostic,0,rational_0041,rational,2,x = no solution,True,correct,True,True,False
+diagnostic,0,rational_0042,rational,1,x = -13/5,False,wrong,True,False,
+diagnostic,0,rational_0042,rational,2,x = -13/5.,False,wrong,True,True,False
+diagnostic,0,rational_0042,rational,3,x = -13/5,False,wrong,True,True,False
+diagnostic,0,rational_0043,rational,1,x = -8,False,wrong,True,False,
+diagnostic,0,rational_0043,rational,2,This is a linear equation with a singular solution. The equation is true for all x except 5 ± sqrt(26). The answer is no solution.,False,unparsable,False,True,False
+diagnostic,0,rational_0043,rational,3,"x = -8, x = 7",False,wrong,True,True,True
+diagnostic,0,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+diagnostic,0,rational_0044,rational,2,no solution,False,incomplete,True,True,False
+diagnostic,0,rational_0044,rational,3,x = 4,False,wrong,True,True,True
+diagnostic,1,linear_0000,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0000,linear,2,x = -2/3,True,correct,True,True,True
+diagnostic,1,linear_0001,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0001,linear,2,x = 3/2,False,wrong,True,True,True
+diagnostic,1,linear_0001,linear,3,no solution,False,incomplete,True,True,False
+diagnostic,1,linear_0002,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0002,linear,2,This is linear with a negative coefficient. Solution: -3,False,unparsable,False,True,True
+diagnostic,1,linear_0002,linear,3,x = 3,True,correct,True,True,True
+diagnostic,1,linear_0003,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0003,linear,2,This is linear with a negative coefficient. Solution: -1/2,False,unparsable,False,True,True
+diagnostic,1,linear_0003,linear,3,x = -1/2,False,wrong,True,True,True
+diagnostic,1,linear_0004,linear,1,x = 4/5,True,correct,True,False,
+diagnostic,1,linear_0005,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0005,linear,2,x = -1,False,wrong,True,True,True
+diagnostic,1,linear_0005,linear,3,x = 1,False,wrong,True,True,False
+diagnostic,1,linear_0006,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0006,linear,2,This is linear with a negative coefficient. Solution: -3/4,False,unparsable,False,True,True
+diagnostic,1,linear_0006,linear,3,x = -3/4,True,correct,True,True,True
+diagnostic,1,linear_0007,linear,1,x = -8/5,True,correct,True,False,
+diagnostic,1,linear_0008,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0008,linear,2,no solution,False,incomplete,True,False,True
+diagnostic,1,linear_0008,linear,3,This is linear with a negative coefficient. Solution: -2.5,False,unparsable,False,True,True
+diagnostic,1,linear_0009,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0009,linear,2,x = 7 - 1 6*x = 6 1 = x,False,wrong,True,True,False
+diagnostic,1,linear_0009,linear,3,(no solution),False,unparsable,False,True,False
+diagnostic,1,linear_0010,linear,1,x = -4,True,correct,True,False,
+diagnostic,1,linear_0011,linear,1,x = 9,True,correct,True,False,
+diagnostic,1,linear_0012,linear,1,no solution,False,incomplete,True,False,
+diagnostic,1,linear_0012,linear,2,x = 2,False,wrong,True,True,True
+diagnostic,1,linear_0012,linear,3,x = 2.,False,wrong,True,True,False
+diagnostic,1,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+diagnostic,1,linear_0013,linear,2,"no solution, 1",False,unparsable,False,True,False
+diagnostic,1,linear_0013,linear,3,no solution,False,incomplete,True,True,True
+diagnostic,1,linear_0014,linear,1,"This is linear with a coefficient of 3 positive and a constant term positive, so there's a negative solution. The answer is 'no solution'.",False,unparsable,False,False,
+diagnostic,1,linear_0014,linear,2,no solution,False,incomplete,True,True,True
+diagnostic,1,linear_0014,linear,3,x = -10/3,True,correct,True,True,True
+diagnostic,1,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+diagnostic,1,quadratic_0016,quadratic,1,x = 1/6,False,wrong,True,False,
+diagnostic,1,quadratic_0016,quadratic,2,x = 1/6,False,wrong,True,False,False
+diagnostic,1,quadratic_0016,quadratic,3,x = 1/6,False,wrong,True,False,False
+diagnostic,1,quadratic_0017,quadratic,1,"x = 2 - sqrt(14), x = 2 + sqrt(14)",False,wrong,True,False,
+diagnostic,1,quadratic_0017,quadratic,2,x = no solution,False,incomplete,True,True,False
+diagnostic,1,quadratic_0017,quadratic,3,"x = 1, 7",True,correct,True,True,True
+diagnostic,1,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,1,quadratic_0018,quadratic,2,x = no solution.,False,incomplete,True,True,True
+diagnostic,1,quadratic_0018,quadratic,3,x = -1/2,False,wrong,True,True,True
+diagnostic,1,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,1,quadratic_0019,quadratic,2,"no solution, this is a 2nd degree equation with a quadratic coefficient less than one so the graph is a parabola and always goes up; solving a quadratic equation like this gives two answers separated by a , so the equations has 2 solutions corresponding to the times the expression inside the square is positive and negative",False,unparsable,False,True,False
+diagnostic,1,quadratic_0019,quadratic,3,"this equation can be solved by replacing x with (x+-b/(2a))^2/4*a, this gives two solutions separated by a comma",False,unparsable,False,True,False
+diagnostic,1,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+diagnostic,1,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,1,quadratic_0021,quadratic,2,this equation is not linear so you must multiply both sides by -1 this gives this equation 3*x**2 - 6*x - 6 = 0 which factors as 3*(x + 1/3)**2 - 5/3 = 0 completing the square this gives 3*(x + 1/3)² = 5/3 adding 1/3 to each side takes all the constants to the right of the variable it doesn't change sign so you can take that coefficient out as a constant in front of the squared term this gives (x + 1/3)^2 = 5/9 squaring this gives this equation x + 1/3 = sqrt(5/9),False,unparsable,False,True,False
+diagnostic,1,quadratic_0021,quadratic,3,no solution,False,incomplete,True,True,True
+diagnostic,1,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+diagnostic,1,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,1,quadratic_0023,quadratic,2,"this quadratic has a discriminant negative, so there are no real solutions",False,unparsable,False,True,True
+diagnostic,1,quadratic_0023,quadratic,3,"x = -1, x = 5.",False,wrong,True,True,True
+diagnostic,1,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+diagnostic,1,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,1,quadratic_0025,quadratic,2,"x = 3, x = -1.952380952380952.",False,unparsable,False,True,True
+diagnostic,1,quadratic_0025,quadratic,3,"x = 3, x = -1.952380952380952",False,wrong,True,True,True
+diagnostic,1,quadratic_0026,quadratic,1,x = -1.,False,does_not_satisfy,True,False,
+diagnostic,1,quadratic_0026,quadratic,2,"no solution This quadratic has a non-negative discriminant, so the solution is calculated next.",False,unparsable,False,True,False
+diagnostic,1,quadratic_0026,quadratic,3,"x = -1/2, x = 5",False,does_not_satisfy,True,True,True
+diagnostic,1,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+diagnostic,1,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+diagnostic,1,quadratic_0029,quadratic,1,x = -5/2,False,wrong,True,False,
+diagnostic,1,quadratic_0029,quadratic,2,thisexpression=-5/2 is the answer,False,unparsable,False,True,False
+diagnostic,1,quadratic_0029,quadratic,3,"thisexpression=(-5/2, 35/4)",False,unparsable,False,True,True
+diagnostic,1,rational_0030,rational,1,x = 3,False,wrong,True,False,
+diagnostic,1,rational_0030,rational,2,x = 3/2,False,wrong,True,True,False
+diagnostic,1,rational_0030,rational,3,x = 1,True,correct,True,True,False
+diagnostic,1,rational_0031,rational,1,x = 18/2,False,wrong,True,False,
+diagnostic,1,rational_0031,rational,2,x = 8/13.,False,wrong,True,True,False
+diagnostic,1,rational_0031,rational,3,x = 8/13,False,wrong,True,True,False
+diagnostic,1,rational_0032,rational,1,no solution,False,incomplete,True,False,
+diagnostic,1,rational_0032,rational,2,"This is linear and solvable. The solution is -2, not 0.",False,unparsable,False,True,False
+diagnostic,1,rational_0032,rational,3,x = -2,False,wrong,True,True,True
+diagnostic,1,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+diagnostic,1,rational_0033,rational,2,no solution,False,incomplete,True,True,False
+diagnostic,1,rational_0033,rational,3,"x = -3*(x + 6). This can be simplified to 5*x = -3x - 18. Adding 3x to both sides gives 8x = -18. Dividing both sides by 8 gives x = -9/4. Therefore, the answer is x = -9/4.",False,unparsable,False,True,True
+diagnostic,1,rational_0034,rational,1,no solution,False,incomplete,True,False,
+diagnostic,1,rational_0034,rational,2,no solution,False,incomplete,True,False,True
+diagnostic,1,rational_0034,rational,3,no solution,False,incomplete,True,False,True
+diagnostic,1,rational_0035,rational,1,x = 7,False,wrong,True,False,
+diagnostic,1,rational_0035,rational,2,x = -7/5,False,wrong,True,True,False
+diagnostic,1,rational_0035,rational,3,no solution,False,incomplete,True,True,False
+diagnostic,1,rational_0036,rational,1,x = -9,False,wrong,True,False,
+diagnostic,1,rational_0036,rational,2,x = 5,False,wrong,True,True,False
+diagnostic,1,rational_0036,rational,3,x = -13,False,wrong,True,True,False
+diagnostic,1,rational_0037,rational,1,x = -18/2,False,wrong,True,False,
+diagnostic,1,rational_0037,rational,2,x = -18/2,False,wrong,True,False,False
+diagnostic,1,rational_0037,rational,3,x = -18/2. No solution.,False,unparsable,False,True,False
+diagnostic,1,rational_0038,rational,1,x = -3/4,False,wrong,True,False,
+diagnostic,1,rational_0038,rational,2,x = 15,False,wrong,True,True,False
+diagnostic,1,rational_0038,rational,3,This is a linear equation. Moving the denominator to the left gives (x + 3) = 3(x - 6). Expanding the right gives x + 3 = 3x - 18. Solving for x yields 4. The answer is 4.,False,unparsable,False,True,False
+diagnostic,1,rational_0039,rational,1,x = 24,False,wrong,True,False,
+diagnostic,1,rational_0039,rational,2,x = 12. So the solution is 12.,False,unparsable,False,True,False
+diagnostic,1,rational_0039,rational,3,x = 12,False,wrong,True,True,True
+diagnostic,1,rational_0040,rational,1,x = -8/3,False,wrong,True,False,
+diagnostic,1,rational_0040,rational,2,x = -8/3,False,wrong,True,False,False
+diagnostic,1,rational_0040,rational,3,x = -8/3,False,wrong,True,False,False
+diagnostic,1,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+diagnostic,1,rational_0041,rational,2,x = no solution,True,correct,True,True,False
+diagnostic,1,rational_0042,rational,1,x = -13/17,False,wrong,True,False,
+diagnostic,1,rational_0042,rational,2,x = 11. Dividing both sides by 7 gives x = 11/7. The answer is x = 11/7.,False,unparsable,False,True,False
+diagnostic,1,rational_0042,rational,3,x = 11,False,wrong,True,True,True
+diagnostic,1,rational_0043,rational,1,x = -8/2,False,wrong,True,False,
+diagnostic,1,rational_0043,rational,2,x = -8/2.,False,wrong,True,True,False
+diagnostic,1,rational_0043,rational,3,x = -8/2,False,wrong,True,True,False
+diagnostic,1,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+diagnostic,1,rational_0044,rational,2,no solution,False,incomplete,True,True,False
+diagnostic,1,rational_0044,rational,3,no solution,False,incomplete,True,False,True
+diagnostic,2,linear_0000,linear,1,no solution,False,incomplete,True,False,
+diagnostic,2,linear_0000,linear,2,no solution,False,incomplete,True,False,True
+diagnostic,2,linear_0000,linear,3,This is linear with a coefficient of 3. Solution: -2/3,False,unparsable,False,True,True
+diagnostic,2,linear_0001,linear,1,(no solution),False,unparsable,False,False,
+diagnostic,2,linear_0001,linear,2,no solution,False,incomplete,True,True,True
+diagnostic,2,linear_0001,linear,3,This is linear with a negative coefficient. Solution: -1.5,False,unparsable,False,True,True
+diagnostic,2,linear_0002,linear,1,no solution,False,incomplete,True,False,
+diagnostic,2,linear_0002,linear,2,x = no solution,False,incomplete,True,True,True
+diagnostic,2,linear_0002,linear,3,This is easy to solve by adding 9 to both sides. The answer is already found to be no solution.,False,unparsable,False,True,True
+diagnostic,2,linear_0003,linear,1,no solution,False,incomplete,True,False,
+diagnostic,2,linear_0003,linear,2,This is linear with a negative coefficient. Solution: -1/2,False,unparsable,False,True,True
+diagnostic,2,linear_0003,linear,3,x = -1/2,False,wrong,True,True,True
+diagnostic,2,linear_0004,linear,1,x = -4/5,False,wrong,True,False,
+diagnostic,2,linear_0004,linear,2,this equals -4/5,False,unparsable,False,True,False
+diagnostic,2,linear_0004,linear,3,"this equals -4/5, no solution",False,unparsable,False,True,True
+diagnostic,2,linear_0005,linear,1,x = 7,True,correct,True,False,
+diagnostic,2,linear_0006,linear,1,no solution,False,incomplete,True,False,
+diagnostic,2,linear_0006,linear,2,This is linear with a negative coefficient. Solution: -3/4,False,unparsable,False,True,True
+diagnostic,2,linear_0006,linear,3,-3/4 was incorrect.,False,unparsable,False,True,True
+diagnostic,2,linear_0007,linear,1,no solution,False,incomplete,True,False,
+diagnostic,2,linear_0007,linear,2,x = -8/5,True,correct,True,True,True
+diagnostic,2,linear_0008,linear,1,no solution,False,incomplete,True,False,
+diagnostic,2,linear_0008,linear,2,This is linear with a negative coefficient. Solution: -1.5,False,unparsable,False,True,True
+diagnostic,2,linear_0008,linear,3,x = -1.5,False,wrong,True,True,True
+diagnostic,2,linear_0009,linear,1,x = 8/3,False,wrong,True,False,
+diagnostic,2,linear_0009,linear,2,x = 4.,False,wrong,True,True,False
+diagnostic,2,linear_0009,linear,3,this equals 2,False,unparsable,False,True,False
+diagnostic,2,linear_0010,linear,1,"This is linear with a coefficient of 2 negative 8, so the equation has no solution. The answer is 'no solution'.",False,unparsable,False,False,
+diagnostic,2,linear_0010,linear,2,no solution,False,incomplete,True,True,True
+diagnostic,2,linear_0010,linear,3,This is linear with a coefficient of 2. Solution is -4.,False,unparsable,False,True,True
+diagnostic,2,linear_0011,linear,1,x = 9,True,correct,True,False,
+diagnostic,2,linear_0012,linear,1,x = 2,False,wrong,True,False,
+diagnostic,2,linear_0012,linear,2,x = 2,False,wrong,True,False,False
+diagnostic,2,linear_0012,linear,3,no solution,False,incomplete,True,True,False
+diagnostic,2,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+diagnostic,2,linear_0013,linear,2,"no solution, 1",False,unparsable,False,True,False
+diagnostic,2,linear_0013,linear,3,no solution,False,incomplete,True,True,True
+diagnostic,2,linear_0014,linear,1,x = -3. 5,False,wrong,True,False,
+diagnostic,2,linear_0014,linear,2,this equals -7,False,unparsable,False,True,False
+diagnostic,2,linear_0014,linear,3,"this equals -7, no solution",False,unparsable,False,True,True
+diagnostic,2,quadratic_0015,quadratic,1,x = -1/2,False,does_not_satisfy,True,False,
+diagnostic,2,quadratic_0015,quadratic,2,"-1/2 = -4, 3 = -4",False,does_not_satisfy,True,True,False
+diagnostic,2,quadratic_0015,quadratic,3,no solution,True,correct,True,True,False
+diagnostic,2,quadratic_0016,quadratic,1,x = -1/2-sqrt(5)/1,False,wrong,True,False,
+diagnostic,2,quadratic_0016,quadratic,2,thisanswer -1/2,False,unparsable,False,True,False
+diagnostic,2,quadratic_0016,quadratic,3,"thisanswer -1.0, thisanswer -1.0+i*1.4142135623730951",False,unparsable,False,True,False
+diagnostic,2,quadratic_0017,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,2,quadratic_0017,quadratic,2,"this quadratic has a=1,b=-8,c=7",False,unparsable,False,True,True
+diagnostic,2,quadratic_0017,quadratic,3,"x = 3, x = 26/3",False,wrong,True,True,True
+diagnostic,2,quadratic_0018,quadratic,1,"x = -1/2 + sqrt(-769)/2, x = -sqrt(-769)/2 - 1/2",False,wrong,True,False,
+diagnostic,2,quadratic_0018,quadratic,2,x = no solution,False,incomplete,True,True,False
+diagnostic,2,quadratic_0018,quadratic,3,"x = 2, x = -2.",False,wrong,True,True,False
+diagnostic,2,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,2,quadratic_0019,quadratic,2,"x = -2/3, -2",False,wrong,True,True,True
+diagnostic,2,quadratic_0019,quadratic,3,x = -2/3,False,wrong,True,True,False
+diagnostic,2,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+diagnostic,2,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,2,quadratic_0021,quadratic,2,x = -1/3,False,wrong,True,True,True
+diagnostic,2,quadratic_0021,quadratic,3,"-1/3, 3/1",False,wrong,True,True,False
+diagnostic,2,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+diagnostic,2,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+diagnostic,2,quadratic_0023,quadratic,2,"this quadratic has a discriminant negative, so there are no real solutions",False,unparsable,False,True,True
+diagnostic,2,quadratic_0023,quadratic,3,"x = -1/2, 5",False,wrong,True,True,True
+diagnostic,2,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+diagnostic,2,quadratic_0025,quadratic,1,x = -1/2,False,wrong,True,False,
+diagnostic,2,quadratic_0025,quadratic,2,"thisexpression.islinearandhasconstantcoefficient-2isunsolvablewithcoefficients1and6sovemultiplyby-1tomakethecoefficient1positive,andthenadd-x/2toboth sidestosolveforx.Thisisthefinalanswer.",False,unparsable,False,True,False
+diagnostic,2,quadratic_0025,quadratic,3,"7/3, -3/2",False,wrong,True,True,True
+diagnostic,2,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+diagnostic,2,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+diagnostic,2,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+diagnostic,2,quadratic_0029,quadratic,1,x = -5/4,False,wrong,True,False,
+diagnostic,2,quadratic_0029,quadratic,2,x = -1/2,False,wrong,True,True,False
+diagnostic,2,quadratic_0029,quadratic,3,"x = -1/2,-4 thisanswermatchestheoriginalbyusingthefinalanswerthisline",False,unparsable,False,True,False
+diagnostic,2,rational_0030,rational,1,x = -7/3,False,wrong,True,False,
+diagnostic,2,rational_0030,rational,2,x = 1,True,correct,True,True,False
+diagnostic,2,rational_0031,rational,1,x = -20/3,False,wrong,True,False,
+diagnostic,2,rational_0031,rational,2,x = -20/3,False,wrong,True,False,False
+diagnostic,2,rational_0031,rational,3,no solution,False,incomplete,True,True,False
+diagnostic,2,rational_0032,rational,1,x = 27/4,False,wrong,True,False,
+diagnostic,2,rational_0032,rational,2,This is rational and has a domain of all numbers except 6. SOLVED.,False,unparsable,False,True,False
+diagnostic,2,rational_0032,rational,3,no solution,False,incomplete,True,True,True
+diagnostic,2,rational_0033,rational,1,x = -18/3,False,extraneous_root,True,False,
+diagnostic,2,rational_0033,rational,2,This is rational and has a domain error. The solution is -6.,False,unparsable,False,True,False
+diagnostic,2,rational_0033,rational,3,x = -6,False,extraneous_root,True,True,True
+diagnostic,2,rational_0034,rational,1,x = -1/3,False,wrong,True,False,
+diagnostic,2,rational_0034,rational,2,x = -1/3,False,wrong,True,False,False
+diagnostic,2,rational_0034,rational,3,x = -1/3,False,wrong,True,False,False
+diagnostic,2,rational_0035,rational,1,x = 6,False,wrong,True,False,
+diagnostic,2,rational_0035,rational,2,no solution,False,incomplete,True,True,False
+diagnostic,2,rational_0035,rational,3,x = 5/2.,False,wrong,True,True,True
+diagnostic,2,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+diagnostic,2,rational_0036,rational,2,x = -11/5,True,correct,True,True,False
+diagnostic,2,rational_0037,rational,1,x = -14,False,wrong,True,False,
+diagnostic,2,rational_0037,rational,2,x = -14,False,wrong,True,False,False
+diagnostic,2,rational_0037,rational,3,x = -14,False,wrong,True,False,False
+diagnostic,2,rational_0038,rational,1,x = -3/2,False,wrong,True,False,
+diagnostic,2,rational_0038,rational,2,x = -27/2,False,wrong,True,True,False
+diagnostic,2,rational_0038,rational,3,"x = 21. Dividing both sides by 2 gives x = 10.5. So, the answer is x = 10.5.",False,unparsable,False,True,False
+diagnostic,2,rational_0039,rational,1,x = -14/5,False,wrong,True,False,
+diagnostic,2,rational_0039,rational,2,x = -11,False,wrong,True,True,False
+diagnostic,2,rational_0039,rational,3,x = -11,False,wrong,True,False,False
+diagnostic,2,rational_0040,rational,1,x = 8,False,wrong,True,False,
+diagnostic,2,rational_0040,rational,2,x = 8,False,wrong,True,False,False
+diagnostic,2,rational_0040,rational,3,x = 8,False,wrong,True,False,False
+diagnostic,2,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+diagnostic,2,rational_0041,rational,2,x = 2,False,does_not_satisfy,True,False,False
+diagnostic,2,rational_0041,rational,3,x = 2,False,does_not_satisfy,True,False,False
+diagnostic,2,rational_0042,rational,1,x = -2,False,wrong,True,False,
+diagnostic,2,rational_0042,rational,2,this solves to -2/3,False,unparsable,False,True,False
+diagnostic,2,rational_0042,rational,3,"this solves to -1/4, no solution",False,unparsable,False,True,True
+diagnostic,2,rational_0043,rational,1,x = -14/2,False,wrong,True,False,
+diagnostic,2,rational_0043,rational,2,x = -14/2,False,wrong,True,False,False
+diagnostic,2,rational_0043,rational,3,x = -14/2 。,False,unparsable,False,True,False
+diagnostic,2,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+diagnostic,2,rational_0044,rational,2,no solution,False,incomplete,True,True,False
+diagnostic,2,rational_0044,rational,3,This is linear and there's a solution. Your answer is wrong down to the last number. This solution is correct.,False,unparsable,False,True,True
+actionable,0,linear_0000,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0000,linear,2,x = no solution,False,incomplete,True,True,True
+actionable,0,linear_0000,linear,3,x = -2/3,True,correct,True,True,True
+actionable,0,linear_0001,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0001,linear,2,no solution,False,incomplete,True,False,True
+actionable,0,linear_0001,linear,3,"This is linear with a negative coefficient. Multiplying by -1 switches the leading coefficient, solving gives 3/2. The answer is no solution.",False,unparsable,False,True,True
+actionable,0,linear_0002,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0002,linear,2,no solution,False,incomplete,True,False,True
+actionable,0,linear_0002,linear,3,x = 3/2,False,wrong,True,True,True
+actionable,0,linear_0003,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0003,linear,2,"x = 1/2, x=-1/3.",False,does_not_satisfy,True,True,True
+actionable,0,linear_0003,linear,3,x = 1/2,True,correct,True,True,False
+actionable,0,linear_0004,linear,1,"This is linear with a coefficient of 5 negative 4, so the solution is positive. X = 4/5.",False,unparsable,False,False,
+actionable,0,linear_0004,linear,2,x = 4/5,True,correct,True,True,True
+actionable,0,linear_0005,linear,1,x = 7,True,correct,True,False,
+actionable,0,linear_0006,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0006,linear,2,This is a linear equation with a constant term. Adding 3 to both sides turns the equation into a linear relation with a first root of 0. The answer is no solution.,False,unparsable,False,True,False
+actionable,0,linear_0006,linear,3,x = 3/4,False,wrong,True,True,True
+actionable,0,linear_0007,linear,1,x = -8/5.,True,correct,True,False,
+actionable,0,linear_0008,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0008,linear,2,This is a linear equation with a negative coefficient for x. The solutions are equal.,False,unparsable,False,True,True
+actionable,0,linear_0008,linear,3,no solution,False,incomplete,True,True,True
+actionable,0,linear_0009,linear,1,x = 4,False,wrong,True,False,
+actionable,0,linear_0009,linear,2,x = 4,False,wrong,True,False,False
+actionable,0,linear_0009,linear,3,thisanswer = 4,False,unparsable,False,True,False
+actionable,0,linear_0010,linear,1,x = -4.,True,correct,True,False,
+actionable,0,linear_0011,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0011,linear,2,x = 9,True,correct,True,True,True
+actionable,0,linear_0012,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0012,linear,2,"no root, this equation has 1 distinct real solution",False,unparsable,False,True,False
+actionable,0,linear_0012,linear,3,x = 2,False,wrong,True,True,False
+actionable,0,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+actionable,0,linear_0013,linear,2,"no solution, 1",False,unparsable,False,True,False
+actionable,0,linear_0013,linear,3,x = -1),False,unparsable,False,True,True
+actionable,0,linear_0014,linear,1,no solution,False,incomplete,True,False,
+actionable,0,linear_0014,linear,2,x = -10/3,True,correct,True,True,True
+actionable,0,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+actionable,0,quadratic_0016,quadratic,1,no solution,False,incomplete,True,False,
+actionable,0,quadratic_0016,quadratic,2,no solution,False,incomplete,True,False,True
+actionable,0,quadratic_0016,quadratic,3,no solution,False,incomplete,True,False,True
+actionable,0,quadratic_0017,quadratic,1,"x = 4 - sqrt(36/1-4*1*7)/2, -sqrt(36/1-4*1*7)/2",False,wrong,True,False,
+actionable,0,quadratic_0017,quadratic,2,x = 4 - sqrt(36/1-4*1*7)/2,False,wrong,True,True,False
+actionable,0,quadratic_0017,quadratic,3,"sqrt(35) - 3/2, -7/2",False,wrong,True,True,False
+actionable,0,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+actionable,0,quadratic_0018,quadratic,2,"This is a quadratic with a=2,b=-1,c=-8. The discriminant (b squared plus four*a*c) is 73. Since that is positive, there are two real roots. Subtracting the root of one from the other half the sum of the roots is 1/4. Therefore, the roots are 1/4 + sqrt(73)/4, and 1/4 - sqrt(73)/4. The answer is no solution.",False,unparsable,False,True,False
+actionable,0,quadratic_0018,quadratic,3,"x = 3/4-3/4, x = 3/4+3/4",False,wrong,True,True,True
+actionable,0,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+actionable,0,quadratic_0019,quadratic,2,x = no solution,False,incomplete,True,True,True
+actionable,0,quadratic_0019,quadratic,3,"this equation has a discriminant negative, so it has no real solutions but also no real solutions",False,unparsable,False,True,True
+actionable,0,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+actionable,0,quadratic_0021,quadratic,1,x = -1/3,False,wrong,True,False,
+actionable,0,quadratic_0021,quadratic,2,"-1/3, 1/3",False,wrong,True,True,False
+actionable,0,quadratic_0021,quadratic,3,thisanswer,False,unparsable,False,True,False
+actionable,0,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+actionable,0,quadratic_0023,quadratic,1,x = -5/8,False,wrong,True,False,
+actionable,0,quadratic_0023,quadratic,2,"-4/2, 3/4",False,wrong,True,True,False
+actionable,0,quadratic_0023,quadratic,3,"-4/2, 3/4",False,wrong,True,False,False
+actionable,0,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+actionable,0,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+actionable,0,quadratic_0025,quadratic,2,"x = (-1/2 - sqrt(17)/2 + sqrt(49)/4) / -1, (-1/2 + sqrt(17)/2 + sqrt(49)/4) / -1",False,wrong,True,True,False
+actionable,0,quadratic_0025,quadratic,3,no solution,False,incomplete,True,True,False
+actionable,0,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+actionable,0,quadratic_0027,quadratic,1,x = no solution,True,correct,True,False,
+actionable,0,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+actionable,0,quadratic_0029,quadratic,1,no solution,False,incomplete,True,False,
+actionable,0,quadratic_0029,quadratic,2,no solution,False,incomplete,True,False,True
+actionable,0,quadratic_0029,quadratic,3,no solution,False,incomplete,True,False,True
+actionable,0,rational_0030,rational,1,x = -17/3,False,wrong,True,False,
+actionable,0,rational_0030,rational,2,thisanswer,False,unparsable,False,True,False
+actionable,0,rational_0030,rational,3,"thisanswer is incorrect. The solution cannot be directly computed here. The problem statement is unclear, so there is no obvious mistake to correct.",False,unparsable,False,True,True
+actionable,0,rational_0031,rational,1,x = -10,False,wrong,True,False,
+actionable,0,rational_0031,rational,2,"-10, 14",False,wrong,True,True,False
+actionable,0,rational_0031,rational,3,"x = -10, 14",False,wrong,True,True,False
+actionable,0,rational_0032,rational,1,x = 21/2,False,wrong,True,False,
+actionable,0,rational_0032,rational,2,no solution,False,incomplete,True,True,False
+actionable,0,rational_0032,rational,3,"x = 5.1, x = 7.5.",False,unparsable,False,True,False
+actionable,0,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+actionable,0,rational_0033,rational,2,"-18/5, no solution",False,unparsable,False,True,False
+actionable,0,rational_0033,rational,3,x = -18/5,False,wrong,True,True,True
+actionable,0,rational_0034,rational,1,x = -1/2,False,wrong,True,False,
+actionable,0,rational_0034,rational,2,"x = -1/2, we find this equals -3/2. The answer is -3/2.",False,unparsable,False,True,False
+actionable,0,rational_0034,rational,3,"no solution, -3/2",False,unparsable,False,True,True
+actionable,0,rational_0035,rational,1,x = 7,False,wrong,True,False,
+actionable,0,rational_0035,rational,2,thisanswer -4 thisanswer -7,False,unparsable,False,True,False
+actionable,0,rational_0035,rational,3,"This answer is already valid with the given variable name. The solution is -7, so the final answer is '-7'.",False,unparsable,False,True,True
+actionable,0,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+actionable,0,rational_0036,rational,2,thisanswer -5/2,False,unparsable,False,True,False
+actionable,0,rational_0036,rational,3,final_answer -5/2,False,unparsable,False,True,True
+actionable,0,rational_0037,rational,1,x = -14/2,False,wrong,True,False,
+actionable,0,rational_0037,rational,2,thisanswer -3 thisanswer -4 / (thisanswer + 5) + 1,False,unparsable,False,True,False
+actionable,0,rational_0037,rational,3,"x = -4/4, -5",False,extraneous_root,True,True,True
+actionable,0,rational_0038,rational,1,x = 9,False,wrong,True,False,
+actionable,0,rational_0038,rational,2,thisanswer,False,unparsable,False,True,False
+actionable,0,rational_0038,rational,3,no solution,False,incomplete,True,True,True
+actionable,0,rational_0039,rational,1,This is linear and has a slope of -1 and a y-intercept of 12. So the solution is 7. No effort required. 7 = 0,False,unparsable,False,False,
+actionable,0,rational_0039,rational,2,x = 7,False,wrong,True,True,True
+actionable,0,rational_0039,rational,3,x = 5,False,wrong,True,True,False
+actionable,0,rational_0040,rational,1,x = -1/3,False,wrong,True,False,
+actionable,0,rational_0040,rational,2,no solution,False,incomplete,True,True,False
+actionable,0,rational_0040,rational,3,x = 3/5,False,wrong,True,True,True
+actionable,0,rational_0041,rational,1,x = 4,False,does_not_satisfy,True,False,
+actionable,0,rational_0041,rational,2,"4, -2",False,does_not_satisfy,True,True,False
+actionable,0,rational_0041,rational,3,"7, -3",False,does_not_satisfy,True,True,False
+actionable,0,rational_0042,rational,1,x = -13/5,False,wrong,True,False,
+actionable,0,rational_0042,rational,2,(no solution),False,unparsable,False,True,False
+actionable,0,rational_0042,rational,3,"19, -42",False,wrong,True,True,True
+actionable,0,rational_0043,rational,1,x = -8,False,wrong,True,False,
+actionable,0,rational_0043,rational,2,"-8, 7",False,wrong,True,True,False
+actionable,0,rational_0043,rational,3,thisanswer = -20/3,False,unparsable,False,True,False
+actionable,0,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+actionable,0,rational_0044,rational,2,thisanswer -6,False,unparsable,False,True,False
+actionable,0,rational_0044,rational,3,This answer is wrong. The solution cannot be evaluated without additional tools for solving linear equations with variables on both sides. The final answer is no solution.,False,unparsable,False,True,True
+actionable,1,linear_0000,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0000,linear,2,x = -2/3.,True,correct,True,True,True
+actionable,1,linear_0001,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0001,linear,2,x = -3/2,True,correct,True,True,True
+actionable,1,linear_0002,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0002,linear,2,no solution,False,incomplete,True,False,True
+actionable,1,linear_0002,linear,3,This is a linear equation with a slope of -3. Setting the constant term equal to zero gives the solution. The answer is -3.,False,unparsable,False,True,True
+actionable,1,linear_0003,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0003,linear,2,"x = 1/2, x=-1/3.",False,does_not_satisfy,True,True,True
+actionable,1,linear_0003,linear,3,x = 1/2,True,correct,True,True,False
+actionable,1,linear_0004,linear,1,x = 4/5,True,correct,True,False,
+actionable,1,linear_0005,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0005,linear,2,x = 3.,False,wrong,True,True,True
+actionable,1,linear_0005,linear,3,This is correct in its own right. There is no solution. No solution.,False,unparsable,False,True,False
+actionable,1,linear_0006,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0006,linear,2,no solution,False,incomplete,True,False,True
+actionable,1,linear_0006,linear,3,no solution,False,incomplete,True,False,True
+actionable,1,linear_0007,linear,1,x = -8/5,True,correct,True,False,
+actionable,1,linear_0008,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0008,linear,2,"x = 3/4, x = -3/4.",False,wrong,True,True,True
+actionable,1,linear_0008,linear,3,x = 3/4,False,wrong,True,True,False
+actionable,1,linear_0009,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0009,linear,2,x = 4/3,True,correct,True,True,True
+actionable,1,linear_0010,linear,1,x = -4,True,correct,True,False,
+actionable,1,linear_0011,linear,1,x = 9,True,correct,True,False,
+actionable,1,linear_0012,linear,1,no solution,False,incomplete,True,False,
+actionable,1,linear_0012,linear,2,no solution,False,incomplete,True,False,True
+actionable,1,linear_0012,linear,3,no solution,False,incomplete,True,False,True
+actionable,1,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+actionable,1,linear_0013,linear,2,"no solution, 1",False,unparsable,False,True,False
+actionable,1,linear_0013,linear,3,x = 1,True,correct,True,True,False
+actionable,1,linear_0014,linear,1,"This is linear with a coefficient of 3 positive and a constant term positive, so there's a negative solution. The answer is 'no solution'.",False,unparsable,False,False,
+actionable,1,linear_0014,linear,2,x = -10/3,True,correct,True,True,True
+actionable,1,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+actionable,1,quadratic_0016,quadratic,1,x = 1/6,False,wrong,True,False,
+actionable,1,quadratic_0016,quadratic,2,x = 1/6,False,wrong,True,False,False
+actionable,1,quadratic_0016,quadratic,3,thisanswer,False,unparsable,False,True,False
+actionable,1,quadratic_0017,quadratic,1,"x = 2 - sqrt(14), x = 2 + sqrt(14)",False,wrong,True,False,
+actionable,1,quadratic_0017,quadratic,2,"x = 2 - sqrt(14), x = 2 + sqrt(14)",False,wrong,True,False,False
+actionable,1,quadratic_0017,quadratic,3,"sqrt(14) - 2, sqrt(14) + 2",False,wrong,True,True,False
+actionable,1,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+actionable,1,quadratic_0018,quadratic,2,"x = -76.5-29.0625). Adding back the root gives the exact root -76.5-29.0625i. Since these roots are complex and do not correspond to a real number in the domain of this quadratic, there are no real solutions.",False,unparsable,False,True,True
+actionable,1,quadratic_0018,quadratic,3,x = -76.5-29.0625,False,wrong,True,True,True
+actionable,1,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+actionable,1,quadratic_0019,quadratic,2,"x = (-4-sqrt(65))/3, x = (-4+sqrt(65))/3",False,wrong,True,True,True
+actionable,1,quadratic_0019,quadratic,3,x = (-4-sqrt(65))/3,False,wrong,True,True,False
+actionable,1,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+actionable,1,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+actionable,1,quadratic_0021,quadratic,2,"This is a quadratic with a= -3, b=6, c=6. The discriminant (b squared minus four*a*c) is -78, which is negative, so there is no real solution.",False,unparsable,False,True,True
+actionable,1,quadratic_0021,quadratic,3,no solution,False,incomplete,True,True,True
+actionable,1,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+actionable,1,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+actionable,1,quadratic_0023,quadratic,2,"this quadratic has a discriminant negative, so it has no real roots the equation has a root at -1/4, -5/4",False,unparsable,False,True,True
+actionable,1,quadratic_0023,quadratic,3,"x = -5/4, x = -1/4",False,wrong,True,True,True
+actionable,1,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+actionable,1,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+actionable,1,quadratic_0025,quadratic,2,x = -4.0 - 4.0i,False,unparsable,False,True,False
+actionable,1,quadratic_0025,quadratic,3,x = no solution,False,incomplete,True,True,True
+actionable,1,quadratic_0026,quadratic,1,x = -1.,False,does_not_satisfy,True,False,
+actionable,1,quadratic_0026,quadratic,2,"-4,-1",False,does_not_satisfy,True,True,False
+actionable,1,quadratic_0026,quadratic,3,"-1, -4",False,does_not_satisfy,True,True,False
+actionable,1,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+actionable,1,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+actionable,1,quadratic_0029,quadratic,1,x = -5/2,False,wrong,True,False,
+actionable,1,quadratic_0029,quadratic,2,"-4/2 - 3/2, -5/2",False,wrong,True,True,False
+actionable,1,quadratic_0029,quadratic,3,x = -5/2,False,wrong,True,True,False
+actionable,1,rational_0030,rational,1,x = 3,False,wrong,True,False,
+actionable,1,rational_0030,rational,2,x = -3,False,wrong,True,True,False
+actionable,1,rational_0030,rational,3,"-3, no solution",False,unparsable,False,True,False
+actionable,1,rational_0031,rational,1,x = 18/2,False,wrong,True,False,
+actionable,1,rational_0031,rational,2,x = 6.,False,wrong,True,True,False
+actionable,1,rational_0031,rational,3,x = 4,False,wrong,True,True,False
+actionable,1,rational_0032,rational,1,no solution,False,incomplete,True,False,
+actionable,1,rational_0032,rational,2,x = no solution,False,incomplete,True,True,True
+actionable,1,rational_0032,rational,3,"x = -4.5, v1 = -4.5, v2 = 7.8",False,unparsable,False,True,False
+actionable,1,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+actionable,1,rational_0033,rational,2,x = -18/5,False,wrong,True,False,False
+actionable,1,rational_0033,rational,3,"-18/5, no solution",False,unparsable,False,True,False
+actionable,1,rational_0034,rational,1,no solution,False,incomplete,True,False,
+actionable,1,rational_0034,rational,2,no solution,False,incomplete,True,False,True
+actionable,1,rational_0034,rational,3,no solution,False,incomplete,True,False,True
+actionable,1,rational_0035,rational,1,x = 7,False,wrong,True,False,
+actionable,1,rational_0035,rational,2,thisanswer -4 thisanswer / (thisanswer + 3) -4,False,unparsable,False,True,False
+actionable,1,rational_0035,rational,3,no solution thisanswer -4,False,unparsable,False,True,True
+actionable,1,rational_0036,rational,1,x = -9,False,wrong,True,False,
+actionable,1,rational_0036,rational,2,"-9, 5/3",False,wrong,True,True,False
+actionable,1,rational_0036,rational,3,"-9, 5/3",False,wrong,True,False,False
+actionable,1,rational_0037,rational,1,x = -18/2,False,wrong,True,False,
+actionable,1,rational_0037,rational,2,thisanswer -3 thisanswer -10,False,unparsable,False,True,False
+actionable,1,rational_0037,rational,3,"thisanswer (-11/2), thisanswer -5/2",False,unparsable,False,True,True
+actionable,1,rational_0038,rational,1,x = -3/4,False,wrong,True,False,
+actionable,1,rational_0038,rational,2,"-3/4, no solution",False,unparsable,False,True,False
+actionable,1,rational_0038,rational,3,"This is linear and simplifies to -4. The equation has a solution. The final answer is -4, no solution.",False,unparsable,False,True,True
+actionable,1,rational_0039,rational,1,x = 24,False,wrong,True,False,
+actionable,1,rational_0039,rational,2,thisanswer = 5 The equation holds true for this solution.,False,unparsable,False,True,False
+actionable,1,rational_0039,rational,3,no solution Thisanswer is undefined.,False,unparsable,False,True,True
+actionable,1,rational_0040,rational,1,x = -8/3,False,wrong,True,False,
+actionable,1,rational_0040,rational,2,thisanswer = -1/5,False,unparsable,False,True,False
+actionable,1,rational_0040,rational,3,x = -1/5,False,wrong,True,True,True
+actionable,1,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+actionable,1,rational_0041,rational,2,"3, -2",False,does_not_satisfy,True,True,False
+actionable,1,rational_0041,rational,3,"3, -2",False,does_not_satisfy,True,False,False
+actionable,1,rational_0042,rational,1,x = -13/17,False,wrong,True,False,
+actionable,1,rational_0042,rational,2,thisanswer -58/49,False,unparsable,False,True,False
+actionable,1,rational_0042,rational,3,This answer is already correct after all work was done. The final answer is -58/49.,False,unparsable,False,True,True
+actionable,1,rational_0043,rational,1,x = -8/2,False,wrong,True,False,
+actionable,1,rational_0043,rational,2,"-8/2, no solution",False,unparsable,False,True,False
+actionable,1,rational_0043,rational,3,"x = -8/2, no solution.",False,unparsable,False,True,True
+actionable,1,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+actionable,1,rational_0044,rational,2,thisanswer -6,False,unparsable,False,True,False
+actionable,1,rational_0044,rational,3,"This is correct. The solution is -6, no solution. The final answer is -6, no solution.",False,unparsable,False,True,True
+actionable,2,linear_0000,linear,1,no solution,False,incomplete,True,False,
+actionable,2,linear_0000,linear,2,x = 8,False,wrong,True,True,True
+actionable,2,linear_0000,linear,3,x = -2/3,True,correct,True,True,False
+actionable,2,linear_0001,linear,1,(no solution),False,unparsable,False,False,
+actionable,2,linear_0001,linear,2,x = 3/2,False,wrong,True,True,True
+actionable,2,linear_0001,linear,3,"-2/3, no solution",False,unparsable,False,True,False
+actionable,2,linear_0002,linear,1,no solution,False,incomplete,True,False,
+actionable,2,linear_0002,linear,2,x = no solution.,False,incomplete,True,True,True
+actionable,2,linear_0002,linear,3,x = 3,True,correct,True,True,True
+actionable,2,linear_0003,linear,1,no solution,False,incomplete,True,False,
+actionable,2,linear_0003,linear,2,x = no solution,False,incomplete,True,True,True
+actionable,2,linear_0003,linear,3,"x = 1/2, x = -1/3.",False,does_not_satisfy,True,True,True
+actionable,2,linear_0004,linear,1,x = -4/5,False,wrong,True,False,
+actionable,2,linear_0004,linear,2,"-4/5, no solution",False,unparsable,False,True,False
+actionable,2,linear_0004,linear,3,"this equation can be solved easily. adding 4 to both sides moves the constant term to the right. dividing by 5 is just an adhesive bond holding the variable tied to the denominator. finally, the inverse of that fraction undoes the adhesive bonding. this gives the value of x single-solved.",False,unparsable,False,True,True
+actionable,2,linear_0005,linear,1,x = 7,True,correct,True,False,
+actionable,2,linear_0006,linear,1,no solution,False,incomplete,True,False,
+actionable,2,linear_0006,linear,2,no solution,False,incomplete,True,False,True
+actionable,2,linear_0006,linear,3,x = -3/4,True,correct,True,True,True
+actionable,2,linear_0007,linear,1,no solution,False,incomplete,True,False,
+actionable,2,linear_0007,linear,2,x = -8/5,True,correct,True,True,True
+actionable,2,linear_0008,linear,1,no solution,False,incomplete,True,False,
+actionable,2,linear_0008,linear,2,x = 3/4.,False,wrong,True,True,True
+actionable,2,linear_0008,linear,3,x = 3/4,False,wrong,True,True,False
+actionable,2,linear_0009,linear,1,x = 8/3,False,wrong,True,False,
+actionable,2,linear_0009,linear,2,x = 8/3,False,wrong,True,False,False
+actionable,2,linear_0009,linear,3,x = 8/3,False,wrong,True,False,False
+actionable,2,linear_0010,linear,1,"This is linear with a coefficient of 2 negative 8, so the equation has no solution. The answer is 'no solution'.",False,unparsable,False,False,
+actionable,2,linear_0010,linear,2,x = -4,True,correct,True,True,True
+actionable,2,linear_0011,linear,1,x = 9,True,correct,True,False,
+actionable,2,linear_0012,linear,1,x = 2,False,wrong,True,False,
+actionable,2,linear_0012,linear,2,"-3, 2",False,wrong,True,True,False
+actionable,2,linear_0012,linear,3,"-3, 2",False,wrong,True,False,False
+actionable,2,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+actionable,2,linear_0013,linear,2,"no solution, 1",False,unparsable,False,True,False
+actionable,2,linear_0013,linear,3,x = 1/5. The final answer is x = 1/5.,False,unparsable,False,True,True
+actionable,2,linear_0014,linear,1,x = -3. 5,False,wrong,True,False,
+actionable,2,linear_0014,linear,2,x = -10,False,wrong,True,True,False
+actionable,2,linear_0014,linear,3,"-10, 5/3",False,wrong,True,True,False
+actionable,2,quadratic_0015,quadratic,1,x = -1/2,False,does_not_satisfy,True,False,
+actionable,2,quadratic_0015,quadratic,2,"-1/2, 5/2",False,does_not_satisfy,True,True,False
+actionable,2,quadratic_0015,quadratic,3,no solution,True,correct,True,True,False
+actionable,2,quadratic_0016,quadratic,1,x = -1/2-sqrt(5)/1,False,wrong,True,False,
+actionable,2,quadratic_0016,quadratic,2,thisanswer -1/2,False,unparsable,False,True,False
+actionable,2,quadratic_0016,quadratic,3,"thisanswer is 0, -1/2",False,unparsable,False,True,True
+actionable,2,quadratic_0017,quadratic,1,no solution,False,incomplete,True,False,
+actionable,2,quadratic_0017,quadratic,2,x = (-8- sqrt(4*(-1)*7+325)/2+(sqrt(4*(-1)*7+325))/2-i*sqrt(-4*(1*-7-6*sqrt(4*(-1)*7+325))+4*(199-325)**2/4)/(2*(-1))+i*sqrt(-4*(1*-7-6*sqrt(4*(-1)*7+325))+4*(1,False,unparsable,False,True,False
+actionable,2,quadratic_0017,quadratic,3,x = (8+sqrt(4*(-1)*7+325))/2+i*(sqrt(4*(-1)*7+325)-8+sqrt(4*(-1)*7+325))/2,False,unparsable,False,True,False
+actionable,2,quadratic_0018,quadratic,1,"x = -1/2 + sqrt(-769)/2, x = -sqrt(-769)/2 - 1/2",False,wrong,True,False,
+actionable,2,quadratic_0018,quadratic,2,x = -1/2 - sqrt(-769)/2,False,wrong,True,True,False
+actionable,2,quadratic_0018,quadratic,3,thisanswer -1/2+isqrt(769)/2,False,unparsable,False,True,False
+actionable,2,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+actionable,2,quadratic_0019,quadratic,2,"x = -2,-1/3",False,wrong,True,True,True
+actionable,2,quadratic_0019,quadratic,3,"thisanswer -2,-1/3",False,unparsable,False,True,False
+actionable,2,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+actionable,2,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+actionable,2,quadratic_0021,quadratic,2,"This is a quadratic with a=-(coefficient of x^2), b=coefficient of x, c=constant. The discriminant (b squared minus four*a*c) is negative, so there is no real solution. The roots are negative and negative/positive. Their product is negative, so one is positive and one is negative. Subtracting this negative from -6 gives the other root. Put it all together to get the answer. (-3*(1/2 - sqrt(5)/2) - sqrt(41)/2, -sqrt(41)/2 - (1/2 + sqrt(5)/2))",False,unparsable,False,True,False
+actionable,2,quadratic_0021,quadratic,3,"-1 + sqrt(5)/2, -sqrt(5)/2 - 1",False,wrong,True,True,False
+actionable,2,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+actionable,2,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+actionable,2,quadratic_0023,quadratic,2,x = no solution is correct.,False,unparsable,False,True,True
+actionable,2,quadratic_0023,quadratic,3,"x = 1/2, -3/4",False,wrong,True,True,True
+actionable,2,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+actionable,2,quadratic_0025,quadratic,1,x = -1/2,False,wrong,True,False,
+actionable,2,quadratic_0025,quadratic,2,"-1/2, 3/2",False,wrong,True,True,False
+actionable,2,quadratic_0025,quadratic,3,"thisanswer, nosolution = -1/2, 3/2",False,unparsable,False,True,False
+actionable,2,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+actionable,2,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+actionable,2,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+actionable,2,quadratic_0029,quadratic,1,x = -5/4,False,wrong,True,False,
+actionable,2,quadratic_0029,quadratic,2,-4/1 = (-4/1)*(4/1)*(1/2) + (-4/1)*(3/2)*(1/2) + (5/2)*(1/2) + 5 = 0,False,unparsable,False,True,False
+actionable,2,quadratic_0029,quadratic,3,"x = -1/2, x = 5/2",False,wrong,True,True,True
+actionable,2,rational_0030,rational,1,x = -7/3,False,wrong,True,False,
+actionable,2,rational_0030,rational,2,thisanswer -7/3,False,unparsable,False,True,False
+actionable,2,rational_0030,rational,3,finalanswer,False,unparsable,False,True,True
+actionable,2,rational_0031,rational,1,x = -20/3,False,wrong,True,False,
+actionable,2,rational_0031,rational,2,This is correct in its own right. There is no solution to this equation.,False,unparsable,False,True,False
+actionable,2,rational_0031,rational,3,x = 8,False,wrong,True,True,True
+actionable,2,rational_0032,rational,1,x = 27/4,False,wrong,True,False,
+actionable,2,rational_0032,rational,2,thisanswer,False,unparsable,False,True,False
+actionable,2,rational_0032,rational,3,"finalanswer = 5 + 3*(x-6), 50",False,unparsable,False,True,True
+actionable,2,rational_0033,rational,1,x = -18/3,False,extraneous_root,True,False,
+actionable,2,rational_0033,rational,2,x = -6,False,extraneous_root,True,True,False
+actionable,2,rational_0033,rational,3,-6 is the solution.,False,unparsable,False,True,False
+actionable,2,rational_0034,rational,1,x = -1/3,False,wrong,True,False,
+actionable,2,rational_0034,rational,2,thisanswer -4,False,unparsable,False,True,False
+actionable,2,rational_0034,rational,3,This is correct. The solution is -4. No such solution exists. The answer is -4.,False,unparsable,False,True,True
+actionable,2,rational_0035,rational,1,x = 6,False,wrong,True,False,
+actionable,2,rational_0035,rational,2,thisanswer -4 thisanswer / (thisanswer + 3) -4,False,unparsable,False,True,False
+actionable,2,rational_0035,rational,3,no solution thisanswer -4 thisanswer / (thisanswer + 3),False,unparsable,False,True,True
+actionable,2,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+actionable,2,rational_0036,rational,2,thisanswer,False,unparsable,False,True,False
+actionable,2,rational_0036,rational,3,This is inconsistent. Thisis incorrect. No solution.,False,unparsable,False,True,True
+actionable,2,rational_0037,rational,1,x = -14,False,wrong,True,False,
+actionable,2,rational_0037,rational,2,no solution,False,incomplete,True,True,False
+actionable,2,rational_0037,rational,3,no solution,False,incomplete,True,False,True
+actionable,2,rational_0038,rational,1,x = -3/2,False,wrong,True,False,
+actionable,2,rational_0038,rational,2,"-3/2, no solution",False,unparsable,False,True,False
+actionable,2,rational_0038,rational,3,This is linear and has an undefined coefficient for x. The solution is -3/2. No solution.,False,unparsable,False,True,True
+actionable,2,rational_0039,rational,1,x = -14/5,False,wrong,True,False,
+actionable,2,rational_0039,rational,2,This is correct in its own right. There is no solution to this equation.,False,unparsable,False,True,False
+actionable,2,rational_0039,rational,3,x = 10,False,wrong,True,True,True
+actionable,2,rational_0040,rational,1,x = 8,False,wrong,True,False,
+actionable,2,rational_0040,rational,2,x = 8. No solution.,False,unparsable,False,True,False
+actionable,2,rational_0040,rational,3,x = 8,False,wrong,True,True,True
+actionable,2,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+actionable,2,rational_0041,rational,2,x = 2,False,does_not_satisfy,True,False,False
+actionable,2,rational_0041,rational,3,"This is linear and has an undefined coefficient for x. It's true for both 0 and 6. Subtract 8 from both sides to start simplifying. Solve the resulting linear equation for x. X = 2, -8",False,unparsable,False,True,False
+actionable,2,rational_0042,rational,1,x = -2,False,wrong,True,False,
+actionable,2,rational_0042,rational,2,"-2, 9/2",False,wrong,True,True,False
+actionable,2,rational_0042,rational,3,"thisanswer = -3, 8",False,unparsable,False,True,False
+actionable,2,rational_0043,rational,1,x = -14/2,False,wrong,True,False,
+actionable,2,rational_0043,rational,2,(thisanswer),False,unparsable,False,True,False
+actionable,2,rational_0043,rational,3,no solution,False,incomplete,True,True,True
+actionable,2,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+actionable,2,rational_0044,rational,2,thisanswer = -7/2,False,unparsable,False,True,False
+actionable,2,rational_0044,rational,3,x = -7/2,False,wrong,True,True,True
+constrained,0,linear_0000,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0000,linear,2,"x = -2/3. So, this is one root of the equation. The other root cannot be determined from the equation as it does not exist. Answer on single line. x = -2/3",False,unparsable,False,True,True
+constrained,0,linear_0000,linear,3,x = -2/3. This is one root. There is no other real root. Answer on single line. -2/3,False,unparsable,False,True,True
+constrained,0,linear_0001,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0001,linear,2,x = 3. Divide by -2: x = -1.5. No other roots. The answer is x = -1.5.,False,unparsable,False,True,True
+constrained,0,linear_0001,linear,3,This is linear with a -constant term. Solve for x. -1.5,False,unparsable,False,True,True
+constrained,0,linear_0002,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0002,linear,2,"x = 0. Adding 9 to both sides removes the constant term, dividing by -3 isolates the variable. This works for all x, so the solution is present and does not require listing. The answer is x = no solution.",False,unparsable,False,True,False
+constrained,0,linear_0002,linear,3,"x = v1, v2' or 'x = no solution'. No solution.",False,unparsable,False,True,False
+constrained,0,linear_0003,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0003,linear,2,"x = 0. Adding 3 to both sides moves the constant term to the right side, then dividing by -6 solves the day-day equation for x. This works because (-6/(-6)) * (-3/(-6)) = 1. So, this solution has not been included as requested. The answer is x = no solution.",False,unparsable,False,True,False
+constrained,0,linear_0003,linear,3,"x = 0. x = 1/2, no solution.",False,unparsable,False,True,True
+constrained,0,linear_0004,linear,1,"This is linear with a coefficient of 5 negative 4, so the solution is positive. X = 4/5.",False,unparsable,False,False,
+constrained,0,linear_0004,linear,2,x = 4. Divide both sides by 5 to solve for x. This results in x = 4/5. So the final answer is x = 4/5.,False,unparsable,False,True,True
+constrained,0,linear_0004,linear,3,"x = 4, divide by 5. No solution.",False,unparsable,False,True,True
+constrained,0,linear_0005,linear,1,x = 7,True,correct,True,False,
+constrained,0,linear_0006,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0006,linear,2,x = 3. Divide by -4: x = -3/4. The answer is x = -3/4.,False,unparsable,False,True,True
+constrained,0,linear_0006,linear,3,x = -3/4.,True,correct,True,True,True
+constrained,0,linear_0007,linear,1,x = -8/5.,True,correct,True,False,
+constrained,0,linear_0008,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0008,linear,2,"x = 0. Adding 9 to both sides moves the constant term to the right side, then dividing by -4 solves for the variable. This works because (-4/(-4)) = 1. The answer is no solution.",False,unparsable,False,True,False
+constrained,0,linear_0008,linear,3,"x = v1, v2. no solution",False,unparsable,False,True,False
+constrained,0,linear_0009,linear,1,x = 4,False,wrong,True,False,
+constrained,0,linear_0009,linear,2,x = 8. Divide by 6: x = 4/3. This matches the proposed answer exactly. No solution.,False,unparsable,False,True,False
+constrained,0,linear_0009,linear,3,x = 4/3. There is no solution.,False,unparsable,False,True,True
+constrained,0,linear_0010,linear,1,x = -4.,True,correct,True,False,
+constrained,0,linear_0011,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0011,linear,2,"x = 9. No additional roots are present. So, the answer is x = 9.",False,unparsable,False,True,True
+constrained,0,linear_0011,linear,3,x = 9,True,correct,True,True,True
+constrained,0,linear_0012,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0012,linear,2,Given equation is -3*x - 6 = 0. Adding 6 to both sides moves the constant term to the right side. Adding 3 times the unknown to both sides (multiplying through by the opposite number) isolates the unknown completely. Dividing both sides by -3 (multiplied by -1) solves for the unknown. This step has been taken and the result is the value of the unknown variable. The final answer is this value.,False,unparsable,False,True,False
+constrained,0,linear_0012,linear,3,Given equation is -3*x - 6 = 0. Adding 6 to both sides moves the constant term to the right side. Adding 3 times the unknown to both sides (multiplying through by the opposite number) isolates the unknown completely. This step has been taken and the result is the value of the unknown variable. This step does not solve for the variable but represents the inverse operation needed to isolate it. This step has been taken and the result is the value of the unknown variable. This step is correct now that we know what the unknown is. The final answer is this value.,False,unparsable,False,True,True
+constrained,0,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+constrained,0,linear_0013,linear,2,x = 1,True,correct,True,True,False
+constrained,0,linear_0014,linear,1,no solution,False,incomplete,True,False,
+constrained,0,linear_0014,linear,2,Given equation is 3*x + 10 = 0. Subtract 10 from both sides to put the equation in slope-intercept form (y = mx+b). Solve for x. This problem has one solution. The equation is linear.,False,unparsable,False,True,False
+constrained,0,linear_0014,linear,3,"x = -10/3, no solution.",False,unparsable,False,True,True
+constrained,0,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+constrained,0,quadratic_0016,quadratic,1,no solution,False,incomplete,True,False,
+constrained,0,quadratic_0016,quadratic,2,"x = ±sqrt(3). So the final answer is x = -sqrt(3), x = sqrt(3).",False,unparsable,False,True,True
+constrained,0,quadratic_0016,quadratic,3,"x = -sqrt(3), x = sqrt(3). The final answer is x = -sqrt(3), x = sqrt(3).",False,unparsable,False,True,True
+constrained,0,quadratic_0017,quadratic,1,"x = 4 - sqrt(36/1-4*1*7)/2, -sqrt(36/1-4*1*7)/2",False,wrong,True,False,
+constrained,0,quadratic_0017,quadratic,2,"x = 4 - sqrt(36/1-4*1*7)/2), which simplifies to (x = 4 - 9/2). This matches our proposed solution. Therefore, the final answer is x = 4 - 9/2.",False,unparsable,False,True,False
+constrained,0,quadratic_0017,quadratic,3,"This is quadratic with a=1,b=-8,c=7. The discriminant (b squared minus four*a*c) is -56. Applying the quadratic formula (negative b, plus or minus the square root of the discriminant, all over two a) gives the two solutions x1=(-b+sqrt(b squared minus four*a*c)) divided by two and x2=(-b-sqrt(b squared minus four*a*c)) divided by two. Plugging in the values found above matches one of these square roots. So x equals -(this value plus the other square root of the discriminant) divided by two, times this value. Simplified, this is -(this value + the negative of the positive square root of 56",False,unparsable,False,True,False
+constrained,0,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+constrained,0,quadratic_0018,quadratic,2,"Given equation is 2*x**2 - x - 8 = 0 which has roots (-4+sqrt(37}, -4-sqrt(37)). So the answer is no solution.",False,unparsable,False,True,False
+constrained,0,quadratic_0018,quadratic,3,"This is quadratic with a=2, b=-1, c=-8. The discriminant (b squared minus four*a*c) is 625, which is positive, so there are two real roots. The square root of 37 is about 6.08, so the roots are -4+6.08 and -4-sqrt(37). The final answer is -4+6.08, -4-sqrt(37).",False,unparsable,False,True,False
+constrained,0,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+constrained,0,quadratic_0019,quadratic,2,x = no solution.,False,incomplete,True,True,True
+constrained,0,quadratic_0019,quadratic,3,"Given equation is (3*x**2 + 4*x - 8) = 0. This quadratic has a=3, b=4, c=-8. The discriminant (b squared minus four times a times c) is 76. Plugging in the values gives 76 - 4(-3)(-8) equals -950. Subtracting this from twice the absolute value of the discriminant (which is 190) gives the other root, which is negative 7.941176470588235. The result is -7.941176470588235. This matches our initial",False,unparsable,False,True,False
+constrained,0,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+constrained,0,quadratic_0021,quadratic,1,x = -1/3,False,wrong,True,False,
+constrained,0,quadratic_0021,quadratic,2,"Given equation is -3*x**2 + 6*x + 6 = 0. This quadratic has a=-(coefficient of x^2), b=constant coefficient, c=constant term. Plugging in the values gives -18 + (-3) + 6 = -15 ≠ 0, so there isn't a real solution. The question might be misprinted. Wrong. No solution.",False,unparsable,False,True,False
+constrained,0,quadratic_0021,quadratic,3,"This is a quadratic with a negative leading coefficient, so the parabola will intersect the x-axis real with a discriminant between positive and zero. Subtracting the constant from the linear coefficient doesn't change the sign of the discriminant. Solving the result gives both real and complex roots. This was wrong. There isn't a real solution. -15, no solution",False,unparsable,False,True,True
+constrained,0,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+constrained,0,quadratic_0023,quadratic,1,x = -5/8,False,wrong,True,False,
+constrained,0,quadratic_0023,quadratic,2,"Given equation is -4*x**2 + 5*x + 5 = 0. This quadratic has a negative discriminant, so there are no real solutions. The answer is no solution.",False,unparsable,False,True,False
+constrained,0,quadratic_0023,quadratic,3,"This is quadratic with starting coefficient -4, ending coefficient 0, running constant 5. No real solutions.",False,unparsable,False,True,True
+constrained,0,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+constrained,0,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+constrained,0,quadratic_0025,quadratic,2,"Given equation is -2*x**2 - x + 6 = 0. This has roots: x1 = -3/4, x2 = 2. The answer is no solution.",False,unparsable,False,True,False
+constrained,0,quadratic_0025,quadratic,3,"This is quadratic with coefficients -2, -1, and 6. The parabola touches the x-axis at these roots. The answer is -3/4, 2.",False,unparsable,False,True,False
+constrained,0,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+constrained,0,quadratic_0027,quadratic,1,x = no solution,True,correct,True,False,
+constrained,0,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+constrained,0,quadratic_0029,quadratic,1,no solution,False,incomplete,True,False,
+constrained,0,quadratic_0029,quadratic,2,x = -(coefficient of x)/(2* coefficient of x^2,False,unparsable,False,True,False
+constrained,0,quadratic_0029,quadratic,3,"x = 1/8, -5/2",False,wrong,True,True,True
+constrained,0,rational_0030,rational,1,x = -17/3,False,wrong,True,False,
+constrained,0,rational_0030,rational,2,x = -17/3. This matches our proposed solution. No solution. no solution,False,unparsable,False,True,False
+constrained,0,rational_0030,rational,3,"x = -17/3, no solution was incorrect.",False,unparsable,False,True,True
+constrained,0,rational_0031,rational,1,x = -10,False,wrong,True,False,
+constrained,0,rational_0031,rational,2,"x = -10 into the equation makes it true, so -10 is a solution. Checking with x = -49 doesn't work this way, so there is no solution. The answer is no solution.",False,unparsable,False,True,False
+constrained,0,rational_0031,rational,3,Give the inverse of this equation to solve for x. -1 = 5 + x / (x - 3),False,unparsable,False,True,True
+constrained,0,rational_0032,rational,1,x = 21/2,False,wrong,True,False,
+constrained,0,rational_0032,rational,2,x = 33. Dividing both sides by 3 gives x = 11. The answer is x = 11.,False,unparsable,False,True,False
+constrained,0,rational_0032,rational,3,The inverse of the equation was substituted for (x - 6). Simplifying that equation equals 4 times this new variable multiplied by 11 plus 5. Solving that equation for x gave the result 11.,False,unparsable,False,True,True
+constrained,0,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+constrained,0,rational_0033,rational,2,x = -18/5. This matches our proposed answer exactly. No solution.,False,unparsable,False,True,False
+constrained,0,rational_0033,rational,3,"x = -3*(x + 6). Expand the right side, distribute the multiplication, and then add 3*6 to both sides to isolate x. The result is 42 = 19*x. Divide both sides by 19 to solve for x. The answer is x = 42/19.",False,unparsable,False,True,True
+constrained,0,rational_0034,rational,1,x = -1/2,False,wrong,True,False,
+constrained,0,rational_0034,rational,2,"x = -1/2 into the equation computes the result matches the right side, so this is a valid solution. No solution. No answer.",False,unparsable,False,True,False
+constrained,0,rational_0034,rational,3,"x = -1/2. There is no other solution. x = -1/2, no solution.",False,unparsable,False,True,True
+constrained,0,rational_0035,rational,1,x = 7,False,wrong,True,False,
+constrained,0,rational_0035,rational,2,x = 2,False,wrong,True,True,False
+constrained,0,rational_0035,rational,3,x = 2 equals -10/5 ≠ -4. Substituting x = -1 equals -7/2 ≠ -4. The answer is -1.,False,unparsable,False,True,False
+constrained,0,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+constrained,0,rational_0036,rational,2,"x = -30/7 into the equation. This results in solving the linear equation -37/7 = -11/7 for x, which simplifies to -30/7 = -1. This matches the given answer exactly. No solution.",False,unparsable,False,True,False
+constrained,0,rational_0036,rational,3,"Given equation is (5 - x)/(x + 4) = 4. Solving this linear equation for x gives -30/7 = -1. The provided answer does not match this result, so there is no solution. Written answer is no solution.",False,unparsable,False,True,True
+constrained,0,rational_0037,rational,1,x = -14/2,False,wrong,True,False,
+constrained,0,rational_0037,rational,2,x = 7/6,False,wrong,True,True,False
+constrained,0,rational_0037,rational,3,Given equation is -(3*X+4)-(X+5)=-(1). Substituting X=7/6 gives (59/6). The answer is 59/6.,False,unparsable,False,True,False
+constrained,0,rational_0038,rational,1,x = 9,False,wrong,True,False,
+constrained,0,rational_0038,rational,2,"x = -3/2. Thus, the final answer is no solution.",False,unparsable,False,True,False
+constrained,0,rational_0038,rational,3,"x = -3/2, which is confirmed by substitution. So, the final answer is x = -3/2.",False,unparsable,False,True,True
+constrained,0,rational_0039,rational,1,This is linear and has a slope of -1 and a y-intercept of 12. So the solution is 7. No effort required. 7 = 0,False,unparsable,False,False,
+constrained,0,rational_0039,rational,2,This is linear and has a slope of -1 and a y-intercept of 7. So the solution is 7. no solution.,False,unparsable,False,True,True
+constrained,0,rational_0039,rational,3,This is linear and has a slope of -1 and a y-intercept of 7. So the solution is 7. no solution.,False,unparsable,False,False,True
+constrained,0,rational_0040,rational,1,x = -1/3,False,wrong,True,False,
+constrained,0,rational_0040,rational,2,"x = -1/3 into the equation: (-4 - 2)/(-1/3 - 6) = -4 holds true. Thus, the solution is x = -1/3. No solution.",False,unparsable,False,True,False
+constrained,0,rational_0040,rational,3,x = -1/3. No solution.,False,unparsable,False,True,True
+constrained,0,rational_0041,rational,1,x = 4,False,does_not_satisfy,True,False,
+constrained,0,rational_0041,rational,2,"x = -6, no solution",False,unparsable,False,True,False
+constrained,0,rational_0041,rational,3,x = 8. Dividing both sides by 4 yields x = 2. The final answer is x = 2.,False,unparsable,False,True,False
+constrained,0,rational_0042,rational,1,x = -13/5,False,wrong,True,False,
+constrained,0,rational_0042,rational,2,"x = -13/5. This matches our proposed solution. So, the final answer is x = -13/5.",False,unparsable,False,True,False
+constrained,0,rational_0042,rational,3,"x = 28/7, -2.",False,wrong,True,True,True
+constrained,0,rational_0043,rational,1,x = -8,False,wrong,True,False,
+constrained,0,rational_0043,rational,2,x = -8. This matches the proposed solution. No solution.,False,unparsable,False,True,False
+constrained,0,rational_0043,rational,3,"x = -8. Dividing both sides by 4, we find x = -2. The answer is -2.",False,unparsable,False,True,True
+constrained,0,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+constrained,0,rational_0044,rational,2,x = -13/2 into the equation: (-187/2 - 6)/(1 - 1) = -2 does not equal -2. Substitute x = -4 into the equation: (-9/2 - 6)/(-3) = -2 does not equal -2. The answer is no solution.,False,unparsable,False,True,False
+constrained,0,rational_0044,rational,3,"Given equation has no solution. final answer -13/2, no solution",False,unparsable,False,True,True
+constrained,1,linear_0000,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0000,linear,2,x = -2/3.,True,correct,True,True,True
+constrained,1,linear_0001,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0001,linear,2,x = 3. Divide by -2: x = -3/2. No roots. The equation has 1 root. The answer is x = -3/2.,False,unparsable,False,True,False
+constrained,1,linear_0001,linear,3,x = 3/2.,False,wrong,True,True,True
+constrained,1,linear_0002,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0002,linear,2,"x = 0. Adding 9 to both sides moves the constant term to the right side, then dividing by -3 isolates the variable. This works because -3 times -3 equals 9. So, the solution is this equation has been solved using factoring (as shown in the calculation). The answer is x = this equation.",False,unparsable,False,True,False
+constrained,1,linear_0002,linear,3,"x = 0. x = 3, no solution.",False,unparsable,False,True,True
+constrained,1,linear_0003,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0003,linear,2,"x = 0. Adding 3 to both sides moves the constant term to the right side, then dividing by -6 isolates the variable. This works because multiplying by the coefficient of x (which is -6) reverses the inequality when we divide both sides by that same number. So, the solution is this single value.",False,unparsable,False,True,False
+constrained,1,linear_0003,linear,3,"x = 1/2, no solution.",False,unparsable,False,True,True
+constrained,1,linear_0004,linear,1,x = 4/5,True,correct,True,False,
+constrained,1,linear_0005,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0005,linear,2,x = 7,True,correct,True,True,True
+constrained,1,linear_0006,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0006,linear,2,x = 3. Divide both sides by -4 to solve for x. The final answer is x = -3/4.,False,unparsable,False,True,True
+constrained,1,linear_0006,linear,3,"x = 3/4, no solution.",False,unparsable,False,True,True
+constrained,1,linear_0007,linear,1,x = -8/5,True,correct,True,False,
+constrained,1,linear_0008,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0008,linear,2,"x = 0. Adding 9 to both sides moves the constant term to the right side. Dividing by -4 reverses the inequality. Therefore, the first root is (-9/4). The final answer is x = (-9/4).",False,unparsable,False,True,False
+constrained,1,linear_0008,linear,3,"x = 0. Solving for x yields: x = 9/4. Therefore, the final answer is x = 9/4.",False,unparsable,False,True,True
+constrained,1,linear_0009,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0009,linear,2,x = 4.,False,wrong,True,True,True
+constrained,1,linear_0009,linear,3,x = 8. Divide by 6: x = 4/3. There was an error calculating this; this solves the equation. The answer is x = 4/3.,False,unparsable,False,True,False
+constrained,1,linear_0010,linear,1,x = -4,True,correct,True,False,
+constrained,1,linear_0011,linear,1,x = 9,True,correct,True,False,
+constrained,1,linear_0012,linear,1,no solution,False,incomplete,True,False,
+constrained,1,linear_0012,linear,2,x = 6. Divide by -3: x = -2. No other roots. The answer is x = -2.,False,unparsable,False,True,True
+constrained,1,linear_0012,linear,3,"x = 6, dividing by -3 isolates x to find the final answer is x = -2, no solution.",False,unparsable,False,True,True
+constrained,1,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+constrained,1,linear_0013,linear,2,x = 5. Divide by 5: x = 1. The answer is x = 1.,False,unparsable,False,True,False
+constrained,1,linear_0013,linear,3,"x = 1, no solution.",False,unparsable,False,True,False
+constrained,1,linear_0014,linear,1,"This is linear with a coefficient of 3 positive and a constant term positive, so there's a negative solution. The answer is 'no solution'.",False,unparsable,False,False,
+constrained,1,linear_0014,linear,2,"This is linear with a coefficient of 3 positive and a constant term positive, so there's a negative solution. The answer is -5.777777777777778.",False,unparsable,False,True,True
+constrained,1,linear_0014,linear,3,"x = v1, v2' or 'no solution'. So the solution is -5.777777777777778, no solution.",False,unparsable,False,True,False
+constrained,1,quadratic_0015,quadratic,1,no solution,True,correct,True,False,
+constrained,1,quadratic_0016,quadratic,1,x = 1/6,False,wrong,True,False,
+constrained,1,quadratic_0016,quadratic,2,"x = sqrt(3), but this doesn't satisfy the original equation. Work shows this is incorrect. Final answer on single line no solution. sqrt(3)",False,unparsable,False,True,False
+constrained,1,quadratic_0016,quadratic,3,"x = sqrt(3), x = -sqrt(3). Thus, the final answer is x = sqrt(3), with no solution if considering real numbers only.",False,unparsable,False,True,True
+constrained,1,quadratic_0017,quadratic,1,"x = 2 - sqrt(14), x = 2 + sqrt(14)",False,wrong,True,False,
+constrained,1,quadratic_0017,quadratic,2,"x = 1 and x = 7. The answer is 1,7.",False,unparsable,False,True,False
+constrained,1,quadratic_0017,quadratic,3,"x = 1 and x = 7. The answer is x = 1,7.",False,unparsable,False,True,False
+constrained,1,quadratic_0018,quadratic,1,no solution,False,incomplete,True,False,
+constrained,1,quadratic_0018,quadratic,2,"x = -1/2 (-3, 7/2)",False,unparsable,False,True,True
+constrained,1,quadratic_0018,quadratic,3,"x = [-b ± sqrt(b^2 - 4ac)] / (2a), where a=2, b=-1, c=-8. Plugging these values into the quadratic formula gives the solution x = -1/2 (-3, 7/2). The answer is -1/2 (-3, 7/2).",False,unparsable,False,True,False
+constrained,1,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+constrained,1,quadratic_0019,quadratic,2,"Given equation is 3*x^2 + 4*x - 8 = 0 which has roots (-2+√17, -2-√17). No other real roots. Linear combination of roots gives the solution. 19/3 - 17/3 the answer.",False,unparsable,False,True,False
+constrained,1,quadratic_0019,quadratic,3,Give the quadratic formula approach an attempt at solving this step. This gives the result 2*(x - (-2+sqrt(17)))*(x - (-2-sqrt(17)))=0. The final answer is 2*(x + 2- sqrt(17))(x + 2+ sqrt(17))=0.,False,unparsable,False,True,False
+constrained,1,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+constrained,1,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+constrained,1,quadratic_0021,quadratic,2,"x = (-6/1)/(2*(-3)), this gives -1.5",False,unparsable,False,True,False
+constrained,1,quadratic_0021,quadratic,3,"x = -1.5, with no solution.",False,unparsable,False,True,True
+constrained,1,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+constrained,1,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+constrained,1,quadratic_0023,quadratic,2,"Given equation is -4*x**2 + 5*x + 5 = 0. This has roots (sqrt(5)/4 - sqrt(5)/8, sqrt(5)/4 + sqrt(5)/8). There is no other root.",False,unparsable,False,True,False
+constrained,1,quadratic_0023,quadratic,3,"This is quadratic with a=-4, b=5,c=5. The discriminant (b squared minus four*a*c) is 369/64 + 15*5/4 + 25. Dividing through by 369 gives the discriminant divided by 369, which matches the coefficient of x but with the negative sign. Subtracting this from 2*b gives you the sum of the roots split between real and complex..Dividing that by -4 gives one value. Since one of the roots is negative, that determines the other. The square root term can be removed to find the other root. That's one way to solve this equation completely.",False,unparsable,False,True,False
+constrained,1,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+constrained,1,quadratic_0025,quadratic,1,no solution,False,incomplete,True,False,
+constrained,1,quadratic_0025,quadratic,2,"Given equation is -2*x**2 - x + 6 = 0. This has roots: x1 = -3/4, x2 = 2. The answer is no solution.",False,unparsable,False,True,False
+constrained,1,quadratic_0025,quadratic,3,"This is quadratic with a = -2, b = -1, c = 6. Using the formula -b ± sqrt(b^2 - 4ac) / (2a), we get the two roots x1 = -3/4, x2 = 2. The answer is no solution.",False,unparsable,False,True,False
+constrained,1,quadratic_0026,quadratic,1,x = -1.,False,does_not_satisfy,True,False,
+constrained,1,quadratic_0026,quadratic,2,x = -3,False,does_not_satisfy,True,True,False
+constrained,1,quadratic_0026,quadratic,3,"This is quadratic with a=-4, b=-1, c=-4. The answer is 3/2.",False,unparsable,False,True,False
+constrained,1,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+constrained,1,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+constrained,1,quadratic_0029,quadratic,1,x = -5/2,False,wrong,True,False,
+constrained,1,quadratic_0029,quadratic,2,"x = 5/2 into the equation computes that it does not satisfy the right hand side. Therefore, there is no solution.",False,unparsable,False,True,False
+constrained,1,quadratic_0029,quadratic,3,"Given equation is -4*x**2 - 6*x + 5 = 0. This can be solved by completing the square. The discriminant (b^2 - 4ac) is negative, so there is no real solution. Final answer: no solution.",False,unparsable,False,True,False
+constrained,1,rational_0030,rational,1,x = 3,False,wrong,True,False,
+constrained,1,rational_0030,rational,2,x = -1. The answer is no solution.,False,unparsable,False,True,False
+constrained,1,rational_0030,rational,3,"Given equation is (x + 5)/(x + 2) = 2. Cross-multiplying yields (x + 5) * 2 = 2 * (x + 2). Simplifying both sides gives 2x + 10 = 2x + 4. Subtracting 2x from both sides results in 10 = 2. Subtracting 10 from both sides gives 9 = -6. Dividing both sides by -6 gives -1.5 = x. The answer is -1.5, no solution.",False,unparsable,False,True,False
+constrained,1,rational_0031,rational,1,x = 18/2,False,wrong,True,False,
+constrained,1,rational_0031,rational,2,x = 18/2 into original equation: (5 - 18/2)/(-18/2 + 3) = -5 holds true. Final answer on single line no solution.,False,unparsable,False,True,False
+constrained,1,rational_0031,rational,3,"x = 18/2, no solution.",False,unparsable,False,True,True
+constrained,1,rational_0032,rational,1,no solution,False,incomplete,True,False,
+constrained,1,rational_0032,rational,2,x = 8,False,wrong,True,True,True
+constrained,1,rational_0032,rational,3,"x = 8 into the equation: left-hand side equals right-hand side. Therefore, the solution is found by dividing the result by 5. The final answer is x = 8/5.",False,unparsable,False,True,False
+constrained,1,rational_0033,rational,1,x = -18/5,False,wrong,True,False,
+constrained,1,rational_0033,rational,2,"x = -18/5 into the original equation makes it true, so this is a correct solution. The answer is -18/5.",False,unparsable,False,True,False
+constrained,1,rational_0033,rational,3,Given 5*x/(x + 6)=-3 solves to -18/5. no solution.,False,unparsable,False,True,True
+constrained,1,rational_0034,rational,1,no solution,False,incomplete,True,False,
+constrained,1,rational_0034,rational,2,"x = 24. Finally, divide both sides by 9 to solve for x, which gives x = 8/3. The answer is no solution.",False,unparsable,False,True,True
+constrained,1,rational_0034,rational,3,x = 8/3. There is no solution.,False,unparsable,False,True,True
+constrained,1,rational_0035,rational,1,x = 7,False,wrong,True,False,
+constrained,1,rational_0035,rational,2,"x = 7 into the equation: left-hand side equals 28, right-hand side equals 28. Therefore, the solution is x = 7. No solution.",False,unparsable,False,True,False
+constrained,1,rational_0035,rational,3,"x = v1, v2' or 'x = no solution'. 50*x + 16 = 329/3 50*x = 329/3 - 16 2*x = (329/3 - 16)/50 2*x = (303/3 - 16)/50 2*x = (101 - 16)/50 2*x = 85/50 2*x = 17/10 2*x = 17/10 2*x = 17/10 2*x = 1",False,unparsable,False,True,False
+constrained,1,rational_0036,rational,1,x = -9,False,wrong,True,False,
+constrained,1,rational_0036,rational,2,x = -9,False,wrong,True,False,False
+constrained,1,rational_0036,rational,3,"x = -9 into the equation: (5 - (-9))/(-(9) - 4) = 4. This matches the original equation, so this is a duplicate root. The answer is no solution.",False,unparsable,False,True,False
+constrained,1,rational_0037,rational,1,x = -18/2,False,wrong,True,False,
+constrained,1,rational_0037,rational,2,"Given equation is -(3*X+4) = -6-5*X. Substituting X=-1 gives (-3*-1 - 4) = -1. Simplifying this equations left side leads to 7 = -1, which is definitely not true. Therefore the answer is no solution.",False,unparsable,False,True,False
+constrained,1,rational_0037,rational,3,"Given equation is -(3*X+4) = -6-5*X. Substituting X=-1 gives (-3*-1 + 4) = -1. Simplifying this equation gives 7 = -1, which is definitely not true. Therefore, the answer is no solution.",False,unparsable,False,True,True
+constrained,1,rational_0038,rational,1,x = -3/4,False,wrong,True,False,
+constrained,1,rational_0038,rational,2,"x = 21. Dividing both sides by 2 gives x = 10.5. This matches our derived x = 10.5 from solving the original equation. Therefore, the answer is x = 10.5.",False,unparsable,False,True,False
+constrained,1,rational_0038,rational,3,"x = 21. The provided answer does not match this result. This matches our calculation. Therefore, the answer is 21.",False,unparsable,False,True,True
+constrained,1,rational_0039,rational,1,x = 24,False,wrong,True,False,
+constrained,1,rational_0039,rational,2,x = 3(x + 6) - 18. Distribute the 3 on the right gives -x = 3x + 18 - 18. Combine like terms gives -4x = 0. Divide both sides by -4 to solve for x. This gives x = 0. The answer is x = 0.,False,unparsable,False,True,False
+constrained,1,rational_0039,rational,3,x = -2. The final answer is x = -2.,False,unparsable,False,True,True
+constrained,1,rational_0040,rational,1,x = -8/3,False,wrong,True,False,
+constrained,1,rational_0040,rational,2,"x = -8/3 into the equation gives 0 = 0, which is linear and valid. Thus, the solution is x = -8/3. No need to remove or replace existing symbols. Answer: -8/3",False,unparsable,False,True,False
+constrained,1,rational_0040,rational,3,x = -8/3. No solution. no solution,False,unparsable,False,True,True
+constrained,1,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+constrained,1,rational_0041,rational,2,"x = 2 yields 0 ≠ 0. Therefore, there is no solution. The answer is no solution.",False,unparsable,False,True,False
+constrained,1,rational_0041,rational,3,The equation has a domain restriction (x cannot be equal to 2). This means the equation has no solution. no solution,False,unparsable,False,True,False
+constrained,1,rational_0042,rational,1,x = -13/17,False,wrong,True,False,
+constrained,1,rational_0042,rational,2,x = -13/17.,False,wrong,True,True,False
+constrained,1,rational_0042,rational,3,"x = -13/17 into the equation yields -2, which is equal to the right hand side of the original equation. Therefore, this solution is correct. The answer is -13/17.",False,unparsable,False,True,False
+constrained,1,rational_0043,rational,1,x = -8/2,False,wrong,True,False,
+constrained,1,rational_0043,rational,2,x = -8/2. This matches our proposed solution. There are no other values to substitute. No solution.,False,unparsable,False,True,False
+constrained,1,rational_0043,rational,3,x = -8/2. This matches our proposed solution. There are no other values to substitute. No solution.,False,unparsable,False,False,True
+constrained,1,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+constrained,1,rational_0044,rational,2,"x = -13/2 into the equation: -2 ≠ -4. This is incorrect, got to be 9 instead of -4. Work shows this is where everything balances out. The correct solution is x = 9.",False,unparsable,False,True,False
+constrained,1,rational_0044,rational,3,x = 4. Divide both sides by 7: x = 4/7. Final answer: x = 4/7.,False,unparsable,False,True,True
+constrained,2,linear_0000,linear,1,no solution,False,incomplete,True,False,
+constrained,2,linear_0000,linear,2,"x = -2/3. No roots found. The equation has one solution. This corresponds to the first root in this case. So, the answer is x = -2/3.",False,unparsable,False,True,True
+constrained,2,linear_0000,linear,3,This is an example problem. The linear equation 3x + 2 equals 0. Solve for x and that's the result. no solution,False,unparsable,False,True,False
+constrained,2,linear_0001,linear,1,(no solution),False,unparsable,False,False,
+constrained,2,linear_0001,linear,2,x = 3. Divide by -2: x = -1.5. The answer is x = -1.5.,False,unparsable,False,True,True
+constrained,2,linear_0001,linear,3,x = -1.5.,False,unparsable,False,True,True
+constrained,2,linear_0002,linear,1,no solution,False,incomplete,True,False,
+constrained,2,linear_0002,linear,2,"x = 0. Adding 9 to both sides removes the constant term, multiplying by -1 reverses the inequality. This gives -3 times the linear coefficient plus the constant term equals zero, or -3*x equals -9. Dividing both sides by -3 isolates x. The answer is x = 3.",False,unparsable,False,True,False
+constrained,2,linear_0002,linear,3,"x = 0. Solving for x, subtracts 9 from both sides resulting in -3 times the unknown variable equals -9. Divides both sides by -3 isolating the unknown variable. Therefore, the answer is x = 3.",False,unparsable,False,True,True
+constrained,2,linear_0003,linear,1,no solution,False,incomplete,True,False,
+constrained,2,linear_0003,linear,2,"x = 0. Adding 3 to both sides moves the constant term to the right side. Dividing by -6 undoes the coefficient of the variable term. So, 3/(-6) = -1/2 on the left makes the equation valid when this value is substituted for x. This gives the first root -1/6. The second root can be found by setting the expression equal to that first root and solving for x, which yields -7/6. Therefore, the final answer is x = -7/6.",False,unparsable,False,True,False
+constrained,2,linear_0003,linear,3,"x = 1/6. The final answer is x = 1/6, no solution.",False,unparsable,False,True,True
+constrained,2,linear_0004,linear,1,x = -4/5,False,wrong,True,False,
+constrained,2,linear_0004,linear,2,x = 4. Divide by 5: x = 4/5. There's no solution.,False,unparsable,False,True,False
+constrained,2,linear_0004,linear,3,x = 4/5. There's no solution here; this answer is correct but not expressed in the required format.,False,unparsable,False,True,True
+constrained,2,linear_0005,linear,1,x = 7,True,correct,True,False,
+constrained,2,linear_0006,linear,1,no solution,False,incomplete,True,False,
+constrained,2,linear_0006,linear,2,x = 3. Divide by -4: x = -3/4. No other roots. Answer on single line. -3/4,False,unparsable,False,True,True
+constrained,2,linear_0006,linear,3,x = -3/4.,True,correct,True,True,True
+constrained,2,linear_0007,linear,1,no solution,False,incomplete,True,False,
+constrained,2,linear_0007,linear,2,x = -8/5. This answer is correct as it satisfies the original equation.,False,unparsable,False,True,True
+constrained,2,linear_0007,linear,3,x = -8. Divide both sides by 5 to get x = -8/5. So the answer is x = -8/5.,False,unparsable,False,True,True
+constrained,2,linear_0008,linear,1,no solution,False,incomplete,True,False,
+constrained,2,linear_0008,linear,2,x = 0. This has a solution x = 9/4. The answer is 9/4.,False,unparsable,False,True,False
+constrained,2,linear_0008,linear,3,This is linear. Moving the constant term gives -4 times the unknown equals -9. Dividing both sides by -4 isolates the unknown. Applying division to each variable in the equation cancels it out on the right (solving for the unknown). This step represents the inverse operation of multiplying the entire equation by the coefficient from the other side. The result is the value of the unknown variable solved for in the original equation.,False,unparsable,False,True,True
+constrained,2,linear_0009,linear,1,x = 8/3,False,wrong,True,False,
+constrained,2,linear_0009,linear,2,x = 8. Divide by 6: x = 8/6. This matches the proposed answer 8/6. No solution.,False,unparsable,False,True,False
+constrained,2,linear_0009,linear,3,This is quadratic with a=-6/b=8. Solve for x. -32/3 is the solution. no solution,False,unparsable,False,True,True
+constrained,2,linear_0010,linear,1,"This is linear with a coefficient of 2 negative 8, so the equation has no solution. The answer is 'no solution'.",False,unparsable,False,False,
+constrained,2,linear_0010,linear,2,x = -4. The answer is -4.,False,unparsable,False,True,True
+constrained,2,linear_0010,linear,3,"x = -4. Therefore, the answer is 4, no solution.",False,unparsable,False,True,True
+constrained,2,linear_0011,linear,1,x = 9,True,correct,True,False,
+constrained,2,linear_0012,linear,1,x = 2,False,wrong,True,False,
+constrained,2,linear_0012,linear,2,x = 6. Divide by -3: x = -2. No solution.,False,unparsable,False,True,False
+constrained,2,linear_0012,linear,3,"Given equation results in constant value (no solution). Final answer 6, no solution.",False,unparsable,False,True,True
+constrained,2,linear_0013,linear,1,Solution: 1,False,unparsable,False,False,
+constrained,2,linear_0013,linear,2,x = 5. Divide both sides by 5 to get x = 1. The answer is x = 1.,False,unparsable,False,True,False
+constrained,2,linear_0013,linear,3,"x = v1, v2' or 'x = no solution'. sqrt(9) + sqrt(76) = 16+sqrt(43)*sqrt(11)+sqrt(143) was correct. The final answer is x = 16+sqrt(43)*sqrt(11)+sqrt(143), no solution.",False,unparsable,False,True,False
+constrained,2,linear_0014,linear,1,x = -3. 5,False,wrong,True,False,
+constrained,2,linear_0014,linear,2,x = -10/3,True,correct,True,True,False
+constrained,2,quadratic_0015,quadratic,1,x = -1/2,False,does_not_satisfy,True,False,
+constrained,2,quadratic_0015,quadratic,2,"This is quadratic with a=-2, b=-6, c=-8. The quadratic has a positive leading coefficient, so the smaller root sits to the left of the y-intercept. Substituting (-1) into this equation gives a domain error. Substituting (-3) computes the correct root. No solution",False,unparsable,False,True,False
+constrained,2,quadratic_0015,quadratic,3,"x = -3, no solution",False,unparsable,False,True,True
+constrained,2,quadratic_0016,quadratic,1,x = -1/2-sqrt(5)/1,False,wrong,True,False,
+constrained,2,quadratic_0016,quadratic,2,"x = sqrt(3), but we must check if this satisfies the original equation. Substituting x = sqrt(3) into the original equation yields 3 - (sqrt(3))^2 = 0, which checks out. Therefore, the solution is x = sqrt(3), matched the user's guess exactly. No additional work is required to find this value. This value matches the original equation's result. So, the answer is x = sqrt(3).",False,unparsable,False,True,False
+constrained,2,quadratic_0016,quadratic,3,"sqrt(3), no solution",False,unparsable,False,True,True
+constrained,2,quadratic_0017,quadratic,1,no solution,False,incomplete,True,False,
+constrained,2,quadratic_0017,quadratic,2,x = 1 and x = 7. The answer is no solution.,False,unparsable,False,True,True
+constrained,2,quadratic_0017,quadratic,3,"x = 4, x=1. no solution.",False,unparsable,False,True,False
+constrained,2,quadratic_0018,quadratic,1,"x = -1/2 + sqrt(-769)/2, x = -sqrt(-769)/2 - 1/2",False,wrong,True,False,
+constrained,2,quadratic_0018,quadratic,2,"x = 3, no solution",False,unparsable,False,True,False
+constrained,2,quadratic_0018,quadratic,3,x = no solution.,False,incomplete,True,True,True
+constrained,2,quadratic_0019,quadratic,1,no solution,False,incomplete,True,False,
+constrained,2,quadratic_0019,quadratic,2,"Given equation is 3*x^2 + 4*x - 8 = 0 which has complex roots. Your answer has 0 root(s), but the equation has 2. Check whether the equation has another root you have not listed.  No solution",False,unparsable,False,True,False
+constrained,2,quadratic_0019,quadratic,3,"x = -1/9, no solution.",False,unparsable,False,True,True
+constrained,2,quadratic_0020,quadratic,1,no solution,True,correct,True,False,
+constrained,2,quadratic_0021,quadratic,1,no solution,False,incomplete,True,False,
+constrained,2,quadratic_0021,quadratic,2,x = 2. The answer is 2.,False,unparsable,False,True,False
+constrained,2,quadratic_0021,quadratic,3,"x = -b/(2a), where a=-3, b=6. Substituting gives the solution: x = -1.5. The answer is x = -1.5.",False,unparsable,False,True,False
+constrained,2,quadratic_0022,quadratic,1,no solution,True,correct,True,False,
+constrained,2,quadratic_0023,quadratic,1,no solution,False,incomplete,True,False,
+constrained,2,quadratic_0023,quadratic,2,x = -5/8,False,wrong,True,True,True
+constrained,2,quadratic_0023,quadratic,3,"x = -5/8, no solution",False,unparsable,False,True,False
+constrained,2,quadratic_0024,quadratic,1,no solution,True,correct,True,False,
+constrained,2,quadratic_0025,quadratic,1,x = -1/2,False,wrong,True,False,
+constrained,2,quadratic_0025,quadratic,2,"x = -1/2, no solution",False,unparsable,False,True,False
+constrained,2,quadratic_0025,quadratic,3,x = -1/2. No solution is given since the discriminant (b squared minus 4ac) is positive but less than zero here. The answer is -1/2.,False,unparsable,False,True,True
+constrained,2,quadratic_0026,quadratic,1,no solution,True,correct,True,False,
+constrained,2,quadratic_0027,quadratic,1,no solution,True,correct,True,False,
+constrained,2,quadratic_0028,quadratic,1,no solution,True,correct,True,False,
+constrained,2,quadratic_0029,quadratic,1,x = -5/4,False,wrong,True,False,
+constrained,2,quadratic_0029,quadratic,2,"x = 1/2 and x = 5/2. The answers are 1/2 + 5/2 = 3, no solution.",False,unparsable,False,True,False
+constrained,2,quadratic_0029,quadratic,3,"x = [-b ± sqrt(b^2-4ac)] / (2a). Here, a=-(4), b=-6, c=5. Applying the formula gives the solutions x = 1/2, x = 5/2. The final answer is x = 1/2, x = 5/2.",False,unparsable,False,True,False
+constrained,2,rational_0030,rational,1,x = -7/3,False,wrong,True,False,
+constrained,2,rational_0030,rational,2,"x = -7/3. This matches our proposed answer, so there's no mistake in the calculation. No solution.",False,unparsable,False,True,False
+constrained,2,rational_0030,rational,3,"x = 4, no solution.",False,unparsable,False,True,True
+constrained,2,rational_0031,rational,1,x = -20/3,False,wrong,True,False,
+constrained,2,rational_0031,rational,2,"x = -20/3 into original equation: (-7/3 + 20/3)(-7/3 + 20/3) = 94/3. This matches the original equation, so x = -20/3 is correct. Final answer on single line: x = -20/3",False,unparsable,False,True,False
+constrained,2,rational_0031,rational,3,x = -20/3. So the answer is x = -20/3.,False,unparsable,False,True,True
+constrained,2,rational_0032,rational,1,x = 27/4,False,wrong,True,False,
+constrained,2,rational_0032,rational,2,"x = 33, and finally solving for x gives x = 11. This result matches our assumed answer 11, so this is correct but doesn't match the expected answer. Therefore, there was an error; substituting",False,unparsable,False,True,False
+constrained,2,rational_0032,rational,3,"x = 11. This matches our calculated value, confirming the calculation's accuracy. No solution provided.",False,unparsable,False,True,True
+constrained,2,rational_0033,rational,1,x = -18/3,False,extraneous_root,True,False,
+constrained,2,rational_0033,rational,2,"x = -3*(x + 6). Solving for x gives two potential solutions: -6 and 9/5. Checking the domain (the denominators cannot be zero) eliminates x = -6. Therefore, the solution is x = 9/5. The answer is 9/5.",False,unparsable,False,True,False
+constrained,2,rational_0033,rational,3,Give the solution on its own line as long as specified. No solution. 9/5,False,unparsable,False,True,True
+constrained,2,rational_0034,rational,1,x = -1/3,False,wrong,True,False,
+constrained,2,rational_0034,rational,2,"x = -1/3 into the equation results in -7/2, which is not equal to -5. Therefore, there is no solution. Final answer on single line no solution.",False,unparsable,False,True,False
+constrained,2,rational_0034,rational,3,"x = v1, v2' or 'x = no solution'. -7/2, no solution",False,unparsable,False,True,False
+constrained,2,rational_0035,rational,1,x = 6,False,wrong,True,False,
+constrained,2,rational_0035,rational,2,Given equation is -(4*x + 4)/(x + 3) = 4. Multiply both sides by (x + 3) to get -4*x - 4 = 4*(x + 3). Add 4*x to both sides and add 4 to both sides to solve for x. The result is -10/3. Final answer on single line no solution.,False,unparsable,False,True,False
+constrained,2,rational_0035,rational,3,Given equation is -(4*x + 4)/(x + 3) = 4. Multiply both sides by (x + 3) to get -4*x - 4 = 4*(x + 3). Add 4*x to both sides and add 4 to both sides to solve for x. The result is -10/3. no solution.,False,unparsable,False,True,True
+constrained,2,rational_0036,rational,1,x = -30/7,False,wrong,True,False,
+constrained,2,rational_0036,rational,2,"x = -30/7 into the equation. This results in solving -7/4 = 4, which has no real solutions. The answer is no solution.",False,unparsable,False,True,False
+constrained,2,rational_0036,rational,3,Given equation is (5 - x)/(x + 4) = 4. Solving this yields -30/7. No solution.,False,unparsable,False,True,True
+constrained,2,rational_0037,rational,1,x = -14,False,wrong,True,False,
+constrained,2,rational_0037,rational,2,x = -9,False,wrong,True,True,False
+constrained,2,rational_0037,rational,3,"Given equation is -(3*X+4)-(X+5)=-(-1). Substituting X=-9 into both sides makes the equation true. Therefore, the solution is X=9.",False,unparsable,False,True,False
+constrained,2,rational_0038,rational,1,x = -3/2,False,wrong,True,False,
+constrained,2,rational_0038,rational,2,"x = -3/2 is the only solution. No other values satisfy the equation. So, the answer is -3/2.",False,unparsable,False,True,False
+constrained,2,rational_0038,rational,3,"x = -3/2, -3/4",False,wrong,True,True,True
+constrained,2,rational_0039,rational,1,x = -14/5,False,wrong,True,False,
+constrained,2,rational_0039,rational,2,x = 6,False,wrong,True,True,False
+constrained,2,rational_0039,rational,3,"x = -8/5. Remember to return the result as a single line, without scientific or mathematical notation. no solution",False,unparsable,False,True,False
+constrained,2,rational_0040,rational,1,x = 8,False,wrong,True,False,
+constrained,2,rational_0040,rational,2,x = 8.,False,wrong,True,True,False
+constrained,2,rational_0040,rational,3,x = 8,False,wrong,True,True,False
+constrained,2,rational_0041,rational,1,x = 2,False,does_not_satisfy,True,False,
+constrained,2,rational_0041,rational,2,"x = 2 yields 0 ≠ 0. Therefore, there is no solution. The answer is no solution.",False,unparsable,False,True,False
+constrained,2,rational_0041,rational,3,x = 5/3. No solution.,False,unparsable,False,True,True
+constrained,2,rational_0042,rational,1,x = -2,False,wrong,True,False,
+constrained,2,rational_0042,rational,2,x = -4. The answer is -4.,False,unparsable,False,True,False
+constrained,2,rational_0042,rational,3,"x = 11. Dividing both sides by 7 isolates x. Therefore, the final answer is x = 11/7.",False,unparsable,False,True,True
+constrained,2,rational_0043,rational,1,x = -14/2,False,wrong,True,False,
+constrained,2,rational_0043,rational,2,"x = -14/2 into original equation: -14/2 + 3 ≠ -1. Therefore, the solution is x = no solution.",False,unparsable,False,True,False
+constrained,2,rational_0043,rational,3,x = -14/2. No solution.,False,unparsable,False,True,True
+constrained,2,rational_0044,rational,1,x = -13/2,False,wrong,True,False,
+constrained,2,rational_0044,rational,2,"x = 4. Dividing both sides by 7 yields x = 4/7. Therefore, the answer is x = 4/7.",False,unparsable,False,True,False
+constrained,2,rational_0044,rational,3,"x = v1, v2. The equation has a complex root at x = 4. Therefore, the answer is x = 4.",False,unparsable,False,True,False

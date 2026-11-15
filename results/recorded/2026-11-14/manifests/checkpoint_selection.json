@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-15T00:53:44+00:00",
+  "rule": "kept if sft_dpo >= sft - 0.075 on validation",
+  "max_drop": 0.075,
+  "absolute_floor": null,
+  "validation_scores_are_not_measurements": "9 of the 45 validation equations are also in the SFT training file. These rates rank checkpoints; they are never quoted as results.",
+  "selected_on": "validation (seed 7, 45 problems)",
+  "benchmark_consulted": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "sft_validation": 0.3333333333333333,
+      "sft_dpo_validation": 0.3111111111111111,
+      "dpo_delta": -0.0222222222222222,
+      "collapsed": false,
+      "utc": "2026-11-15T00:53:35+00:00"
+    }
+  ],
+  "n_attempts": 1,
+  "n_collapsed": 0,
+  "collapse_rate": 0.0,
+  "kept": {
+    "attempt": 1,
+    "sft_validation": 0.3333333333333333,
+    "sft_dpo_validation": 0.3111111111111111,
+    "dpo_delta": -0.0222222222222222,
+    "collapsed": false,
+    "utc": "2026-11-15T00:53:35+00:00"
+  }
+}

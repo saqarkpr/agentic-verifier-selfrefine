@@ -1,0 +1,60 @@
+{
+  "utc": "2026-11-14T22:34:56+00:00",
+  "python": "3.13.16",
+  "passed": true,
+  "versions": {
+    "accelerate": "1.15.0",
+    "datasets": "4.8.5",
+    "peft": "0.21.0",
+    "sympy": "1.14.0",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.17.0",
+    "trl": "1.13.0"
+  },
+  "pins": {
+    "trl": "1.13.0",
+    "peft": "0.21.0",
+    "transformers": "5.17.0"
+  },
+  "device": "Tesla T4",
+  "cuda": "13.0",
+  "generations": [
+    {
+      "model": "sft",
+      "equation": "Eq(3*x + 2, 0)",
+      "candidate": "x = -\\frac{2}{3}, \\text{no solution} \\]",
+      "reason": "unparsable"
+    },
+    {
+      "model": "sft",
+      "equation": "Eq(-2*x - 3, 0)",
+      "candidate": "x = -\\frac{3}{2}, \\quad x = no solution",
+      "reason": "unparsable"
+    },
+    {
+      "model": "sft",
+      "equation": "Eq(9 - 3*x, 0)",
+      "candidate": "x = -9 / (-3)",
+      "reason": "correct"
+    },
+    {
+      "model": "sft+dpo",
+      "equation": "Eq(3*x + 2, 0)",
+      "candidate": "x = -2/3",
+      "reason": "correct"
+    },
+    {
+      "model": "sft+dpo",
+      "equation": "Eq(-2*x - 3, 0)",
+      "candidate": "x = -\\frac{3}{2}, \\quad x = no solution",
+      "reason": "unparsable"
+    },
+    {
+      "model": "sft+dpo",
+      "equation": "Eq(9 - 3*x, 0)",
+      "candidate": "x = 3.",
+      "reason": "correct"
+    }
+  ],
+  "seconds": 221.6
+}

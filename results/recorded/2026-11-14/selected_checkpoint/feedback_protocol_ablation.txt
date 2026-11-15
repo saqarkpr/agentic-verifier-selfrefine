@@ -1,0 +1,49 @@
+# Transcribed verbatim from the executed notebook's cell-42 output (colab_clean_run_executed.ipynb).
+# The per-attempt CSV exists only inside results_7_after_selected_ladder.zip (1.8 GB, on Drive) and is not committed yet.
+  ~44 min on a T4 at ~1.3 s/generation
+==============================================================================
+SOLVE RATE BY TURN BUDGET (first correct turn, as a stopping loop would)
+==============================================================================
+   condition |  turn<=1 |  turn<=2 |  turn<=3 | vs retry@3
+------------------------------------------------------------
+       retry |    0.363 |    0.430 |    0.437 |     +0.000
+     generic |    0.363 |    0.422 |    0.437 |     +0.000
+  diagnostic |    0.363 |    0.385 |    0.415 |     -0.022
+  actionable |    0.363 |    0.378 |    0.444 |     +0.007
+ constrained |    0.363 |    0.363 |    0.393 |     -0.044
+  Turn-1 identical across all conditions (0.363) -- pairing holds.
+==============================================================================
+MECHANISM METRICS
+==============================================================================
+   condition |   repair |  regress | format ok |  changed |  used fb
+----------------------------------------------------------------------
+       retry |    0.116 |    0.000 |     0.956 |    0.663 |    0.301
+     generic |    0.116 |    0.000 |     0.880 |    0.695 |    0.415
+  diagnostic |    0.081 |    0.000 |     0.799 |    0.751 |    0.278
+  actionable |    0.128 |    0.000 |     0.725 |    0.847 |    0.406
+ constrained |    0.047 |    0.000 |     0.635 |    0.878 |    0.355
+  repair    = of answers wrong at turn 1, fraction corrected later
+  regress   = of answers correct at turn 1, fraction later broken
+  format ok = fraction of all attempts the extractor could read
+  changed   = fraction of revisions that differ from the previous answer
+  used fb   = when the verifier named a bad value, fraction of revisions
+              that dropped it (the direct test of using the message)
+==============================================================================
+HOW TO READ THIS
+==============================================================================
+  'retry' carries no information, so any condition that fails to beat it
+  is not being helped by the verifier's message.
+  generic vs retry        -> does being told 'wrong' matter at all?
+  diagnostic vs generic   -> does the verifier's CONTENT matter?
+  actionable vs diagnostic-> does phrasing it as a procedure matter?
+  constrained vs actionable-> does protecting the answer format recover
+                             the loss caused by format degradation?
+  If 'format ok' is much lower for the feedback conditions, the accuracy
+  comparison is still partly measuring formatting, not reasoning.
+Per-attempt rows: ../results/feedback_protocol_ablation.csv
+Summary: ../results/feedback_protocol_ablation.txt
+[ablation] feedback_protocol_ablation.py finished in 3171.3s
+Wrote results/raw/run_manifest_20261115T022553Z_ablation.json
+Next: compare the new numbers against results/recorded/manifest.json, then update it and the docs that read from it.
+backup: /content/out/results_7_after_selected_ladder.zip (1839.4 MB) -> saved to Drive
+OK: feedback ladder on the selected checkpoint

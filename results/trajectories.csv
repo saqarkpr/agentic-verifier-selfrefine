@@ -1,0 +1,2080 @@
+seed,problem_id,family,turn,candidate,correct,reason
+0,linear_0000,linear,1,x = -7/2,False,wrong
+0,linear_0000,linear,2,x = -3,True,correct
+0,linear_0001,linear,1,x = -5/6,False,wrong
+0,linear_0001,linear,2,x = 1/6,False,wrong
+0,linear_0001,linear,3,x = 1/6,False,wrong
+0,linear_0002,linear,1,x = -8/3,False,wrong
+0,linear_0002,linear,2,x = -7/6,False,wrong
+0,linear_0002,linear,3,x = -5/3,True,correct
+0,linear_0003,linear,1,x = 1,True,correct
+0,linear_0004,linear,1,x = -3/2,False,wrong
+0,linear_0004,linear,2,x = -1/2,True,correct
+0,linear_0005,linear,1,x = 3/2,False,wrong
+0,linear_0005,linear,2,x = 2,False,wrong
+0,linear_0005,linear,3,x = 1,True,correct
+0,linear_0006,linear,1,x = 1,False,wrong
+0,linear_0006,linear,2,x = 3/2,False,wrong
+0,linear_0006,linear,3,x = 2,True,correct
+0,linear_0007,linear,1,x = -2,False,wrong
+0,linear_0007,linear,2,x = -2,False,wrong
+0,linear_0007,linear,3,x = -3,True,correct
+0,linear_0008,linear,1,x = 14/5,False,wrong
+0,linear_0008,linear,2,x = 23/10,False,wrong
+0,linear_0008,linear,3,x = 9/5,True,correct
+0,linear_0009,linear,1,x = 9/2,False,wrong
+0,linear_0009,linear,2,x = 7/2,True,correct
+0,linear_0010,linear,1,x = -5/2,False,wrong
+0,linear_0010,linear,2,x = -5/2,False,wrong
+0,linear_0010,linear,3,x = -2,False,wrong
+0,linear_0011,linear,1,x = -1/4,True,correct
+0,linear_0012,linear,1,x = -21/10,False,wrong
+0,linear_0012,linear,2,x = -8/5,True,correct
+0,linear_0013,linear,1,x = 1,False,wrong
+0,linear_0013,linear,2,x = -1,False,wrong
+0,linear_0013,linear,3,x = 1/2,False,wrong
+0,linear_0014,linear,1,x = -4,False,wrong
+0,linear_0014,linear,2,x = -7/2,True,correct
+0,linear_0015,linear,1,x = -4/5,False,wrong
+0,linear_0015,linear,2,x = 1/5,True,correct
+0,linear_0016,linear,1,x = 0,True,correct
+0,linear_0017,linear,1,x = -2,False,wrong
+0,linear_0017,linear,2,x = -3/2,False,wrong
+0,linear_0017,linear,3,x = -7/2,False,wrong
+0,linear_0018,linear,1,x = 10/3,False,wrong
+0,linear_0018,linear,2,x = 11/6,False,wrong
+0,linear_0018,linear,3,x = 17/6,False,wrong
+0,linear_0019,linear,1,x = -3,False,wrong
+0,linear_0019,linear,2,x = -5/2,False,wrong
+0,linear_0019,linear,3,x = -5/2,False,wrong
+0,linear_0020,linear,1,x = 7/6,False,wrong
+0,linear_0020,linear,2,x = 2/3,True,correct
+0,linear_0021,linear,1,x = 2/3,False,wrong
+0,linear_0021,linear,2,x = 5/3,False,wrong
+0,linear_0021,linear,3,x = 1/6,False,wrong
+0,linear_0022,linear,1,x = -4/3,True,correct
+0,linear_0023,linear,1,x = -4/3,False,wrong
+0,linear_0023,linear,2,x = -4/3,False,wrong
+0,linear_0023,linear,3,x = -1/3,True,correct
+0,linear_0024,linear,1,x = -2/3,False,wrong
+0,linear_0024,linear,2,x = -8/3,False,wrong
+0,linear_0024,linear,3,x = -5/3,True,correct
+0,linear_0025,linear,1,x = 5/2,False,wrong
+0,linear_0025,linear,2,x = 3/2,True,correct
+0,linear_0026,linear,1,x = 1,False,wrong
+0,linear_0026,linear,2,x = 1/2,False,wrong
+0,linear_0026,linear,3,x = 1,False,wrong
+0,linear_0027,linear,1,x = 0,True,correct
+0,linear_0028,linear,1,x = 4/3,True,correct
+0,linear_0029,linear,1,x = 5/3,False,wrong
+0,linear_0029,linear,2,x = 13/6,False,wrong
+0,linear_0029,linear,3,x = 8/3,True,correct
+0,linear_0030,linear,1,x = 0,False,wrong
+0,linear_0030,linear,2,x = 0,False,wrong
+0,linear_0030,linear,3,x = 0,False,wrong
+0,linear_0031,linear,1,x = 9/4,False,wrong
+0,linear_0031,linear,2,x = 7/4,True,correct
+0,linear_0032,linear,1,x = 4,True,correct
+0,linear_0033,linear,1,x = 1,False,wrong
+0,linear_0033,linear,2,x = -1/2,False,wrong
+0,linear_0033,linear,3,x = 0,True,correct
+0,linear_0034,linear,1,x = -7/10,False,wrong
+0,linear_0034,linear,2,x = -6/5,False,wrong
+0,linear_0034,linear,3,x = -6/5,False,wrong
+0,linear_0035,linear,1,x = 4/3,False,wrong
+0,linear_0035,linear,2,x = -2/3,False,wrong
+0,linear_0035,linear,3,x = 5/6,False,wrong
+0,linear_0036,linear,1,x = 13/6,False,wrong
+0,linear_0036,linear,2,x = 2/3,False,wrong
+0,linear_0036,linear,3,x = 13/6,False,wrong
+0,linear_0037,linear,1,x = -1/2,False,wrong
+0,linear_0037,linear,2,x = 1/2,False,wrong
+0,linear_0037,linear,3,x = -1/2,False,wrong
+0,linear_0038,linear,1,x = 11/6,False,wrong
+0,linear_0038,linear,2,x = 4/3,True,correct
+0,linear_0039,linear,1,x = -9/4,False,wrong
+0,linear_0039,linear,2,x = -5/4,False,wrong
+0,linear_0039,linear,3,x = -5/4,False,wrong
+0,quadratic_0040,quadratic,1,"x = -3, x = 0",True,correct
+0,quadratic_0041,quadratic,1,x = -2/3,False,incomplete
+0,quadratic_0041,quadratic,2,x = -5/3,False,wrong
+0,quadratic_0041,quadratic,3,x = -2/3,False,incomplete
+0,quadratic_0042,quadratic,1,x = 1/2 + sqrt(3)/2,False,wrong
+0,quadratic_0042,quadratic,2,x = -3/2 + sqrt(3)/2,False,wrong
+0,quadratic_0042,quadratic,3,"x = -1/2 + sqrt(3)/2, x = -sqrt(3)/2 - 1/2",True,correct
+0,quadratic_0043,quadratic,1,no solution,True,correct
+0,quadratic_0044,quadratic,1,x = -19/6,False,wrong
+0,quadratic_0044,quadratic,2,"x = -8/3, x = 1",True,correct
+0,quadratic_0045,quadratic,1,x = 1/2,False,incomplete
+0,quadratic_0045,quadratic,2,"x = -1/2, x = 1/2",True,correct
+0,quadratic_0046,quadratic,1,no solution,True,correct
+0,quadratic_0047,quadratic,1,no solution,True,correct
+0,quadratic_0048,quadratic,1,no solution,True,correct
+0,quadratic_0049,quadratic,1,x = 2 - sqrt(3)/2,False,wrong
+0,quadratic_0049,quadratic,2,x = 1 - sqrt(3)/2,False,incomplete
+0,quadratic_0049,quadratic,3,"x = 1 - sqrt(3)/2, x = sqrt(3)/2 + 1",True,correct
+0,quadratic_0050,quadratic,1,x = -11/8 + sqrt(65)/8,False,wrong
+0,quadratic_0050,quadratic,2,"x = -7/8 + sqrt(65)/8, x = -sqrt(65)/8 - 7/8",True,correct
+0,quadratic_0051,quadratic,1,x = 1/2,False,wrong
+0,quadratic_0051,quadratic,2,x = -1/2,False,incomplete
+0,quadratic_0051,quadratic,3,"x = -1/2, x = 1",True,correct
+0,quadratic_0052,quadratic,1,x = -1/8 + sqrt(129)/8,False,incomplete
+0,quadratic_0052,quadratic,2,"x = -1/8 + sqrt(129)/8, x = -sqrt(129)/8 - 1/8",True,correct
+0,quadratic_0053,quadratic,1,"x = 5/6 + sqrt(61)/6, x = 5/6 - sqrt(61)/6",True,correct
+0,quadratic_0054,quadratic,1,x = 7/2 - sqrt(17)/2,False,wrong
+0,quadratic_0054,quadratic,2,"x = 5/2 - sqrt(17)/2, x = sqrt(17)/2 + 5/2",True,correct
+0,quadratic_0055,quadratic,1,x = -4/3 + sqrt(22)/3,False,incomplete
+0,quadratic_0055,quadratic,2,"x = -4/3 + sqrt(22)/3, x = -sqrt(22)/3 - 4/3",True,correct
+0,quadratic_0056,quadratic,1,no solution,True,correct
+0,quadratic_0057,quadratic,1,no solution,True,correct
+0,quadratic_0058,quadratic,1,x = 0,False,wrong
+0,quadratic_0058,quadratic,2,"x = -1, x = 5",True,correct
+0,quadratic_0059,quadratic,1,x = sqrt(33)/4 + 7/4,False,wrong
+0,quadratic_0059,quadratic,2,x = 3/4 + sqrt(33)/4,False,incomplete
+0,quadratic_0059,quadratic,3,"x = 3/4 + sqrt(33)/4, x = 3/4 - sqrt(33)/4",True,correct
+0,quadratic_0060,quadratic,1,x = 1 + sqrt(33)/3,False,incomplete
+0,quadratic_0060,quadratic,2,x = 1 + sqrt(33)/3,False,incomplete
+0,quadratic_0060,quadratic,3,"x = 1 + sqrt(33)/3, x = 1 - sqrt(33)/3",True,correct
+0,quadratic_0061,quadratic,1,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+0,quadratic_0062,quadratic,1,no solution,True,correct
+0,quadratic_0063,quadratic,1,no solution,True,correct
+0,quadratic_0064,quadratic,1,x = -1 + sqrt(7),False,wrong
+0,quadratic_0064,quadratic,2,x = -5/2 + sqrt(7),False,wrong
+0,quadratic_0064,quadratic,3,x = -5/2 + sqrt(7),False,wrong
+0,quadratic_0065,quadratic,1,x = 1 - sqrt(14)/2,False,wrong
+0,quadratic_0065,quadratic,2,x = 2 - sqrt(14)/2,False,incomplete
+0,quadratic_0065,quadratic,3,"x = 2 - sqrt(14)/2, x = sqrt(14)/2 + 2",True,correct
+0,quadratic_0066,quadratic,1,no solution,True,correct
+0,quadratic_0067,quadratic,1,x = -4/3 + sqrt(7)/3,False,incomplete
+0,quadratic_0067,quadratic,2,"x = -4/3 + sqrt(7)/3, x = -4/3 - sqrt(7)/3",True,correct
+0,quadratic_0068,quadratic,1,x = -3,False,incomplete
+0,quadratic_0068,quadratic,2,"x = -3, x = 0",True,correct
+0,quadratic_0069,quadratic,1,"x = -1, x = 2",True,correct
+0,quadratic_0070,quadratic,1,x = 2 - sqrt(3),False,incomplete
+0,quadratic_0070,quadratic,2,x = 2 - sqrt(3),False,incomplete
+0,quadratic_0070,quadratic,3,"x = 2 - sqrt(3), x = sqrt(3) + 2",True,correct
+0,quadratic_0071,quadratic,1,no solution,True,correct
+0,quadratic_0072,quadratic,1,x = -7/6 + sqrt(13)/6,False,incomplete
+0,quadratic_0072,quadratic,2,x = -2/3 + sqrt(13)/6,False,wrong
+0,quadratic_0072,quadratic,3,"x = -7/6 + sqrt(13)/6, x = -7/6 - sqrt(13)/6",True,correct
+0,quadratic_0073,quadratic,1,x = -1/2 + sqrt(105)/6,False,incomplete
+0,quadratic_0073,quadratic,2,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+0,quadratic_0074,quadratic,1,x = -4,False,incomplete
+0,quadratic_0074,quadratic,2,x = -7/2,False,wrong
+0,quadratic_0074,quadratic,3,"x = -4, x = 1",True,correct
+0,quadratic_0075,quadratic,1,no solution,True,correct
+0,quadratic_0076,quadratic,1,no solution,True,correct
+0,quadratic_0077,quadratic,1,no solution,True,correct
+0,quadratic_0078,quadratic,1,x = -1,False,wrong
+0,quadratic_0078,quadratic,2,x = -1/2,False,wrong
+0,quadratic_0078,quadratic,3,x = 1,False,wrong
+0,quadratic_0079,quadratic,1,no solution,True,correct
+0,rational_0080,rational,1,x = -1,True,correct
+0,rational_0081,rational,1,"x = 5, x = -5",False,extraneous_root
+0,rational_0081,rational,2,x = 5,True,correct
+0,rational_0082,rational,1,no solution,True,correct
+0,rational_0083,rational,1,x = 8,False,wrong
+0,rational_0083,rational,2,"x = 9, x = -5",False,extraneous_root
+0,rational_0083,rational,3,"x = 9, x = -5",False,extraneous_root
+0,rational_0084,rational,1,x = 3/2,False,wrong
+0,rational_0084,rational,2,x = 1,True,correct
+0,rational_0085,rational,1,x = -5,False,wrong
+0,rational_0085,rational,2,x = -7,False,wrong
+0,rational_0085,rational,3,x = -6,True,correct
+0,rational_0086,rational,1,"x = 1, x = -1",False,extraneous_root
+0,rational_0086,rational,2,x = 1,True,correct
+0,rational_0087,rational,1,"x = -5/7, x = -3",False,extraneous_root
+0,rational_0087,rational,2,x = -5/7,True,correct
+0,rational_0088,rational,1,"x = 21, x = 6",False,extraneous_root
+0,rational_0088,rational,2,"x = 21, x = 6",False,extraneous_root
+0,rational_0088,rational,3,x = 20,False,wrong
+0,rational_0089,rational,1,x = -33/2,False,wrong
+0,rational_0089,rational,2,x = -31/2,False,wrong
+0,rational_0089,rational,3,x = -17,False,wrong
+0,rational_0090,rational,1,x = 3,False,wrong
+0,rational_0090,rational,2,x = 2,True,correct
+0,rational_0091,rational,1,x = -3/4,False,wrong
+0,rational_0091,rational,2,x = -5/4,True,correct
+0,rational_0092,rational,1,x = 1/5,True,correct
+0,rational_0093,rational,1,x = -7/6,False,wrong
+0,rational_0093,rational,2,x = -7/6,False,wrong
+0,rational_0093,rational,3,x = -2/3,True,correct
+0,rational_0094,rational,1,x = 5,True,correct
+0,rational_0095,rational,1,"x = -1/2, x = -2",False,extraneous_root
+0,rational_0095,rational,2,x = -1/2,True,correct
+0,rational_0096,rational,1,x = -17,True,correct
+0,rational_0097,rational,1,x = 0,True,correct
+0,rational_0098,rational,1,"x = -3, x = -6",False,extraneous_root
+0,rational_0098,rational,2,x = -3,True,correct
+0,rational_0099,rational,1,x = -13,True,correct
+0,rational_0100,rational,1,x = -7/6,False,wrong
+0,rational_0100,rational,2,x = 1/3,False,wrong
+0,rational_0100,rational,3,x = 1/3,False,wrong
+0,rational_0101,rational,1,x = -1/2,False,wrong
+0,rational_0101,rational,2,x = 1/2,True,correct
+0,rational_0102,rational,1,no solution,True,correct
+0,rational_0103,rational,1,x = 37/6,False,wrong
+0,rational_0103,rational,2,"x = 20/3, x = 5",False,extraneous_root
+0,rational_0103,rational,3,"x = 20/3, x = 5",False,extraneous_root
+0,rational_0104,rational,1,x = 5/6,False,wrong
+0,rational_0104,rational,2,"x = 1/3, x = 6",False,extraneous_root
+0,rational_0104,rational,3,x = 1/3,True,correct
+0,rational_0105,rational,1,x = -25/18,False,wrong
+0,rational_0105,rational,2,"x = -17/9, x = -5",False,extraneous_root
+0,rational_0105,rational,3,x = -17/9,True,correct
+0,rational_0106,rational,1,x = 4/3,True,correct
+0,rational_0107,rational,1,"x = 1/3, x = -1",False,extraneous_root
+0,rational_0107,rational,2,"x = 1/3, x = -1",False,extraneous_root
+0,rational_0107,rational,3,x = -2/3,False,wrong
+0,rational_0108,rational,1,x = -1,False,wrong
+0,rational_0108,rational,2,"x = -2, x = 1",False,extraneous_root
+0,rational_0108,rational,3,x = -5/2,False,wrong
+0,rational_0109,rational,1,"x = 10, x = 6",False,extraneous_root
+0,rational_0109,rational,2,"x = 10, x = 6",False,extraneous_root
+0,rational_0109,rational,3,x = 10,True,correct
+0,rational_0110,rational,1,x = 36,False,wrong
+0,rational_0110,rational,2,x = 34,False,wrong
+0,rational_0110,rational,3,x = 35,True,correct
+0,rational_0111,rational,1,x = -5/2,False,wrong
+0,rational_0111,rational,2,x = -3,False,wrong
+0,rational_0111,rational,3,x = -3,False,wrong
+0,rational_0112,rational,1,"x = 17/6, x = 4",False,extraneous_root
+0,rational_0112,rational,2,x = 23/6,False,wrong
+0,rational_0112,rational,3,x = 17/6,True,correct
+0,rational_0113,rational,1,"x = 34/3, x = 6",False,extraneous_root
+0,rational_0113,rational,2,x = 31/3,False,wrong
+0,rational_0113,rational,3,x = 34/3,True,correct
+0,rational_0114,rational,1,"x = -23/5, x = -5",False,extraneous_root
+0,rational_0114,rational,2,x = -23/5,True,correct
+0,rational_0115,rational,1,x = -5/4,False,wrong
+0,rational_0115,rational,2,x = -13/4,False,wrong
+0,rational_0115,rational,3,x = -9/4,True,correct
+0,rational_0116,rational,1,x = -27/10,False,wrong
+0,rational_0116,rational,2,x = -16/5,False,wrong
+0,rational_0116,rational,3,x = -11/5,True,correct
+0,rational_0117,rational,1,x = 1/3,False,wrong
+0,rational_0117,rational,2,"x = -2/3, x = -1",False,extraneous_root
+0,rational_0117,rational,3,x = 1/3,False,wrong
+0,rational_0118,rational,1,x = 21/2,False,wrong
+0,rational_0118,rational,2,x = 11,True,correct
+0,rational_0119,rational,1,x = 15/2,False,wrong
+0,rational_0119,rational,2,x = 7,True,correct
+1,linear_0000,linear,1,x = -3,True,correct
+1,linear_0001,linear,1,x = 2/3,False,wrong
+1,linear_0001,linear,2,x = -1/3,True,correct
+1,linear_0002,linear,1,x = -13/6,False,wrong
+1,linear_0002,linear,2,x = -13/6,False,wrong
+1,linear_0002,linear,3,x = -2/3,False,wrong
+1,linear_0003,linear,1,x = 1/2,False,wrong
+1,linear_0003,linear,2,x = 2,False,wrong
+1,linear_0003,linear,3,x = 3/2,False,wrong
+1,linear_0004,linear,1,x = -3/2,False,wrong
+1,linear_0004,linear,2,x = 1/2,False,wrong
+1,linear_0004,linear,3,x = 1/2,False,wrong
+1,linear_0005,linear,1,x = 1,True,correct
+1,linear_0006,linear,1,x = 3,False,wrong
+1,linear_0006,linear,2,x = 3/2,False,wrong
+1,linear_0006,linear,3,x = 3/2,False,wrong
+1,linear_0007,linear,1,x = -4,False,wrong
+1,linear_0007,linear,2,x = -7/2,False,wrong
+1,linear_0007,linear,3,x = -5/2,False,wrong
+1,linear_0008,linear,1,x = 4/5,False,wrong
+1,linear_0008,linear,2,x = 23/10,False,wrong
+1,linear_0008,linear,3,x = 13/10,False,wrong
+1,linear_0009,linear,1,x = 9/2,False,wrong
+1,linear_0009,linear,2,x = 7/2,True,correct
+1,linear_0010,linear,1,x = -1,False,wrong
+1,linear_0010,linear,2,x = -3/2,True,correct
+1,linear_0011,linear,1,x = -3/4,False,wrong
+1,linear_0011,linear,2,x = -5/4,False,wrong
+1,linear_0011,linear,3,x = -1/4,True,correct
+1,linear_0012,linear,1,x = -21/10,False,wrong
+1,linear_0012,linear,2,x = -21/10,False,wrong
+1,linear_0012,linear,3,x = -3/5,False,wrong
+1,linear_0013,linear,1,x = -1/2,False,wrong
+1,linear_0013,linear,2,x = -1,False,wrong
+1,linear_0013,linear,3,x = 0,True,correct
+1,linear_0014,linear,1,x = -3,False,wrong
+1,linear_0014,linear,2,x = -7/2,True,correct
+1,linear_0015,linear,1,x = 6/5,False,wrong
+1,linear_0015,linear,2,x = -3/10,False,wrong
+1,linear_0015,linear,3,x = 1/5,True,correct
+1,linear_0016,linear,1,x = -1/2,False,wrong
+1,linear_0016,linear,2,x = 0,True,correct
+1,linear_0017,linear,1,x = -3,False,wrong
+1,linear_0017,linear,2,x = -7/2,False,wrong
+1,linear_0017,linear,3,x = -5/2,True,correct
+1,linear_0018,linear,1,x = 4/3,False,wrong
+1,linear_0018,linear,2,x = 4/3,False,wrong
+1,linear_0018,linear,3,x = 7/3,True,correct
+1,linear_0019,linear,1,x = -3/2,False,wrong
+1,linear_0019,linear,2,x = -3/2,False,wrong
+1,linear_0019,linear,3,x = -1,False,wrong
+1,linear_0020,linear,1,x = -1/3,False,wrong
+1,linear_0020,linear,2,x = -1/3,False,wrong
+1,linear_0020,linear,3,x = 2/3,True,correct
+1,linear_0021,linear,1,x = 7/6,True,correct
+1,linear_0022,linear,1,x = -7/3,False,wrong
+1,linear_0022,linear,2,x = -11/6,False,wrong
+1,linear_0022,linear,3,x = -4/3,True,correct
+1,linear_0023,linear,1,x = 1/6,False,wrong
+1,linear_0023,linear,2,x = -1/3,True,correct
+1,linear_0024,linear,1,x = -7/6,False,wrong
+1,linear_0024,linear,2,x = -2/3,False,wrong
+1,linear_0024,linear,3,x = -8/3,False,wrong
+1,linear_0025,linear,1,x = 1/2,False,wrong
+1,linear_0025,linear,2,x = 2,False,wrong
+1,linear_0025,linear,3,x = 3/2,True,correct
+1,linear_0026,linear,1,x = 1,False,wrong
+1,linear_0026,linear,2,x = 0,True,correct
+1,linear_0027,linear,1,x = 0,True,correct
+1,linear_0028,linear,1,x = 4/3,True,correct
+1,linear_0029,linear,1,x = 5/3,False,wrong
+1,linear_0029,linear,2,x = 8/3,True,correct
+1,linear_0030,linear,1,x = -2,False,wrong
+1,linear_0030,linear,2,x = -1,True,correct
+1,linear_0031,linear,1,x = 7/4,True,correct
+1,linear_0032,linear,1,x = 4,True,correct
+1,linear_0033,linear,1,x = -1,False,wrong
+1,linear_0033,linear,2,x = 1/2,False,wrong
+1,linear_0033,linear,3,x = 0,True,correct
+1,linear_0034,linear,1,x = -7/10,False,wrong
+1,linear_0034,linear,2,x = -1/5,True,correct
+1,linear_0035,linear,1,x = 5/6,False,wrong
+1,linear_0035,linear,2,x = -2/3,False,wrong
+1,linear_0035,linear,3,x = 1/3,True,correct
+1,linear_0036,linear,1,x = 1/6,False,wrong
+1,linear_0036,linear,2,x = 2/3,False,wrong
+1,linear_0036,linear,3,x = 13/6,False,wrong
+1,linear_0037,linear,1,x = -1/2,False,wrong
+1,linear_0037,linear,2,x = 0,True,correct
+1,linear_0038,linear,1,x = 1/3,False,wrong
+1,linear_0038,linear,2,x = 5/6,False,wrong
+1,linear_0038,linear,3,x = 4/3,True,correct
+1,linear_0039,linear,1,x = -9/4,False,wrong
+1,linear_0039,linear,2,x = -7/4,True,correct
+1,quadratic_0040,quadratic,1,x = -3,False,incomplete
+1,quadratic_0040,quadratic,2,x = -3,False,incomplete
+1,quadratic_0040,quadratic,3,x = -3,False,incomplete
+1,quadratic_0041,quadratic,1,x = 1/3,False,wrong
+1,quadratic_0041,quadratic,2,"x = -2/3, x = 3",True,correct
+1,quadratic_0042,quadratic,1,x = -1/2 + sqrt(3)/2,False,incomplete
+1,quadratic_0042,quadratic,2,x = -1 + sqrt(3)/2,False,wrong
+1,quadratic_0042,quadratic,3,x = -1/2 + sqrt(3)/2,False,incomplete
+1,quadratic_0043,quadratic,1,no solution,True,correct
+1,quadratic_0044,quadratic,1,x = -11/3,False,wrong
+1,quadratic_0044,quadratic,2,x = -11/3,False,wrong
+1,quadratic_0044,quadratic,3,x = -5/3,False,wrong
+1,quadratic_0045,quadratic,1,x = -1/2,False,incomplete
+1,quadratic_0045,quadratic,2,"x = -1/2, x = 1/2",True,correct
+1,quadratic_0046,quadratic,1,no solution,True,correct
+1,quadratic_0047,quadratic,1,no solution,True,correct
+1,quadratic_0048,quadratic,1,no solution,True,correct
+1,quadratic_0049,quadratic,1,"x = 1 - sqrt(3)/2, x = sqrt(3)/2 + 1",True,correct
+1,quadratic_0050,quadratic,1,x = -7/8 + sqrt(65)/8,False,incomplete
+1,quadratic_0050,quadratic,2,x = -7/8 + sqrt(65)/8,False,incomplete
+1,quadratic_0050,quadratic,3,x = 1/8 + sqrt(65)/8,False,wrong
+1,quadratic_0051,quadratic,1,"x = -1/2, x = 1",True,correct
+1,quadratic_0052,quadratic,1,x = -9/8 + sqrt(129)/8,False,wrong
+1,quadratic_0052,quadratic,2,"x = -1/8 + sqrt(129)/8, x = -sqrt(129)/8 - 1/8",True,correct
+1,quadratic_0053,quadratic,1,x = 1/3 + sqrt(61)/6,False,wrong
+1,quadratic_0053,quadratic,2,x = 5/6 + sqrt(61)/6,False,incomplete
+1,quadratic_0053,quadratic,3,x = 1/3 + sqrt(61)/6,False,wrong
+1,quadratic_0054,quadratic,1,x = 7/2 - sqrt(17)/2,False,wrong
+1,quadratic_0054,quadratic,2,x = 5/2 - sqrt(17)/2,False,incomplete
+1,quadratic_0054,quadratic,3,"x = 5/2 - sqrt(17)/2, x = sqrt(17)/2 + 5/2",True,correct
+1,quadratic_0055,quadratic,1,x = -4/3 + sqrt(22)/3,False,incomplete
+1,quadratic_0055,quadratic,2,x = -5/6 + sqrt(22)/3,False,wrong
+1,quadratic_0055,quadratic,3,"x = -4/3 + sqrt(22)/3, x = -sqrt(22)/3 - 4/3",True,correct
+1,quadratic_0056,quadratic,1,no solution,True,correct
+1,quadratic_0057,quadratic,1,no solution,True,correct
+1,quadratic_0058,quadratic,1,x = -3/2,False,wrong
+1,quadratic_0058,quadratic,2,"x = -1, x = 5",True,correct
+1,quadratic_0059,quadratic,1,x = 3/4 + sqrt(33)/4,False,incomplete
+1,quadratic_0059,quadratic,2,"x = 3/4 + sqrt(33)/4, x = 3/4 - sqrt(33)/4",True,correct
+1,quadratic_0060,quadratic,1,"x = 1 + sqrt(33)/3, x = 1 - sqrt(33)/3",True,correct
+1,quadratic_0061,quadratic,1,x = -3/2 + sqrt(105)/6,False,wrong
+1,quadratic_0061,quadratic,2,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+1,quadratic_0062,quadratic,1,no solution,True,correct
+1,quadratic_0063,quadratic,1,no solution,True,correct
+1,quadratic_0064,quadratic,1,x = -3 + sqrt(7),False,wrong
+1,quadratic_0064,quadratic,2,x = -3/2 + sqrt(7),False,wrong
+1,quadratic_0064,quadratic,3,x = -1 + sqrt(7),False,wrong
+1,quadratic_0065,quadratic,1,x = 2 - sqrt(14)/2,False,incomplete
+1,quadratic_0065,quadratic,2,x = 3 - sqrt(14)/2,False,wrong
+1,quadratic_0065,quadratic,3,x = 2 - sqrt(14)/2,False,incomplete
+1,quadratic_0066,quadratic,1,no solution,True,correct
+1,quadratic_0067,quadratic,1,x = -7/3 + sqrt(7)/3,False,wrong
+1,quadratic_0067,quadratic,2,"x = -4/3 + sqrt(7)/3, x = -4/3 - sqrt(7)/3",True,correct
+1,quadratic_0068,quadratic,1,x = -3,False,incomplete
+1,quadratic_0068,quadratic,2,"x = -3, x = 0",True,correct
+1,quadratic_0069,quadratic,1,"x = -1, x = 2",True,correct
+1,quadratic_0070,quadratic,1,x = 3 - sqrt(3),False,wrong
+1,quadratic_0070,quadratic,2,x = 5/2 - sqrt(3),False,wrong
+1,quadratic_0070,quadratic,3,x = 5/2 - sqrt(3),False,wrong
+1,quadratic_0071,quadratic,1,no solution,True,correct
+1,quadratic_0072,quadratic,1,x = -7/6 + sqrt(13)/6,False,incomplete
+1,quadratic_0072,quadratic,2,"x = -7/6 + sqrt(13)/6, x = -7/6 - sqrt(13)/6",True,correct
+1,quadratic_0073,quadratic,1,x = -1/2 + sqrt(105)/6,False,incomplete
+1,quadratic_0073,quadratic,2,x = -1/2 + sqrt(105)/6,False,incomplete
+1,quadratic_0073,quadratic,3,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+1,quadratic_0074,quadratic,1,"x = -4, x = 1",True,correct
+1,quadratic_0075,quadratic,1,no solution,True,correct
+1,quadratic_0076,quadratic,1,no solution,True,correct
+1,quadratic_0077,quadratic,1,no solution,True,correct
+1,quadratic_0078,quadratic,1,"x = 0, x = 2",True,correct
+1,quadratic_0079,quadratic,1,no solution,True,correct
+1,rational_0080,rational,1,x = -3/2,False,wrong
+1,rational_0080,rational,2,"x = -1, x = 5",False,extraneous_root
+1,rational_0080,rational,3,x = -1,True,correct
+1,rational_0081,rational,1,"x = 5, x = -5",False,extraneous_root
+1,rational_0081,rational,2,x = 5,True,correct
+1,rational_0082,rational,1,no solution,True,correct
+1,rational_0083,rational,1,x = 19/2,False,wrong
+1,rational_0083,rational,2,"x = 9, x = -5",False,extraneous_root
+1,rational_0083,rational,3,x = 9,True,correct
+1,rational_0084,rational,1,"x = 1, x = -1",False,extraneous_root
+1,rational_0084,rational,2,x = 3/2,False,wrong
+1,rational_0084,rational,3,x = 1,True,correct
+1,rational_0085,rational,1,x = -6,True,correct
+1,rational_0086,rational,1,x = 2,False,wrong
+1,rational_0086,rational,2,x = 1,True,correct
+1,rational_0087,rational,1,x = -5/7,True,correct
+1,rational_0088,rational,1,"x = 21, x = 6",False,extraneous_root
+1,rational_0088,rational,2,"x = 21, x = 6",False,extraneous_root
+1,rational_0088,rational,3,x = 21,True,correct
+1,rational_0089,rational,1,"x = -16, x = -3",False,extraneous_root
+1,rational_0089,rational,2,x = -17,False,wrong
+1,rational_0089,rational,3,x = -16,True,correct
+1,rational_0090,rational,1,"x = 2, x = -2",False,extraneous_root
+1,rational_0090,rational,2,x = 1,False,wrong
+1,rational_0090,rational,3,x = 5/2,False,wrong
+1,rational_0091,rational,1,x = -3/4,False,wrong
+1,rational_0091,rational,2,x = -5/4,True,correct
+1,rational_0092,rational,1,x = 6/5,False,wrong
+1,rational_0092,rational,2,x = -4/5,False,wrong
+1,rational_0092,rational,3,x = 1/5,True,correct
+1,rational_0093,rational,1,"x = -2/3, x = -3",False,extraneous_root
+1,rational_0093,rational,2,x = -1/6,False,wrong
+1,rational_0093,rational,3,x = -7/6,False,wrong
+1,rational_0094,rational,1,x = 9/2,False,wrong
+1,rational_0094,rational,2,x = 9/2,False,wrong
+1,rational_0094,rational,3,"x = 5, x = 1",False,extraneous_root
+1,rational_0095,rational,1,x = -1,False,wrong
+1,rational_0095,rational,2,"x = -1/2, x = -2",False,extraneous_root
+1,rational_0095,rational,3,x = -3/2,False,wrong
+1,rational_0096,rational,1,x = -17,True,correct
+1,rational_0097,rational,1,"x = 0, x = -2",False,extraneous_root
+1,rational_0097,rational,2,"x = 0, x = -2",False,extraneous_root
+1,rational_0097,rational,3,x = 0,True,correct
+1,rational_0098,rational,1,"x = -3, x = -6",False,extraneous_root
+1,rational_0098,rational,2,x = -3,True,correct
+1,rational_0099,rational,1,x = -14,False,wrong
+1,rational_0099,rational,2,x = -13,True,correct
+1,rational_0100,rational,1,x = -5/3,False,wrong
+1,rational_0100,rational,2,"x = -2/3, x = -1",False,extraneous_root
+1,rational_0100,rational,3,x = -1/6,False,wrong
+1,rational_0101,rational,1,"x = 1/2, x = -3",False,extraneous_root
+1,rational_0101,rational,2,x = 1,False,wrong
+1,rational_0101,rational,3,x = 1/2,True,correct
+1,rational_0102,rational,1,no solution,True,correct
+1,rational_0103,rational,1,"x = 20/3, x = 5",False,extraneous_root
+1,rational_0103,rational,2,x = 43/6,False,wrong
+1,rational_0103,rational,3,x = 20/3,True,correct
+1,rational_0104,rational,1,x = 4/3,False,wrong
+1,rational_0104,rational,2,x = -1/6,False,wrong
+1,rational_0104,rational,3,x = 1/3,True,correct
+1,rational_0105,rational,1,"x = -17/9, x = -5",False,extraneous_root
+1,rational_0105,rational,2,x = -8/9,False,wrong
+1,rational_0105,rational,3,x = -17/9,True,correct
+1,rational_0106,rational,1,x = 5/6,False,wrong
+1,rational_0106,rational,2,"x = 4/3, x = 2",False,extraneous_root
+1,rational_0106,rational,3,"x = 4/3, x = 2",False,extraneous_root
+1,rational_0107,rational,1,x = 4/3,False,wrong
+1,rational_0107,rational,2,x = 1/3,True,correct
+1,rational_0108,rational,1,x = -3,False,wrong
+1,rational_0108,rational,2,x = -1,False,wrong
+1,rational_0108,rational,3,x = -2,True,correct
+1,rational_0109,rational,1,x = 19/2,False,wrong
+1,rational_0109,rational,2,x = 19/2,False,wrong
+1,rational_0109,rational,3,x = 10,True,correct
+1,rational_0110,rational,1,"x = 35, x = 6",False,extraneous_root
+1,rational_0110,rational,2,x = 36,False,wrong
+1,rational_0110,rational,3,x = 35,True,correct
+1,rational_0111,rational,1,x = -3,False,wrong
+1,rational_0111,rational,2,x = -7/2,True,correct
+1,rational_0112,rational,1,x = 11/6,False,wrong
+1,rational_0112,rational,2,x = 23/6,False,wrong
+1,rational_0112,rational,3,x = 10/3,False,wrong
+1,rational_0113,rational,1,"x = 34/3, x = 6",False,extraneous_root
+1,rational_0113,rational,2,"x = 34/3, x = 6",False,extraneous_root
+1,rational_0113,rational,3,"x = 34/3, x = 6",False,extraneous_root
+1,rational_0114,rational,1,x = -28/5,False,wrong
+1,rational_0114,rational,2,x = -18/5,False,wrong
+1,rational_0114,rational,3,x = -51/10,False,wrong
+1,rational_0115,rational,1,x = -5/4,False,wrong
+1,rational_0115,rational,2,x = -9/4,True,correct
+1,rational_0116,rational,1,x = -16/5,False,wrong
+1,rational_0116,rational,2,x = -11/5,True,correct
+1,rational_0117,rational,1,x = -7/6,False,wrong
+1,rational_0117,rational,2,"x = -2/3, x = -1",False,extraneous_root
+1,rational_0117,rational,3,x = -2/3,True,correct
+1,rational_0118,rational,1,x = 11,True,correct
+1,rational_0119,rational,1,x = 15/2,False,wrong
+1,rational_0119,rational,2,"x = 7, x = 6",False,extraneous_root
+1,rational_0119,rational,3,x = 8,False,wrong
+2,linear_0000,linear,1,x = -2,False,wrong
+2,linear_0000,linear,2,x = -3,True,correct
+2,linear_0001,linear,1,x = -4/3,False,wrong
+2,linear_0001,linear,2,x = 1/6,False,wrong
+2,linear_0001,linear,3,x = -1/3,True,correct
+2,linear_0002,linear,1,x = -2/3,False,wrong
+2,linear_0002,linear,2,x = -8/3,False,wrong
+2,linear_0002,linear,3,x = -13/6,False,wrong
+2,linear_0003,linear,1,x = 3/2,False,wrong
+2,linear_0003,linear,2,x = 1/2,False,wrong
+2,linear_0003,linear,3,x = 1,True,correct
+2,linear_0004,linear,1,x = 1/2,False,wrong
+2,linear_0004,linear,2,x = -1/2,True,correct
+2,linear_0005,linear,1,x = 1/2,False,wrong
+2,linear_0005,linear,2,x = 0,False,wrong
+2,linear_0005,linear,3,x = 0,False,wrong
+2,linear_0006,linear,1,x = 1,False,wrong
+2,linear_0006,linear,2,x = 2,True,correct
+2,linear_0007,linear,1,x = -3,True,correct
+2,linear_0008,linear,1,x = 4/5,False,wrong
+2,linear_0008,linear,2,x = 13/10,False,wrong
+2,linear_0008,linear,3,x = 23/10,False,wrong
+2,linear_0009,linear,1,x = 4,False,wrong
+2,linear_0009,linear,2,x = 7/2,True,correct
+2,linear_0010,linear,1,x = -2,False,wrong
+2,linear_0010,linear,2,x = -3/2,True,correct
+2,linear_0011,linear,1,x = -3/4,False,wrong
+2,linear_0011,linear,2,x = -5/4,False,wrong
+2,linear_0011,linear,3,x = -1/4,True,correct
+2,linear_0012,linear,1,x = -11/10,False,wrong
+2,linear_0012,linear,2,x = -21/10,False,wrong
+2,linear_0012,linear,3,x = -21/10,False,wrong
+2,linear_0013,linear,1,x = -1/2,False,wrong
+2,linear_0013,linear,2,x = -1,False,wrong
+2,linear_0013,linear,3,x = -1,False,wrong
+2,linear_0014,linear,1,x = -3,False,wrong
+2,linear_0014,linear,2,x = -4,False,wrong
+2,linear_0014,linear,3,x = -7/2,True,correct
+2,linear_0015,linear,1,x = -3/10,False,wrong
+2,linear_0015,linear,2,x = 1/5,True,correct
+2,linear_0016,linear,1,x = 1/2,False,wrong
+2,linear_0016,linear,2,x = 1,False,wrong
+2,linear_0016,linear,3,x = 1/2,False,wrong
+2,linear_0017,linear,1,x = -7/2,False,wrong
+2,linear_0017,linear,2,x = -3/2,False,wrong
+2,linear_0017,linear,3,x = -5/2,True,correct
+2,linear_0018,linear,1,x = 17/6,False,wrong
+2,linear_0018,linear,2,x = 10/3,False,wrong
+2,linear_0018,linear,3,x = 4/3,False,wrong
+2,linear_0019,linear,1,x = -3,False,wrong
+2,linear_0019,linear,2,x = -1,False,wrong
+2,linear_0019,linear,3,x = -2,True,correct
+2,linear_0020,linear,1,x = 5/3,False,wrong
+2,linear_0020,linear,2,x = 2/3,True,correct
+2,linear_0021,linear,1,x = 1/6,False,wrong
+2,linear_0021,linear,2,x = 13/6,False,wrong
+2,linear_0021,linear,3,x = 7/6,True,correct
+2,linear_0022,linear,1,x = -4/3,True,correct
+2,linear_0023,linear,1,x = -1/3,True,correct
+2,linear_0024,linear,1,x = -7/6,False,wrong
+2,linear_0024,linear,2,x = -5/3,True,correct
+2,linear_0025,linear,1,x = 1/2,False,wrong
+2,linear_0025,linear,2,x = 5/2,False,wrong
+2,linear_0025,linear,3,x = 3/2,True,correct
+2,linear_0026,linear,1,x = 0,True,correct
+2,linear_0027,linear,1,x = -1,False,wrong
+2,linear_0027,linear,2,x = 1,False,wrong
+2,linear_0027,linear,3,x = 0,True,correct
+2,linear_0028,linear,1,x = 7/3,False,wrong
+2,linear_0028,linear,2,x = 4/3,True,correct
+2,linear_0029,linear,1,x = 19/6,False,wrong
+2,linear_0029,linear,2,x = 11/3,False,wrong
+2,linear_0029,linear,3,x = 13/6,False,wrong
+2,linear_0030,linear,1,x = -2,False,wrong
+2,linear_0030,linear,2,x = -2,False,wrong
+2,linear_0030,linear,3,x = -1,True,correct
+2,linear_0031,linear,1,x = 11/4,False,wrong
+2,linear_0031,linear,2,x = 7/4,True,correct
+2,linear_0032,linear,1,x = 3,False,wrong
+2,linear_0032,linear,2,x = 7/2,False,wrong
+2,linear_0032,linear,3,x = 4,True,correct
+2,linear_0033,linear,1,x = 1/2,False,wrong
+2,linear_0033,linear,2,x = 0,True,correct
+2,linear_0034,linear,1,x = -7/10,False,wrong
+2,linear_0034,linear,2,x = -6/5,False,wrong
+2,linear_0034,linear,3,x = 3/10,False,wrong
+2,linear_0035,linear,1,x = 1/3,True,correct
+2,linear_0036,linear,1,x = 7/6,True,correct
+2,linear_0037,linear,1,x = 0,True,correct
+2,linear_0038,linear,1,x = 7/3,False,wrong
+2,linear_0038,linear,2,x = 1/3,False,wrong
+2,linear_0038,linear,3,x = 7/3,False,wrong
+2,linear_0039,linear,1,x = -11/4,False,wrong
+2,linear_0039,linear,2,x = -5/4,False,wrong
+2,linear_0039,linear,3,x = -7/4,True,correct
+2,quadratic_0040,quadratic,1,x = -2,False,wrong
+2,quadratic_0040,quadratic,2,"x = -3, x = 0",True,correct
+2,quadratic_0041,quadratic,1,x = -2/3,False,incomplete
+2,quadratic_0041,quadratic,2,x = -2/3,False,incomplete
+2,quadratic_0041,quadratic,3,"x = -2/3, x = 3",True,correct
+2,quadratic_0042,quadratic,1,"x = -1/2 + sqrt(3)/2, x = -sqrt(3)/2 - 1/2",True,correct
+2,quadratic_0043,quadratic,1,no solution,True,correct
+2,quadratic_0044,quadratic,1,"x = -8/3, x = 1",True,correct
+2,quadratic_0045,quadratic,1,"x = -1/2, x = 1/2",True,correct
+2,quadratic_0046,quadratic,1,no solution,True,correct
+2,quadratic_0047,quadratic,1,no solution,True,correct
+2,quadratic_0048,quadratic,1,no solution,True,correct
+2,quadratic_0049,quadratic,1,x = -sqrt(3)/2,False,wrong
+2,quadratic_0049,quadratic,2,x = 1 - sqrt(3)/2,False,incomplete
+2,quadratic_0049,quadratic,3,"x = 1 - sqrt(3)/2, x = sqrt(3)/2 + 1",True,correct
+2,quadratic_0050,quadratic,1,x = -7/8 + sqrt(65)/8,False,incomplete
+2,quadratic_0050,quadratic,2,x = -15/8 + sqrt(65)/8,False,wrong
+2,quadratic_0050,quadratic,3,x = -11/8 + sqrt(65)/8,False,wrong
+2,quadratic_0051,quadratic,1,x = 1/2,False,wrong
+2,quadratic_0051,quadratic,2,x = -1/2,False,incomplete
+2,quadratic_0051,quadratic,3,x = -1/2,False,incomplete
+2,quadratic_0052,quadratic,1,"x = -1/8 + sqrt(129)/8, x = -sqrt(129)/8 - 1/8",True,correct
+2,quadratic_0053,quadratic,1,x = 5/6 + sqrt(61)/6,False,incomplete
+2,quadratic_0053,quadratic,2,"x = 5/6 + sqrt(61)/6, x = 5/6 - sqrt(61)/6",True,correct
+2,quadratic_0054,quadratic,1,x = 7/2 - sqrt(17)/2,False,wrong
+2,quadratic_0054,quadratic,2,x = 5/2 - sqrt(17)/2,False,incomplete
+2,quadratic_0054,quadratic,3,x = 5/2 - sqrt(17)/2,False,incomplete
+2,quadratic_0055,quadratic,1,x = -1/3 + sqrt(22)/3,False,wrong
+2,quadratic_0055,quadratic,2,"x = -4/3 + sqrt(22)/3, x = -sqrt(22)/3 - 4/3",True,correct
+2,quadratic_0056,quadratic,1,no solution,True,correct
+2,quadratic_0057,quadratic,1,no solution,True,correct
+2,quadratic_0058,quadratic,1,"x = -1, x = 5",True,correct
+2,quadratic_0059,quadratic,1,x = 3/4 + sqrt(33)/4,False,incomplete
+2,quadratic_0059,quadratic,2,x = 3/4 + sqrt(33)/4,False,incomplete
+2,quadratic_0059,quadratic,3,"x = 3/4 + sqrt(33)/4, x = 3/4 - sqrt(33)/4",True,correct
+2,quadratic_0060,quadratic,1,x = 1 + sqrt(33)/3,False,incomplete
+2,quadratic_0060,quadratic,2,"x = 1 + sqrt(33)/3, x = 1 - sqrt(33)/3",True,correct
+2,quadratic_0061,quadratic,1,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+2,quadratic_0062,quadratic,1,no solution,True,correct
+2,quadratic_0063,quadratic,1,no solution,True,correct
+2,quadratic_0064,quadratic,1,x = -1 + sqrt(7),False,wrong
+2,quadratic_0064,quadratic,2,"x = -2 + sqrt(7), x = -sqrt(7) - 2",True,correct
+2,quadratic_0065,quadratic,1,x = 3/2 - sqrt(14)/2,False,wrong
+2,quadratic_0065,quadratic,2,"x = 2 - sqrt(14)/2, x = sqrt(14)/2 + 2",True,correct
+2,quadratic_0066,quadratic,1,no solution,True,correct
+2,quadratic_0067,quadratic,1,"x = -4/3 + sqrt(7)/3, x = -4/3 - sqrt(7)/3",True,correct
+2,quadratic_0068,quadratic,1,x = -3,False,incomplete
+2,quadratic_0068,quadratic,2,x = -7/2,False,wrong
+2,quadratic_0068,quadratic,3,x = -5/2,False,wrong
+2,quadratic_0069,quadratic,1,x = -1,False,incomplete
+2,quadratic_0069,quadratic,2,x = 0,False,wrong
+2,quadratic_0069,quadratic,3,x = 0,False,wrong
+2,quadratic_0070,quadratic,1,"x = 2 - sqrt(3), x = sqrt(3) + 2",True,correct
+2,quadratic_0071,quadratic,1,no solution,True,correct
+2,quadratic_0072,quadratic,1,x = -1/6 + sqrt(13)/6,False,wrong
+2,quadratic_0072,quadratic,2,x = -1/6 + sqrt(13)/6,False,wrong
+2,quadratic_0072,quadratic,3,"x = -7/6 + sqrt(13)/6, x = -7/6 - sqrt(13)/6",True,correct
+2,quadratic_0073,quadratic,1,x = -1/2 + sqrt(105)/6,False,incomplete
+2,quadratic_0073,quadratic,2,x = -1 + sqrt(105)/6,False,wrong
+2,quadratic_0073,quadratic,3,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+2,quadratic_0074,quadratic,1,x = -4,False,incomplete
+2,quadratic_0074,quadratic,2,x = -9/2,False,wrong
+2,quadratic_0074,quadratic,3,"x = -4, x = 1",True,correct
+2,quadratic_0075,quadratic,1,no solution,True,correct
+2,quadratic_0076,quadratic,1,no solution,True,correct
+2,quadratic_0077,quadratic,1,no solution,True,correct
+2,quadratic_0078,quadratic,1,x = 0,False,incomplete
+2,quadratic_0078,quadratic,2,x = 0,False,incomplete
+2,quadratic_0078,quadratic,3,x = -1,False,wrong
+2,quadratic_0079,quadratic,1,no solution,True,correct
+2,rational_0080,rational,1,x = -3/2,False,wrong
+2,rational_0080,rational,2,"x = -1, x = 5",False,extraneous_root
+2,rational_0080,rational,3,x = -1,True,correct
+2,rational_0081,rational,1,x = 9/2,False,wrong
+2,rational_0081,rational,2,x = 11/2,False,wrong
+2,rational_0081,rational,3,x = 6,False,wrong
+2,rational_0082,rational,1,no solution,True,correct
+2,rational_0083,rational,1,x = 17/2,False,wrong
+2,rational_0083,rational,2,"x = 9, x = -5",False,extraneous_root
+2,rational_0083,rational,3,x = 19/2,False,wrong
+2,rational_0084,rational,1,x = 1/2,False,wrong
+2,rational_0084,rational,2,x = 2,False,wrong
+2,rational_0084,rational,3,x = 1,True,correct
+2,rational_0085,rational,1,x = -13/2,False,wrong
+2,rational_0085,rational,2,x = -5,False,wrong
+2,rational_0085,rational,3,x = -6,True,correct
+2,rational_0086,rational,1,x = 3/2,False,wrong
+2,rational_0086,rational,2,x = 0,False,wrong
+2,rational_0086,rational,3,x = 1,True,correct
+2,rational_0087,rational,1,"x = -5/7, x = -3",False,extraneous_root
+2,rational_0087,rational,2,x = -12/7,False,wrong
+2,rational_0087,rational,3,x = -5/7,True,correct
+2,rational_0088,rational,1,x = 22,False,wrong
+2,rational_0088,rational,2,x = 21,True,correct
+2,rational_0089,rational,1,x = -15,False,wrong
+2,rational_0089,rational,2,x = -31/2,False,wrong
+2,rational_0089,rational,3,x = -16,True,correct
+2,rational_0090,rational,1,x = 3,False,wrong
+2,rational_0090,rational,2,"x = 2, x = -2",False,extraneous_root
+2,rational_0090,rational,3,x = 3/2,False,wrong
+2,rational_0091,rational,1,x = -9/4,False,wrong
+2,rational_0091,rational,2,x = -5/4,True,correct
+2,rational_0092,rational,1,x = 7/10,False,wrong
+2,rational_0092,rational,2,x = 1/5,True,correct
+2,rational_0093,rational,1,x = 1/3,False,wrong
+2,rational_0093,rational,2,x = -2/3,True,correct
+2,rational_0094,rational,1,"x = 5, x = 1",False,extraneous_root
+2,rational_0094,rational,2,x = 11/2,False,wrong
+2,rational_0094,rational,3,x = 5,True,correct
+2,rational_0095,rational,1,x = -1/2,True,correct
+2,rational_0096,rational,1,x = -33/2,False,wrong
+2,rational_0096,rational,2,x = -17,True,correct
+2,rational_0097,rational,1,"x = 0, x = -2",False,extraneous_root
+2,rational_0097,rational,2,x = -1/2,False,wrong
+2,rational_0097,rational,3,x = 0,True,correct
+2,rational_0098,rational,1,x = -4,False,wrong
+2,rational_0098,rational,2,x = -4,False,wrong
+2,rational_0098,rational,3,x = -5/2,False,wrong
+2,rational_0099,rational,1,x = -13,True,correct
+2,rational_0100,rational,1,x = -1/6,False,wrong
+2,rational_0100,rational,2,x = -2/3,True,correct
+2,rational_0101,rational,1,x = 1/2,True,correct
+2,rational_0102,rational,1,no solution,True,correct
+2,rational_0103,rational,1,x = 17/3,False,wrong
+2,rational_0103,rational,2,x = 20/3,True,correct
+2,rational_0104,rational,1,x = 1/3,True,correct
+2,rational_0105,rational,1,"x = -17/9, x = -5",False,extraneous_root
+2,rational_0105,rational,2,"x = -17/9, x = -5",False,extraneous_root
+2,rational_0105,rational,3,x = -43/18,False,wrong
+2,rational_0106,rational,1,"x = 4/3, x = 2",False,extraneous_root
+2,rational_0106,rational,2,x = 4/3,True,correct
+2,rational_0107,rational,1,x = 1/3,True,correct
+2,rational_0108,rational,1,x = -3/2,False,wrong
+2,rational_0108,rational,2,x = -2,True,correct
+2,rational_0109,rational,1,x = 10,True,correct
+2,rational_0110,rational,1,x = 35,True,correct
+2,rational_0111,rational,1,x = -4,False,wrong
+2,rational_0111,rational,2,x = -3,False,wrong
+2,rational_0111,rational,3,x = -7/2,True,correct
+2,rational_0112,rational,1,x = 10/3,False,wrong
+2,rational_0112,rational,2,x = 10/3,False,wrong
+2,rational_0112,rational,3,x = 17/6,True,correct
+2,rational_0113,rational,1,"x = 34/3, x = 6",False,extraneous_root
+2,rational_0113,rational,2,x = 34/3,True,correct
+2,rational_0114,rational,1,"x = -23/5, x = -5",False,extraneous_root
+2,rational_0114,rational,2,x = -18/5,False,wrong
+2,rational_0114,rational,3,"x = -23/5, x = -5",False,extraneous_root
+2,rational_0115,rational,1,"x = -9/4, x = -2",False,extraneous_root
+2,rational_0115,rational,2,x = -9/4,True,correct
+2,rational_0116,rational,1,"x = -11/5, x = -3",False,extraneous_root
+2,rational_0116,rational,2,x = -27/10,False,wrong
+2,rational_0116,rational,3,x = -11/5,True,correct
+2,rational_0117,rational,1,x = -7/6,False,wrong
+2,rational_0117,rational,2,x = -5/3,False,wrong
+2,rational_0117,rational,3,x = -2/3,True,correct
+2,rational_0118,rational,1,x = 10,False,wrong
+2,rational_0118,rational,2,"x = 11, x = 3",False,extraneous_root
+2,rational_0118,rational,3,x = 11,True,correct
+2,rational_0119,rational,1,"x = 7, x = 6",False,extraneous_root
+2,rational_0119,rational,2,x = 7,True,correct
+3,linear_0000,linear,1,x = -4,False,wrong
+3,linear_0000,linear,2,x = -3,True,correct
+3,linear_0001,linear,1,x = 2/3,False,wrong
+3,linear_0001,linear,2,x = -5/6,False,wrong
+3,linear_0001,linear,3,x = -1/3,True,correct
+3,linear_0002,linear,1,x = -13/6,False,wrong
+3,linear_0002,linear,2,x = -13/6,False,wrong
+3,linear_0002,linear,3,x = -5/3,True,correct
+3,linear_0003,linear,1,x = 0,False,wrong
+3,linear_0003,linear,2,x = 1/2,False,wrong
+3,linear_0003,linear,3,x = 2,False,wrong
+3,linear_0004,linear,1,x = -1/2,True,correct
+3,linear_0005,linear,1,x = 2,False,wrong
+3,linear_0005,linear,2,x = 1,True,correct
+3,linear_0006,linear,1,x = 2,True,correct
+3,linear_0007,linear,1,x = -7/2,False,wrong
+3,linear_0007,linear,2,x = -7/2,False,wrong
+3,linear_0007,linear,3,x = -7/2,False,wrong
+3,linear_0008,linear,1,x = 13/10,False,wrong
+3,linear_0008,linear,2,x = 4/5,False,wrong
+3,linear_0008,linear,3,x = 14/5,False,wrong
+3,linear_0009,linear,1,x = 7/2,True,correct
+3,linear_0010,linear,1,x = -1,False,wrong
+3,linear_0010,linear,2,x = -2,False,wrong
+3,linear_0010,linear,3,x = -1,False,wrong
+3,linear_0011,linear,1,x = -3/4,False,wrong
+3,linear_0011,linear,2,x = -3/4,False,wrong
+3,linear_0011,linear,3,x = 1/4,False,wrong
+3,linear_0012,linear,1,x = -3/5,False,wrong
+3,linear_0012,linear,2,x = -13/5,False,wrong
+3,linear_0012,linear,3,x = -11/10,False,wrong
+3,linear_0013,linear,1,x = 1,False,wrong
+3,linear_0013,linear,2,x = -1,False,wrong
+3,linear_0013,linear,3,x = 1/2,False,wrong
+3,linear_0014,linear,1,x = -5/2,False,wrong
+3,linear_0014,linear,2,x = -4,False,wrong
+3,linear_0014,linear,3,x = -7/2,True,correct
+3,linear_0015,linear,1,x = -3/10,False,wrong
+3,linear_0015,linear,2,x = 6/5,False,wrong
+3,linear_0015,linear,3,x = 1/5,True,correct
+3,linear_0016,linear,1,x = 1,False,wrong
+3,linear_0016,linear,2,x = 0,True,correct
+3,linear_0017,linear,1,x = -3/2,False,wrong
+3,linear_0017,linear,2,x = -2,False,wrong
+3,linear_0017,linear,3,x = -2,False,wrong
+3,linear_0018,linear,1,x = 10/3,False,wrong
+3,linear_0018,linear,2,x = 7/3,True,correct
+3,linear_0019,linear,1,x = -2,True,correct
+3,linear_0020,linear,1,x = 5/3,False,wrong
+3,linear_0020,linear,2,x = 1/6,False,wrong
+3,linear_0020,linear,3,x = 2/3,True,correct
+3,linear_0021,linear,1,x = 13/6,False,wrong
+3,linear_0021,linear,2,x = 5/3,False,wrong
+3,linear_0021,linear,3,x = 7/6,True,correct
+3,linear_0022,linear,1,x = -11/6,False,wrong
+3,linear_0022,linear,2,x = -11/6,False,wrong
+3,linear_0022,linear,3,x = -1/3,False,wrong
+3,linear_0023,linear,1,x = 1/6,False,wrong
+3,linear_0023,linear,2,x = -4/3,False,wrong
+3,linear_0023,linear,3,x = -5/6,False,wrong
+3,linear_0024,linear,1,x = -7/6,False,wrong
+3,linear_0024,linear,2,x = -2/3,False,wrong
+3,linear_0024,linear,3,x = -7/6,False,wrong
+3,linear_0025,linear,1,x = 3/2,True,correct
+3,linear_0026,linear,1,x = -1,False,wrong
+3,linear_0026,linear,2,x = 0,True,correct
+3,linear_0027,linear,1,x = -1/2,False,wrong
+3,linear_0027,linear,2,x = 0,True,correct
+3,linear_0028,linear,1,x = 11/6,False,wrong
+3,linear_0028,linear,2,x = 7/3,False,wrong
+3,linear_0028,linear,3,x = 7/3,False,wrong
+3,linear_0029,linear,1,x = 19/6,False,wrong
+3,linear_0029,linear,2,x = 19/6,False,wrong
+3,linear_0029,linear,3,x = 19/6,False,wrong
+3,linear_0030,linear,1,x = -1,True,correct
+3,linear_0031,linear,1,x = 7/4,True,correct
+3,linear_0032,linear,1,x = 9/2,False,wrong
+3,linear_0032,linear,2,x = 4,True,correct
+3,linear_0033,linear,1,x = 1,False,wrong
+3,linear_0033,linear,2,x = -1,False,wrong
+3,linear_0033,linear,3,x = 0,True,correct
+3,linear_0034,linear,1,x = 3/10,False,wrong
+3,linear_0034,linear,2,x = -1/5,True,correct
+3,linear_0035,linear,1,x = 1/3,True,correct
+3,linear_0036,linear,1,x = 13/6,False,wrong
+3,linear_0036,linear,2,x = 7/6,True,correct
+3,linear_0037,linear,1,x = 1/2,False,wrong
+3,linear_0037,linear,2,x = -1,False,wrong
+3,linear_0037,linear,3,x = 0,True,correct
+3,linear_0038,linear,1,x = 1/3,False,wrong
+3,linear_0038,linear,2,x = 4/3,True,correct
+3,linear_0039,linear,1,x = -11/4,False,wrong
+3,linear_0039,linear,2,x = -9/4,False,wrong
+3,linear_0039,linear,3,x = -7/4,True,correct
+3,quadratic_0040,quadratic,1,x = -3,False,incomplete
+3,quadratic_0040,quadratic,2,x = -3,False,incomplete
+3,quadratic_0040,quadratic,3,x = -5/2,False,wrong
+3,quadratic_0041,quadratic,1,x = 1/3,False,wrong
+3,quadratic_0041,quadratic,2,x = -2/3,False,incomplete
+3,quadratic_0041,quadratic,3,"x = -2/3, x = 3",True,correct
+3,quadratic_0042,quadratic,1,x = sqrt(3)/2,False,wrong
+3,quadratic_0042,quadratic,2,x = sqrt(3)/2,False,wrong
+3,quadratic_0042,quadratic,3,"x = -1/2 + sqrt(3)/2, x = -sqrt(3)/2 - 1/2",True,correct
+3,quadratic_0043,quadratic,1,no solution,True,correct
+3,quadratic_0044,quadratic,1,x = -8/3,False,incomplete
+3,quadratic_0044,quadratic,2,"x = -8/3, x = 1",True,correct
+3,quadratic_0045,quadratic,1,x = -1,False,wrong
+3,quadratic_0045,quadratic,2,x = -3/2,False,wrong
+3,quadratic_0045,quadratic,3,"x = -1/2, x = 1/2",True,correct
+3,quadratic_0046,quadratic,1,no solution,True,correct
+3,quadratic_0047,quadratic,1,no solution,True,correct
+3,quadratic_0048,quadratic,1,no solution,True,correct
+3,quadratic_0049,quadratic,1,x = -sqrt(3)/2,False,wrong
+3,quadratic_0049,quadratic,2,x = 3/2 - sqrt(3)/2,False,wrong
+3,quadratic_0049,quadratic,3,"x = 1 - sqrt(3)/2, x = sqrt(3)/2 + 1",True,correct
+3,quadratic_0050,quadratic,1,x = -7/8 + sqrt(65)/8,False,incomplete
+3,quadratic_0050,quadratic,2,x = -15/8 + sqrt(65)/8,False,wrong
+3,quadratic_0050,quadratic,3,x = 1/8 + sqrt(65)/8,False,wrong
+3,quadratic_0051,quadratic,1,"x = -1/2, x = 1",True,correct
+3,quadratic_0052,quadratic,1,x = -1/8 + sqrt(129)/8,False,incomplete
+3,quadratic_0052,quadratic,2,"x = -1/8 + sqrt(129)/8, x = -sqrt(129)/8 - 1/8",True,correct
+3,quadratic_0053,quadratic,1,x = 1/3 + sqrt(61)/6,False,wrong
+3,quadratic_0053,quadratic,2,"x = 5/6 + sqrt(61)/6, x = 5/6 - sqrt(61)/6",True,correct
+3,quadratic_0054,quadratic,1,x = 5/2 - sqrt(17)/2,False,incomplete
+3,quadratic_0054,quadratic,2,"x = 5/2 - sqrt(17)/2, x = sqrt(17)/2 + 5/2",True,correct
+3,quadratic_0055,quadratic,1,x = -1/3 + sqrt(22)/3,False,wrong
+3,quadratic_0055,quadratic,2,"x = -4/3 + sqrt(22)/3, x = -sqrt(22)/3 - 4/3",True,correct
+3,quadratic_0056,quadratic,1,no solution,True,correct
+3,quadratic_0057,quadratic,1,no solution,True,correct
+3,quadratic_0058,quadratic,1,x = -1,False,incomplete
+3,quadratic_0058,quadratic,2,x = -2,False,wrong
+3,quadratic_0058,quadratic,3,x = -1,False,incomplete
+3,quadratic_0059,quadratic,1,x = sqrt(33)/4 + 7/4,False,wrong
+3,quadratic_0059,quadratic,2,x = 3/4 + sqrt(33)/4,False,incomplete
+3,quadratic_0059,quadratic,3,x = sqrt(33)/4 + 7/4,False,wrong
+3,quadratic_0060,quadratic,1,x = sqrt(33)/3 + 2,False,wrong
+3,quadratic_0060,quadratic,2,x = sqrt(33)/3 + 2,False,wrong
+3,quadratic_0060,quadratic,3,"x = 1 + sqrt(33)/3, x = 1 - sqrt(33)/3",True,correct
+3,quadratic_0061,quadratic,1,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+3,quadratic_0062,quadratic,1,no solution,True,correct
+3,quadratic_0063,quadratic,1,no solution,True,correct
+3,quadratic_0064,quadratic,1,"x = -2 + sqrt(7), x = -sqrt(7) - 2",True,correct
+3,quadratic_0065,quadratic,1,x = 2 - sqrt(14)/2,False,incomplete
+3,quadratic_0065,quadratic,2,"x = 2 - sqrt(14)/2, x = sqrt(14)/2 + 2",True,correct
+3,quadratic_0066,quadratic,1,no solution,True,correct
+3,quadratic_0067,quadratic,1,x = -5/6 + sqrt(7)/3,False,wrong
+3,quadratic_0067,quadratic,2,"x = -4/3 + sqrt(7)/3, x = -4/3 - sqrt(7)/3",True,correct
+3,quadratic_0068,quadratic,1,x = -3,False,incomplete
+3,quadratic_0068,quadratic,2,"x = -3, x = 0",True,correct
+3,quadratic_0069,quadratic,1,"x = -1, x = 2",True,correct
+3,quadratic_0070,quadratic,1,x = 1 - sqrt(3),False,wrong
+3,quadratic_0070,quadratic,2,"x = 2 - sqrt(3), x = sqrt(3) + 2",True,correct
+3,quadratic_0071,quadratic,1,no solution,True,correct
+3,quadratic_0072,quadratic,1,x = -1/6 + sqrt(13)/6,False,wrong
+3,quadratic_0072,quadratic,2,x = -7/6 + sqrt(13)/6,False,incomplete
+3,quadratic_0072,quadratic,3,"x = -7/6 + sqrt(13)/6, x = -7/6 - sqrt(13)/6",True,correct
+3,quadratic_0073,quadratic,1,x = -1 + sqrt(105)/6,False,wrong
+3,quadratic_0073,quadratic,2,x = -1/2 + sqrt(105)/6,False,incomplete
+3,quadratic_0073,quadratic,3,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+3,quadratic_0074,quadratic,1,x = -4,False,incomplete
+3,quadratic_0074,quadratic,2,x = -5,False,wrong
+3,quadratic_0074,quadratic,3,"x = -4, x = 1",True,correct
+3,quadratic_0075,quadratic,1,no solution,True,correct
+3,quadratic_0076,quadratic,1,no solution,True,correct
+3,quadratic_0077,quadratic,1,no solution,True,correct
+3,quadratic_0078,quadratic,1,x = 1/2,False,wrong
+3,quadratic_0078,quadratic,2,"x = 0, x = 2",True,correct
+3,quadratic_0079,quadratic,1,no solution,True,correct
+3,rational_0080,rational,1,x = -3/2,False,wrong
+3,rational_0080,rational,2,x = 0,False,wrong
+3,rational_0080,rational,3,x = -3/2,False,wrong
+3,rational_0081,rational,1,x = 5,True,correct
+3,rational_0082,rational,1,x = 3,False,extraneous_root
+3,rational_0082,rational,2,no solution,True,correct
+3,rational_0083,rational,1,x = 9,True,correct
+3,rational_0084,rational,1,"x = 1, x = -1",False,extraneous_root
+3,rational_0084,rational,2,x = 1,True,correct
+3,rational_0085,rational,1,"x = -6, x = 6",False,extraneous_root
+3,rational_0085,rational,2,x = -11/2,False,wrong
+3,rational_0085,rational,3,x = -5,False,wrong
+3,rational_0086,rational,1,x = 0,False,wrong
+3,rational_0086,rational,2,x = 1,True,correct
+3,rational_0087,rational,1,x = 2/7,False,wrong
+3,rational_0087,rational,2,x = -12/7,False,wrong
+3,rational_0087,rational,3,"x = -5/7, x = -3",False,extraneous_root
+3,rational_0088,rational,1,x = 21,True,correct
+3,rational_0089,rational,1,x = -33/2,False,wrong
+3,rational_0089,rational,2,x = -16,True,correct
+3,rational_0090,rational,1,x = 3/2,False,wrong
+3,rational_0090,rational,2,"x = 2, x = -2",False,extraneous_root
+3,rational_0090,rational,3,x = 2,True,correct
+3,rational_0091,rational,1,x = -9/4,False,wrong
+3,rational_0091,rational,2,x = -7/4,False,wrong
+3,rational_0091,rational,3,x = -5/4,True,correct
+3,rational_0092,rational,1,x = -4/5,False,wrong
+3,rational_0092,rational,2,x = 1/5,True,correct
+3,rational_0093,rational,1,x = -7/6,False,wrong
+3,rational_0093,rational,2,x = -5/3,False,wrong
+3,rational_0093,rational,3,x = -2/3,True,correct
+3,rational_0094,rational,1,x = 11/2,False,wrong
+3,rational_0094,rational,2,x = 11/2,False,wrong
+3,rational_0094,rational,3,x = 11/2,False,wrong
+3,rational_0095,rational,1,"x = -1/2, x = -2",False,extraneous_root
+3,rational_0095,rational,2,x = -1/2,True,correct
+3,rational_0096,rational,1,"x = -17, x = -6",False,extraneous_root
+3,rational_0096,rational,2,"x = -17, x = -6",False,extraneous_root
+3,rational_0096,rational,3,x = -17,True,correct
+3,rational_0097,rational,1,x = -1/2,False,wrong
+3,rational_0097,rational,2,"x = 0, x = -2",False,extraneous_root
+3,rational_0097,rational,3,x = 1,False,wrong
+3,rational_0098,rational,1,x = -7/2,False,wrong
+3,rational_0098,rational,2,x = -2,False,wrong
+3,rational_0098,rational,3,x = -3,True,correct
+3,rational_0099,rational,1,"x = -13, x = -3",False,extraneous_root
+3,rational_0099,rational,2,x = -14,False,wrong
+3,rational_0099,rational,3,"x = -13, x = -3",False,extraneous_root
+3,rational_0100,rational,1,x = -2/3,True,correct
+3,rational_0101,rational,1,"x = 1/2, x = -3",False,extraneous_root
+3,rational_0101,rational,2,x = 1,False,wrong
+3,rational_0101,rational,3,x = 1/2,True,correct
+3,rational_0102,rational,1,no solution,True,correct
+3,rational_0103,rational,1,x = 20/3,True,correct
+3,rational_0104,rational,1,x = 1/3,True,correct
+3,rational_0105,rational,1,"x = -17/9, x = -5",False,extraneous_root
+3,rational_0105,rational,2,x = -17/9,True,correct
+3,rational_0106,rational,1,"x = 4/3, x = 2",False,extraneous_root
+3,rational_0106,rational,2,x = 11/6,False,wrong
+3,rational_0106,rational,3,x = 4/3,True,correct
+3,rational_0107,rational,1,x = -1/6,False,wrong
+3,rational_0107,rational,2,x = 1/3,True,correct
+3,rational_0108,rational,1,x = -5/2,False,wrong
+3,rational_0108,rational,2,x = -1,False,wrong
+3,rational_0108,rational,3,"x = -2, x = 1",False,extraneous_root
+3,rational_0109,rational,1,x = 21/2,False,wrong
+3,rational_0109,rational,2,x = 10,True,correct
+3,rational_0110,rational,1,"x = 35, x = 6",False,extraneous_root
+3,rational_0110,rational,2,x = 71/2,False,wrong
+3,rational_0110,rational,3,x = 71/2,False,wrong
+3,rational_0111,rational,1,x = -7/2,True,correct
+3,rational_0112,rational,1,"x = 17/6, x = 4",False,extraneous_root
+3,rational_0112,rational,2,x = 7/3,False,wrong
+3,rational_0112,rational,3,x = 17/6,True,correct
+3,rational_0113,rational,1,x = 34/3,True,correct
+3,rational_0114,rational,1,x = -28/5,False,wrong
+3,rational_0114,rational,2,x = -28/5,False,wrong
+3,rational_0114,rational,3,x = -23/5,True,correct
+3,rational_0115,rational,1,x = -5/4,False,wrong
+3,rational_0115,rational,2,x = -9/4,True,correct
+3,rational_0116,rational,1,x = -27/10,False,wrong
+3,rational_0116,rational,2,x = -27/10,False,wrong
+3,rational_0116,rational,3,x = -11/5,True,correct
+3,rational_0117,rational,1,x = 1/3,False,wrong
+3,rational_0117,rational,2,x = -7/6,False,wrong
+3,rational_0117,rational,3,x = -2/3,True,correct
+3,rational_0118,rational,1,"x = 11, x = 3",False,extraneous_root
+3,rational_0118,rational,2,"x = 11, x = 3",False,extraneous_root
+3,rational_0118,rational,3,x = 11,True,correct
+3,rational_0119,rational,1,x = 15/2,False,wrong
+3,rational_0119,rational,2,x = 13/2,False,wrong
+3,rational_0119,rational,3,x = 7,True,correct
+4,linear_0000,linear,1,x = -2,False,wrong
+4,linear_0000,linear,2,x = -7/2,False,wrong
+4,linear_0000,linear,3,x = -3,True,correct
+4,linear_0001,linear,1,x = -1/3,True,correct
+4,linear_0002,linear,1,x = -7/6,False,wrong
+4,linear_0002,linear,2,x = -2/3,False,wrong
+4,linear_0002,linear,3,x = -5/3,True,correct
+4,linear_0003,linear,1,x = 3/2,False,wrong
+4,linear_0003,linear,2,x = 2,False,wrong
+4,linear_0003,linear,3,x = 1,True,correct
+4,linear_0004,linear,1,x = 1/2,False,wrong
+4,linear_0004,linear,2,x = 0,False,wrong
+4,linear_0004,linear,3,x = -3/2,False,wrong
+4,linear_0005,linear,1,x = 1,True,correct
+4,linear_0006,linear,1,x = 5/2,False,wrong
+4,linear_0006,linear,2,x = 2,True,correct
+4,linear_0007,linear,1,x = -7/2,False,wrong
+4,linear_0007,linear,2,x = -4,False,wrong
+4,linear_0007,linear,3,x = -3,True,correct
+4,linear_0008,linear,1,x = 23/10,False,wrong
+4,linear_0008,linear,2,x = 9/5,True,correct
+4,linear_0009,linear,1,x = 4,False,wrong
+4,linear_0009,linear,2,x = 5/2,False,wrong
+4,linear_0009,linear,3,x = 7/2,True,correct
+4,linear_0010,linear,1,x = -2,False,wrong
+4,linear_0010,linear,2,x = -5/2,False,wrong
+4,linear_0010,linear,3,x = -3/2,True,correct
+4,linear_0011,linear,1,x = 3/4,False,wrong
+4,linear_0011,linear,2,x = -1/4,True,correct
+4,linear_0012,linear,1,x = -11/10,False,wrong
+4,linear_0012,linear,2,x = -21/10,False,wrong
+4,linear_0012,linear,3,x = -13/5,False,wrong
+4,linear_0013,linear,1,x = -1,False,wrong
+4,linear_0013,linear,2,x = 0,True,correct
+4,linear_0014,linear,1,x = -4,False,wrong
+4,linear_0014,linear,2,x = -7/2,True,correct
+4,linear_0015,linear,1,x = 7/10,False,wrong
+4,linear_0015,linear,2,x = -4/5,False,wrong
+4,linear_0015,linear,3,x = 6/5,False,wrong
+4,linear_0016,linear,1,x = -1,False,wrong
+4,linear_0016,linear,2,x = 0,True,correct
+4,linear_0017,linear,1,x = -7/2,False,wrong
+4,linear_0017,linear,2,x = -5/2,True,correct
+4,linear_0018,linear,1,x = 17/6,False,wrong
+4,linear_0018,linear,2,x = 10/3,False,wrong
+4,linear_0018,linear,3,x = 7/3,True,correct
+4,linear_0019,linear,1,x = -2,True,correct
+4,linear_0020,linear,1,x = 7/6,False,wrong
+4,linear_0020,linear,2,x = 7/6,False,wrong
+4,linear_0020,linear,3,x = 2/3,True,correct
+4,linear_0021,linear,1,x = 1/6,False,wrong
+4,linear_0021,linear,2,x = 2/3,False,wrong
+4,linear_0021,linear,3,x = 13/6,False,wrong
+4,linear_0022,linear,1,x = -7/3,False,wrong
+4,linear_0022,linear,2,x = -5/6,False,wrong
+4,linear_0022,linear,3,x = -4/3,True,correct
+4,linear_0023,linear,1,x = -4/3,False,wrong
+4,linear_0023,linear,2,x = -1/3,True,correct
+4,linear_0024,linear,1,x = -5/3,True,correct
+4,linear_0025,linear,1,x = 3/2,True,correct
+4,linear_0026,linear,1,x = 0,True,correct
+4,linear_0027,linear,1,x = 1/2,False,wrong
+4,linear_0027,linear,2,x = 1,False,wrong
+4,linear_0027,linear,3,x = 0,True,correct
+4,linear_0028,linear,1,x = 1/3,False,wrong
+4,linear_0028,linear,2,x = 4/3,True,correct
+4,linear_0029,linear,1,x = 8/3,True,correct
+4,linear_0030,linear,1,x = -2,False,wrong
+4,linear_0030,linear,2,x = -3/2,False,wrong
+4,linear_0030,linear,3,x = -1/2,False,wrong
+4,linear_0031,linear,1,x = 11/4,False,wrong
+4,linear_0031,linear,2,x = 9/4,False,wrong
+4,linear_0031,linear,3,x = 5/4,False,wrong
+4,linear_0032,linear,1,x = 3,False,wrong
+4,linear_0032,linear,2,x = 3,False,wrong
+4,linear_0032,linear,3,x = 4,True,correct
+4,linear_0033,linear,1,x = -1,False,wrong
+4,linear_0033,linear,2,x = -1,False,wrong
+4,linear_0033,linear,3,x = -1/2,False,wrong
+4,linear_0034,linear,1,x = -7/10,False,wrong
+4,linear_0034,linear,2,x = -1/5,True,correct
+4,linear_0035,linear,1,x = 1/3,True,correct
+4,linear_0036,linear,1,x = 1/6,False,wrong
+4,linear_0036,linear,2,x = 2/3,False,wrong
+4,linear_0036,linear,3,x = 1/6,False,wrong
+4,linear_0037,linear,1,x = 1/2,False,wrong
+4,linear_0037,linear,2,x = -1/2,False,wrong
+4,linear_0037,linear,3,x = 1,False,wrong
+4,linear_0038,linear,1,x = 7/3,False,wrong
+4,linear_0038,linear,2,x = 1/3,False,wrong
+4,linear_0038,linear,3,x = 4/3,True,correct
+4,linear_0039,linear,1,x = -5/4,False,wrong
+4,linear_0039,linear,2,x = -11/4,False,wrong
+4,linear_0039,linear,3,x = -5/4,False,wrong
+4,quadratic_0040,quadratic,1,x = -3,False,incomplete
+4,quadratic_0040,quadratic,2,x = -5/2,False,wrong
+4,quadratic_0040,quadratic,3,x = -2,False,wrong
+4,quadratic_0041,quadratic,1,x = -1/6,False,wrong
+4,quadratic_0041,quadratic,2,x = -2/3,False,incomplete
+4,quadratic_0041,quadratic,3,"x = -2/3, x = 3",True,correct
+4,quadratic_0042,quadratic,1,x = -1 + sqrt(3)/2,False,wrong
+4,quadratic_0042,quadratic,2,x = -1/2 + sqrt(3)/2,False,incomplete
+4,quadratic_0042,quadratic,3,"x = -1/2 + sqrt(3)/2, x = -sqrt(3)/2 - 1/2",True,correct
+4,quadratic_0043,quadratic,1,no solution,True,correct
+4,quadratic_0044,quadratic,1,"x = -8/3, x = 1",True,correct
+4,quadratic_0045,quadratic,1,x = -1/2,False,incomplete
+4,quadratic_0045,quadratic,2,x = -3/2,False,wrong
+4,quadratic_0045,quadratic,3,x = -3/2,False,wrong
+4,quadratic_0046,quadratic,1,no solution,True,correct
+4,quadratic_0047,quadratic,1,no solution,True,correct
+4,quadratic_0048,quadratic,1,no solution,True,correct
+4,quadratic_0049,quadratic,1,x = 1/2 - sqrt(3)/2,False,wrong
+4,quadratic_0049,quadratic,2,"x = 1 - sqrt(3)/2, x = sqrt(3)/2 + 1",True,correct
+4,quadratic_0050,quadratic,1,"x = -7/8 + sqrt(65)/8, x = -sqrt(65)/8 - 7/8",True,correct
+4,quadratic_0051,quadratic,1,x = -1/2,False,incomplete
+4,quadratic_0051,quadratic,2,x = -3/2,False,wrong
+4,quadratic_0051,quadratic,3,"x = -1/2, x = 1",True,correct
+4,quadratic_0052,quadratic,1,"x = -1/8 + sqrt(129)/8, x = -sqrt(129)/8 - 1/8",True,correct
+4,quadratic_0053,quadratic,1,x = sqrt(61)/6 + 4/3,False,wrong
+4,quadratic_0053,quadratic,2,x = sqrt(61)/6 + 11/6,False,wrong
+4,quadratic_0053,quadratic,3,x = 5/6 + sqrt(61)/6,False,incomplete
+4,quadratic_0054,quadratic,1,x = 2 - sqrt(17)/2,False,wrong
+4,quadratic_0054,quadratic,2,"x = 5/2 - sqrt(17)/2, x = sqrt(17)/2 + 5/2",True,correct
+4,quadratic_0055,quadratic,1,x = -1/3 + sqrt(22)/3,False,wrong
+4,quadratic_0055,quadratic,2,"x = -4/3 + sqrt(22)/3, x = -sqrt(22)/3 - 4/3",True,correct
+4,quadratic_0056,quadratic,1,no solution,True,correct
+4,quadratic_0057,quadratic,1,no solution,True,correct
+4,quadratic_0058,quadratic,1,x = -3/2,False,wrong
+4,quadratic_0058,quadratic,2,x = 0,False,wrong
+4,quadratic_0058,quadratic,3,x = -1/2,False,wrong
+4,quadratic_0059,quadratic,1,x = 3/4 + sqrt(33)/4,False,incomplete
+4,quadratic_0059,quadratic,2,"x = 3/4 + sqrt(33)/4, x = 3/4 - sqrt(33)/4",True,correct
+4,quadratic_0060,quadratic,1,x = 1 + sqrt(33)/3,False,incomplete
+4,quadratic_0060,quadratic,2,"x = 1 + sqrt(33)/3, x = 1 - sqrt(33)/3",True,correct
+4,quadratic_0061,quadratic,1,x = -1/2 + sqrt(105)/6,False,incomplete
+4,quadratic_0061,quadratic,2,x = -1/2 + sqrt(105)/6,False,incomplete
+4,quadratic_0061,quadratic,3,x = -1/2 + sqrt(105)/6,False,incomplete
+4,quadratic_0062,quadratic,1,no solution,True,correct
+4,quadratic_0063,quadratic,1,no solution,True,correct
+4,quadratic_0064,quadratic,1,"x = -2 + sqrt(7), x = -sqrt(7) - 2",True,correct
+4,quadratic_0065,quadratic,1,"x = 2 - sqrt(14)/2, x = sqrt(14)/2 + 2",True,correct
+4,quadratic_0066,quadratic,1,no solution,True,correct
+4,quadratic_0067,quadratic,1,x = -7/3 + sqrt(7)/3,False,wrong
+4,quadratic_0067,quadratic,2,x = -4/3 + sqrt(7)/3,False,incomplete
+4,quadratic_0067,quadratic,3,"x = -4/3 + sqrt(7)/3, x = -4/3 - sqrt(7)/3",True,correct
+4,quadratic_0068,quadratic,1,"x = -3, x = 0",True,correct
+4,quadratic_0069,quadratic,1,x = -1,False,incomplete
+4,quadratic_0069,quadratic,2,"x = -1, x = 2",True,correct
+4,quadratic_0070,quadratic,1,x = 3/2 - sqrt(3),False,wrong
+4,quadratic_0070,quadratic,2,x = 3/2 - sqrt(3),False,wrong
+4,quadratic_0070,quadratic,3,x = 2 - sqrt(3),False,incomplete
+4,quadratic_0071,quadratic,1,no solution,True,correct
+4,quadratic_0072,quadratic,1,x = -7/6 + sqrt(13)/6,False,incomplete
+4,quadratic_0072,quadratic,2,x = -7/6 + sqrt(13)/6,False,incomplete
+4,quadratic_0072,quadratic,3,"x = -7/6 + sqrt(13)/6, x = -7/6 - sqrt(13)/6",True,correct
+4,quadratic_0073,quadratic,1,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+4,quadratic_0074,quadratic,1,x = -4,False,incomplete
+4,quadratic_0074,quadratic,2,x = -4,False,incomplete
+4,quadratic_0074,quadratic,3,x = -4,False,incomplete
+4,quadratic_0075,quadratic,1,no solution,True,correct
+4,quadratic_0076,quadratic,1,no solution,True,correct
+4,quadratic_0077,quadratic,1,no solution,True,correct
+4,quadratic_0078,quadratic,1,x = 0,False,incomplete
+4,quadratic_0078,quadratic,2,x = 0,False,incomplete
+4,quadratic_0078,quadratic,3,"x = 0, x = 2",True,correct
+4,quadratic_0079,quadratic,1,no solution,True,correct
+4,rational_0080,rational,1,x = -1,True,correct
+4,rational_0081,rational,1,x = 11/2,False,wrong
+4,rational_0081,rational,2,x = 4,False,wrong
+4,rational_0081,rational,3,x = 5,True,correct
+4,rational_0082,rational,1,no solution,True,correct
+4,rational_0083,rational,1,"x = 9, x = -5",False,extraneous_root
+4,rational_0083,rational,2,x = 8,False,wrong
+4,rational_0083,rational,3,x = 8,False,wrong
+4,rational_0084,rational,1,x = 3/2,False,wrong
+4,rational_0084,rational,2,x = 0,False,wrong
+4,rational_0084,rational,3,x = 3/2,False,wrong
+4,rational_0085,rational,1,x = -13/2,False,wrong
+4,rational_0085,rational,2,x = -13/2,False,wrong
+4,rational_0085,rational,3,"x = -6, x = 6",False,extraneous_root
+4,rational_0086,rational,1,x = 3/2,False,wrong
+4,rational_0086,rational,2,x = 1,True,correct
+4,rational_0087,rational,1,x = -3/14,False,wrong
+4,rational_0087,rational,2,"x = -5/7, x = -3",False,extraneous_root
+4,rational_0087,rational,3,x = -5/7,True,correct
+4,rational_0088,rational,1,x = 43/2,False,wrong
+4,rational_0088,rational,2,"x = 21, x = 6",False,extraneous_root
+4,rational_0088,rational,3,x = 21,True,correct
+4,rational_0089,rational,1,"x = -16, x = -3",False,extraneous_root
+4,rational_0089,rational,2,x = -15,False,wrong
+4,rational_0089,rational,3,x = -16,True,correct
+4,rational_0090,rational,1,"x = 2, x = -2",False,extraneous_root
+4,rational_0090,rational,2,"x = 2, x = -2",False,extraneous_root
+4,rational_0090,rational,3,x = 5/2,False,wrong
+4,rational_0091,rational,1,x = -5/4,True,correct
+4,rational_0092,rational,1,x = -4/5,False,wrong
+4,rational_0092,rational,2,x = 1/5,True,correct
+4,rational_0093,rational,1,"x = -2/3, x = -3",False,extraneous_root
+4,rational_0093,rational,2,x = -2/3,True,correct
+4,rational_0094,rational,1,"x = 5, x = 1",False,extraneous_root
+4,rational_0094,rational,2,x = 4,False,wrong
+4,rational_0094,rational,3,x = 6,False,wrong
+4,rational_0095,rational,1,x = -3/2,False,wrong
+4,rational_0095,rational,2,"x = -1/2, x = -2",False,extraneous_root
+4,rational_0095,rational,3,x = 1/2,False,wrong
+4,rational_0096,rational,1,"x = -17, x = -6",False,extraneous_root
+4,rational_0096,rational,2,x = -33/2,False,wrong
+4,rational_0096,rational,3,"x = -17, x = -6",False,extraneous_root
+4,rational_0097,rational,1,x = 1,False,wrong
+4,rational_0097,rational,2,x = 0,True,correct
+4,rational_0098,rational,1,"x = -3, x = -6",False,extraneous_root
+4,rational_0098,rational,2,"x = -3, x = -6",False,extraneous_root
+4,rational_0098,rational,3,x = -3,True,correct
+4,rational_0099,rational,1,"x = -13, x = -3",False,extraneous_root
+4,rational_0099,rational,2,x = -13,True,correct
+4,rational_0100,rational,1,x = -2/3,True,correct
+4,rational_0101,rational,1,x = 0,False,wrong
+4,rational_0101,rational,2,x = 0,False,wrong
+4,rational_0101,rational,3,x = 1/2,True,correct
+4,rational_0102,rational,1,no solution,True,correct
+4,rational_0103,rational,1,"x = 20/3, x = 5",False,extraneous_root
+4,rational_0103,rational,2,x = 43/6,False,wrong
+4,rational_0103,rational,3,x = 20/3,True,correct
+4,rational_0104,rational,1,x = 4/3,False,wrong
+4,rational_0104,rational,2,"x = 1/3, x = 6",False,extraneous_root
+4,rational_0104,rational,3,x = 5/6,False,wrong
+4,rational_0105,rational,1,x = -25/18,False,wrong
+4,rational_0105,rational,2,"x = -17/9, x = -5",False,extraneous_root
+4,rational_0105,rational,3,x = -17/9,True,correct
+4,rational_0106,rational,1,"x = 4/3, x = 2",False,extraneous_root
+4,rational_0106,rational,2,"x = 4/3, x = 2",False,extraneous_root
+4,rational_0106,rational,3,x = 4/3,True,correct
+4,rational_0107,rational,1,x = 4/3,False,wrong
+4,rational_0107,rational,2,x = 1/3,True,correct
+4,rational_0108,rational,1,x = -2,True,correct
+4,rational_0109,rational,1,x = 9,False,wrong
+4,rational_0109,rational,2,x = 10,True,correct
+4,rational_0110,rational,1,"x = 35, x = 6",False,extraneous_root
+4,rational_0110,rational,2,"x = 35, x = 6",False,extraneous_root
+4,rational_0110,rational,3,x = 35,True,correct
+4,rational_0111,rational,1,x = -5/2,False,wrong
+4,rational_0111,rational,2,x = -7/2,True,correct
+4,rational_0112,rational,1,"x = 17/6, x = 4",False,extraneous_root
+4,rational_0112,rational,2,x = 23/6,False,wrong
+4,rational_0112,rational,3,x = 17/6,True,correct
+4,rational_0113,rational,1,"x = 34/3, x = 6",False,extraneous_root
+4,rational_0113,rational,2,x = 34/3,True,correct
+4,rational_0114,rational,1,"x = -23/5, x = -5",False,extraneous_root
+4,rational_0114,rational,2,x = -51/10,False,wrong
+4,rational_0114,rational,3,x = -23/5,True,correct
+4,rational_0115,rational,1,x = -7/4,False,wrong
+4,rational_0115,rational,2,"x = -9/4, x = -2",False,extraneous_root
+4,rational_0115,rational,3,x = -9/4,True,correct
+4,rational_0116,rational,1,"x = -11/5, x = -3",False,extraneous_root
+4,rational_0116,rational,2,x = -11/5,True,correct
+4,rational_0117,rational,1,x = -1/6,False,wrong
+4,rational_0117,rational,2,x = -2/3,True,correct
+4,rational_0118,rational,1,x = 21/2,False,wrong
+4,rational_0118,rational,2,x = 11,True,correct
+4,rational_0119,rational,1,"x = 7, x = 6",False,extraneous_root
+4,rational_0119,rational,2,"x = 7, x = 6",False,extraneous_root
+4,rational_0119,rational,3,x = 7,True,correct
+5,linear_0000,linear,1,x = -5/2,False,wrong
+5,linear_0000,linear,2,x = -2,False,wrong
+5,linear_0000,linear,3,x = -4,False,wrong
+5,linear_0001,linear,1,x = -4/3,False,wrong
+5,linear_0001,linear,2,x = -1/3,True,correct
+5,linear_0002,linear,1,x = -8/3,False,wrong
+5,linear_0002,linear,2,x = -2/3,False,wrong
+5,linear_0002,linear,3,x = -2/3,False,wrong
+5,linear_0003,linear,1,x = 1/2,False,wrong
+5,linear_0003,linear,2,x = 1,True,correct
+5,linear_0004,linear,1,x = -1,False,wrong
+5,linear_0004,linear,2,x = -1/2,True,correct
+5,linear_0005,linear,1,x = 0,False,wrong
+5,linear_0005,linear,2,x = 1/2,False,wrong
+5,linear_0005,linear,3,x = 1,True,correct
+5,linear_0006,linear,1,x = 2,True,correct
+5,linear_0007,linear,1,x = -4,False,wrong
+5,linear_0007,linear,2,x = -4,False,wrong
+5,linear_0007,linear,3,x = -5/2,False,wrong
+5,linear_0008,linear,1,x = 4/5,False,wrong
+5,linear_0008,linear,2,x = 4/5,False,wrong
+5,linear_0008,linear,3,x = 9/5,True,correct
+5,linear_0009,linear,1,x = 5/2,False,wrong
+5,linear_0009,linear,2,x = 3,False,wrong
+5,linear_0009,linear,3,x = 7/2,True,correct
+5,linear_0010,linear,1,x = -5/2,False,wrong
+5,linear_0010,linear,2,x = -1,False,wrong
+5,linear_0010,linear,3,x = -3/2,True,correct
+5,linear_0011,linear,1,x = 3/4,False,wrong
+5,linear_0011,linear,2,x = 1/4,False,wrong
+5,linear_0011,linear,3,x = -1/4,True,correct
+5,linear_0012,linear,1,x = -11/10,False,wrong
+5,linear_0012,linear,2,x = -11/10,False,wrong
+5,linear_0012,linear,3,x = -8/5,True,correct
+5,linear_0013,linear,1,x = -1,False,wrong
+5,linear_0013,linear,2,x = 0,True,correct
+5,linear_0014,linear,1,x = -5/2,False,wrong
+5,linear_0014,linear,2,x = -3,False,wrong
+5,linear_0014,linear,3,x = -5/2,False,wrong
+5,linear_0015,linear,1,x = -3/10,False,wrong
+5,linear_0015,linear,2,x = 1/5,True,correct
+5,linear_0016,linear,1,x = 1,False,wrong
+5,linear_0016,linear,2,x = -1,False,wrong
+5,linear_0016,linear,3,x = -1,False,wrong
+5,linear_0017,linear,1,x = -5/2,True,correct
+5,linear_0018,linear,1,x = 11/6,False,wrong
+5,linear_0018,linear,2,x = 7/3,True,correct
+5,linear_0019,linear,1,x = -3/2,False,wrong
+5,linear_0019,linear,2,x = -1,False,wrong
+5,linear_0019,linear,3,x = -3/2,False,wrong
+5,linear_0020,linear,1,x = 5/3,False,wrong
+5,linear_0020,linear,2,x = 5/3,False,wrong
+5,linear_0020,linear,3,x = 2/3,True,correct
+5,linear_0021,linear,1,x = 5/3,False,wrong
+5,linear_0021,linear,2,x = 5/3,False,wrong
+5,linear_0021,linear,3,x = 7/6,True,correct
+5,linear_0022,linear,1,x = -1/3,False,wrong
+5,linear_0022,linear,2,x = -4/3,True,correct
+5,linear_0023,linear,1,x = -4/3,False,wrong
+5,linear_0023,linear,2,x = -4/3,False,wrong
+5,linear_0023,linear,3,x = 1/6,False,wrong
+5,linear_0024,linear,1,x = -8/3,False,wrong
+5,linear_0024,linear,2,x = -2/3,False,wrong
+5,linear_0024,linear,3,x = -13/6,False,wrong
+5,linear_0025,linear,1,x = 3/2,True,correct
+5,linear_0026,linear,1,x = 1/2,False,wrong
+5,linear_0026,linear,2,x = -1/2,False,wrong
+5,linear_0026,linear,3,x = -1,False,wrong
+5,linear_0027,linear,1,x = 0,True,correct
+5,linear_0028,linear,1,x = 7/3,False,wrong
+5,linear_0028,linear,2,x = 11/6,False,wrong
+5,linear_0028,linear,3,x = 1/3,False,wrong
+5,linear_0029,linear,1,x = 5/3,False,wrong
+5,linear_0029,linear,2,x = 13/6,False,wrong
+5,linear_0029,linear,3,x = 8/3,True,correct
+5,linear_0030,linear,1,x = -2,False,wrong
+5,linear_0030,linear,2,x = -1,True,correct
+5,linear_0031,linear,1,x = 3/4,False,wrong
+5,linear_0031,linear,2,x = 3/4,False,wrong
+5,linear_0031,linear,3,x = 5/4,False,wrong
+5,linear_0032,linear,1,x = 9/2,False,wrong
+5,linear_0032,linear,2,x = 9/2,False,wrong
+5,linear_0032,linear,3,x = 4,True,correct
+5,linear_0033,linear,1,x = 1,False,wrong
+5,linear_0033,linear,2,x = -1,False,wrong
+5,linear_0033,linear,3,x = -1/2,False,wrong
+5,linear_0034,linear,1,x = -6/5,False,wrong
+5,linear_0034,linear,2,x = -1/5,True,correct
+5,linear_0035,linear,1,x = 5/6,False,wrong
+5,linear_0035,linear,2,x = 1/3,True,correct
+5,linear_0036,linear,1,x = 5/3,False,wrong
+5,linear_0036,linear,2,x = 13/6,False,wrong
+5,linear_0036,linear,3,x = 5/3,False,wrong
+5,linear_0037,linear,1,x = 1/2,False,wrong
+5,linear_0037,linear,2,x = 1/2,False,wrong
+5,linear_0037,linear,3,x = 1/2,False,wrong
+5,linear_0038,linear,1,x = 11/6,False,wrong
+5,linear_0038,linear,2,x = 7/3,False,wrong
+5,linear_0038,linear,3,x = 4/3,True,correct
+5,linear_0039,linear,1,x = -5/4,False,wrong
+5,linear_0039,linear,2,x = -9/4,False,wrong
+5,linear_0039,linear,3,x = -7/4,True,correct
+5,quadratic_0040,quadratic,1,x = -5/2,False,wrong
+5,quadratic_0040,quadratic,2,"x = -3, x = 0",True,correct
+5,quadratic_0041,quadratic,1,x = -7/6,False,wrong
+5,quadratic_0041,quadratic,2,"x = -2/3, x = 3",True,correct
+5,quadratic_0042,quadratic,1,x = -1 + sqrt(3)/2,False,wrong
+5,quadratic_0042,quadratic,2,x = -3/2 + sqrt(3)/2,False,wrong
+5,quadratic_0042,quadratic,3,"x = -1/2 + sqrt(3)/2, x = -sqrt(3)/2 - 1/2",True,correct
+5,quadratic_0043,quadratic,1,no solution,True,correct
+5,quadratic_0044,quadratic,1,x = -19/6,False,wrong
+5,quadratic_0044,quadratic,2,"x = -8/3, x = 1",True,correct
+5,quadratic_0045,quadratic,1,"x = -1/2, x = 1/2",True,correct
+5,quadratic_0046,quadratic,1,no solution,True,correct
+5,quadratic_0047,quadratic,1,no solution,True,correct
+5,quadratic_0048,quadratic,1,no solution,True,correct
+5,quadratic_0049,quadratic,1,x = 1/2 - sqrt(3)/2,False,wrong
+5,quadratic_0049,quadratic,2,"x = 1 - sqrt(3)/2, x = sqrt(3)/2 + 1",True,correct
+5,quadratic_0050,quadratic,1,x = -3/8 + sqrt(65)/8,False,wrong
+5,quadratic_0050,quadratic,2,x = -7/8 + sqrt(65)/8,False,incomplete
+5,quadratic_0050,quadratic,3,"x = -7/8 + sqrt(65)/8, x = -sqrt(65)/8 - 7/8",True,correct
+5,quadratic_0051,quadratic,1,x = -3/2,False,wrong
+5,quadratic_0051,quadratic,2,x = -1/2,False,incomplete
+5,quadratic_0051,quadratic,3,x = -3/2,False,wrong
+5,quadratic_0052,quadratic,1,"x = -1/8 + sqrt(129)/8, x = -sqrt(129)/8 - 1/8",True,correct
+5,quadratic_0053,quadratic,1,x = 5/6 + sqrt(61)/6,False,incomplete
+5,quadratic_0053,quadratic,2,x = 5/6 + sqrt(61)/6,False,incomplete
+5,quadratic_0053,quadratic,3,"x = 5/6 + sqrt(61)/6, x = 5/6 - sqrt(61)/6",True,correct
+5,quadratic_0054,quadratic,1,x = 5/2 - sqrt(17)/2,False,incomplete
+5,quadratic_0054,quadratic,2,x = 5/2 - sqrt(17)/2,False,incomplete
+5,quadratic_0054,quadratic,3,"x = 5/2 - sqrt(17)/2, x = sqrt(17)/2 + 5/2",True,correct
+5,quadratic_0055,quadratic,1,x = -4/3 + sqrt(22)/3,False,incomplete
+5,quadratic_0055,quadratic,2,"x = -4/3 + sqrt(22)/3, x = -sqrt(22)/3 - 4/3",True,correct
+5,quadratic_0056,quadratic,1,no solution,True,correct
+5,quadratic_0057,quadratic,1,no solution,True,correct
+5,quadratic_0058,quadratic,1,x = -1/2,False,wrong
+5,quadratic_0058,quadratic,2,x = -1/2,False,wrong
+5,quadratic_0058,quadratic,3,"x = -1, x = 5",True,correct
+5,quadratic_0059,quadratic,1,x = 3/4 + sqrt(33)/4,False,incomplete
+5,quadratic_0059,quadratic,2,x = -1/4 + sqrt(33)/4,False,wrong
+5,quadratic_0059,quadratic,3,"x = 3/4 + sqrt(33)/4, x = 3/4 - sqrt(33)/4",True,correct
+5,quadratic_0060,quadratic,1,x = 3/2 + sqrt(33)/3,False,wrong
+5,quadratic_0060,quadratic,2,x = 1 + sqrt(33)/3,False,incomplete
+5,quadratic_0060,quadratic,3,"x = 1 + sqrt(33)/3, x = 1 - sqrt(33)/3",True,correct
+5,quadratic_0061,quadratic,1,x = -1/2 + sqrt(105)/6,False,incomplete
+5,quadratic_0061,quadratic,2,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+5,quadratic_0062,quadratic,1,no solution,True,correct
+5,quadratic_0063,quadratic,1,no solution,True,correct
+5,quadratic_0064,quadratic,1,x = -2 + sqrt(7),False,incomplete
+5,quadratic_0064,quadratic,2,"x = -2 + sqrt(7), x = -sqrt(7) - 2",True,correct
+5,quadratic_0065,quadratic,1,x = 5/2 - sqrt(14)/2,False,wrong
+5,quadratic_0065,quadratic,2,x = 3/2 - sqrt(14)/2,False,wrong
+5,quadratic_0065,quadratic,3,"x = 2 - sqrt(14)/2, x = sqrt(14)/2 + 2",True,correct
+5,quadratic_0066,quadratic,1,no solution,True,correct
+5,quadratic_0067,quadratic,1,x = -4/3 + sqrt(7)/3,False,incomplete
+5,quadratic_0067,quadratic,2,x = -4/3 + sqrt(7)/3,False,incomplete
+5,quadratic_0067,quadratic,3,x = -4/3 + sqrt(7)/3,False,incomplete
+5,quadratic_0068,quadratic,1,x = -5/2,False,wrong
+5,quadratic_0068,quadratic,2,x = -3,False,incomplete
+5,quadratic_0068,quadratic,3,"x = -3, x = 0",True,correct
+5,quadratic_0069,quadratic,1,x = -1,False,incomplete
+5,quadratic_0069,quadratic,2,"x = -1, x = 2",True,correct
+5,quadratic_0070,quadratic,1,x = 2 - sqrt(3),False,incomplete
+5,quadratic_0070,quadratic,2,x = 2 - sqrt(3),False,incomplete
+5,quadratic_0070,quadratic,3,"x = 2 - sqrt(3), x = sqrt(3) + 2",True,correct
+5,quadratic_0071,quadratic,1,no solution,True,correct
+5,quadratic_0072,quadratic,1,x = -7/6 + sqrt(13)/6,False,incomplete
+5,quadratic_0072,quadratic,2,x = -7/6 + sqrt(13)/6,False,incomplete
+5,quadratic_0072,quadratic,3,x = -13/6 + sqrt(13)/6,False,wrong
+5,quadratic_0073,quadratic,1,x = sqrt(105)/6,False,wrong
+5,quadratic_0073,quadratic,2,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+5,quadratic_0074,quadratic,1,x = -4,False,incomplete
+5,quadratic_0074,quadratic,2,x = -3,False,wrong
+5,quadratic_0074,quadratic,3,"x = -4, x = 1",True,correct
+5,quadratic_0075,quadratic,1,no solution,True,correct
+5,quadratic_0076,quadratic,1,no solution,True,correct
+5,quadratic_0077,quadratic,1,no solution,True,correct
+5,quadratic_0078,quadratic,1,x = 1,False,wrong
+5,quadratic_0078,quadratic,2,x = 0,False,incomplete
+5,quadratic_0078,quadratic,3,x = 1,False,wrong
+5,quadratic_0079,quadratic,1,no solution,True,correct
+5,rational_0080,rational,1,x = 0,False,wrong
+5,rational_0080,rational,2,x = 0,False,wrong
+5,rational_0080,rational,3,x = -1,True,correct
+5,rational_0081,rational,1,x = 9/2,False,wrong
+5,rational_0081,rational,2,x = 9/2,False,wrong
+5,rational_0081,rational,3,x = 5,True,correct
+5,rational_0082,rational,1,x = 3,False,extraneous_root
+5,rational_0082,rational,2,no solution,True,correct
+5,rational_0083,rational,1,"x = 9, x = -5",False,extraneous_root
+5,rational_0083,rational,2,x = 17/2,False,wrong
+5,rational_0083,rational,3,x = 17/2,False,wrong
+5,rational_0084,rational,1,"x = 1, x = -1",False,extraneous_root
+5,rational_0084,rational,2,x = 1/2,False,wrong
+5,rational_0084,rational,3,x = 1/2,False,wrong
+5,rational_0085,rational,1,x = -5,False,wrong
+5,rational_0085,rational,2,"x = -6, x = 6",False,extraneous_root
+5,rational_0085,rational,3,x = -6,True,correct
+5,rational_0086,rational,1,x = 1,True,correct
+5,rational_0087,rational,1,"x = -5/7, x = -3",False,extraneous_root
+5,rational_0087,rational,2,"x = -5/7, x = -3",False,extraneous_root
+5,rational_0087,rational,3,x = -5/7,True,correct
+5,rational_0088,rational,1,"x = 21, x = 6",False,extraneous_root
+5,rational_0088,rational,2,x = 21,True,correct
+5,rational_0089,rational,1,x = -15,False,wrong
+5,rational_0089,rational,2,"x = -16, x = -3",False,extraneous_root
+5,rational_0089,rational,3,x = -16,True,correct
+5,rational_0090,rational,1,"x = 2, x = -2",False,extraneous_root
+5,rational_0090,rational,2,x = 1,False,wrong
+5,rational_0090,rational,3,x = 2,True,correct
+5,rational_0091,rational,1,x = -7/4,False,wrong
+5,rational_0091,rational,2,"x = -5/4, x = -2",False,extraneous_root
+5,rational_0091,rational,3,"x = -5/4, x = -2",False,extraneous_root
+5,rational_0092,rational,1,x = 6/5,False,wrong
+5,rational_0092,rational,2,"x = 1/5, x = -2",False,extraneous_root
+5,rational_0092,rational,3,x = 7/10,False,wrong
+5,rational_0093,rational,1,"x = -2/3, x = -3",False,extraneous_root
+5,rational_0093,rational,2,x = -2/3,True,correct
+5,rational_0094,rational,1,x = 11/2,False,wrong
+5,rational_0094,rational,2,x = 4,False,wrong
+5,rational_0094,rational,3,x = 5,True,correct
+5,rational_0095,rational,1,"x = -1/2, x = -2",False,extraneous_root
+5,rational_0095,rational,2,x = -3/2,False,wrong
+5,rational_0095,rational,3,x = -1,False,wrong
+5,rational_0096,rational,1,"x = -17, x = -6",False,extraneous_root
+5,rational_0096,rational,2,x = -16,False,wrong
+5,rational_0096,rational,3,"x = -17, x = -6",False,extraneous_root
+5,rational_0097,rational,1,x = -1/2,False,wrong
+5,rational_0097,rational,2,x = 0,True,correct
+5,rational_0098,rational,1,x = -5/2,False,wrong
+5,rational_0098,rational,2,x = -3,True,correct
+5,rational_0099,rational,1,x = -27/2,False,wrong
+5,rational_0099,rational,2,x = -13,True,correct
+5,rational_0100,rational,1,x = -2/3,True,correct
+5,rational_0101,rational,1,x = -1/2,False,wrong
+5,rational_0101,rational,2,"x = 1/2, x = -3",False,extraneous_root
+5,rational_0101,rational,3,x = -1/2,False,wrong
+5,rational_0102,rational,1,no solution,True,correct
+5,rational_0103,rational,1,"x = 20/3, x = 5",False,extraneous_root
+5,rational_0103,rational,2,x = 20/3,True,correct
+5,rational_0104,rational,1,x = 5/6,False,wrong
+5,rational_0104,rational,2,"x = 1/3, x = 6",False,extraneous_root
+5,rational_0104,rational,3,"x = 1/3, x = 6",False,extraneous_root
+5,rational_0105,rational,1,x = -25/18,False,wrong
+5,rational_0105,rational,2,x = -26/9,False,wrong
+5,rational_0105,rational,3,"x = -17/9, x = -5",False,extraneous_root
+5,rational_0106,rational,1,x = 4/3,True,correct
+5,rational_0107,rational,1,x = 1/3,True,correct
+5,rational_0108,rational,1,"x = -2, x = 1",False,extraneous_root
+5,rational_0108,rational,2,x = -3/2,False,wrong
+5,rational_0108,rational,3,x = -2,True,correct
+5,rational_0109,rational,1,x = 19/2,False,wrong
+5,rational_0109,rational,2,x = 10,True,correct
+5,rational_0110,rational,1,"x = 35, x = 6",False,extraneous_root
+5,rational_0110,rational,2,"x = 35, x = 6",False,extraneous_root
+5,rational_0110,rational,3,x = 69/2,False,wrong
+5,rational_0111,rational,1,x = -7/2,True,correct
+5,rational_0112,rational,1,"x = 17/6, x = 4",False,extraneous_root
+5,rational_0112,rational,2,x = 17/6,True,correct
+5,rational_0113,rational,1,"x = 34/3, x = 6",False,extraneous_root
+5,rational_0113,rational,2,"x = 34/3, x = 6",False,extraneous_root
+5,rational_0113,rational,3,"x = 34/3, x = 6",False,extraneous_root
+5,rational_0114,rational,1,x = -51/10,False,wrong
+5,rational_0114,rational,2,x = -18/5,False,wrong
+5,rational_0114,rational,3,"x = -23/5, x = -5",False,extraneous_root
+5,rational_0115,rational,1,"x = -9/4, x = -2",False,extraneous_root
+5,rational_0115,rational,2,"x = -9/4, x = -2",False,extraneous_root
+5,rational_0115,rational,3,x = -5/4,False,wrong
+5,rational_0116,rational,1,x = -17/10,False,wrong
+5,rational_0116,rational,2,"x = -11/5, x = -3",False,extraneous_root
+5,rational_0116,rational,3,x = -11/5,True,correct
+5,rational_0117,rational,1,x = -2/3,True,correct
+5,rational_0118,rational,1,x = 10,False,wrong
+5,rational_0118,rational,2,x = 11,True,correct
+5,rational_0119,rational,1,"x = 7, x = 6",False,extraneous_root
+5,rational_0119,rational,2,x = 15/2,False,wrong
+5,rational_0119,rational,3,x = 7,True,correct
+6,linear_0000,linear,1,x = -2,False,wrong
+6,linear_0000,linear,2,x = -5/2,False,wrong
+6,linear_0000,linear,3,x = -3,True,correct
+6,linear_0001,linear,1,x = -1/3,True,correct
+6,linear_0002,linear,1,x = -7/6,False,wrong
+6,linear_0002,linear,2,x = -5/3,True,correct
+6,linear_0003,linear,1,x = 1,True,correct
+6,linear_0004,linear,1,x = -3/2,False,wrong
+6,linear_0004,linear,2,x = -1,False,wrong
+6,linear_0004,linear,3,x = 1/2,False,wrong
+6,linear_0005,linear,1,x = 3/2,False,wrong
+6,linear_0005,linear,2,x = 2,False,wrong
+6,linear_0005,linear,3,x = 3/2,False,wrong
+6,linear_0006,linear,1,x = 5/2,False,wrong
+6,linear_0006,linear,2,x = 5/2,False,wrong
+6,linear_0006,linear,3,x = 2,True,correct
+6,linear_0007,linear,1,x = -3,True,correct
+6,linear_0008,linear,1,x = 23/10,False,wrong
+6,linear_0008,linear,2,x = 9/5,True,correct
+6,linear_0009,linear,1,x = 7/2,True,correct
+6,linear_0010,linear,1,x = -1,False,wrong
+6,linear_0010,linear,2,x = -5/2,False,wrong
+6,linear_0010,linear,3,x = -3/2,True,correct
+6,linear_0011,linear,1,x = 3/4,False,wrong
+6,linear_0011,linear,2,x = -5/4,False,wrong
+6,linear_0011,linear,3,x = 1/4,False,wrong
+6,linear_0012,linear,1,x = -3/5,False,wrong
+6,linear_0012,linear,2,x = -8/5,True,correct
+6,linear_0013,linear,1,x = -1,False,wrong
+6,linear_0013,linear,2,x = 0,True,correct
+6,linear_0014,linear,1,x = -3,False,wrong
+6,linear_0014,linear,2,x = -4,False,wrong
+6,linear_0014,linear,3,x = -7/2,True,correct
+6,linear_0015,linear,1,x = 1/5,True,correct
+6,linear_0016,linear,1,x = 1,False,wrong
+6,linear_0016,linear,2,x = 0,True,correct
+6,linear_0017,linear,1,x = -5/2,True,correct
+6,linear_0018,linear,1,x = 17/6,False,wrong
+6,linear_0018,linear,2,x = 11/6,False,wrong
+6,linear_0018,linear,3,x = 7/3,True,correct
+6,linear_0019,linear,1,x = -5/2,False,wrong
+6,linear_0019,linear,2,x = -2,True,correct
+6,linear_0020,linear,1,x = 1/6,False,wrong
+6,linear_0020,linear,2,x = 2/3,True,correct
+6,linear_0021,linear,1,x = 13/6,False,wrong
+6,linear_0021,linear,2,x = 2/3,False,wrong
+6,linear_0021,linear,3,x = 7/6,True,correct
+6,linear_0022,linear,1,x = -1/3,False,wrong
+6,linear_0022,linear,2,x = -11/6,False,wrong
+6,linear_0022,linear,3,x = -4/3,True,correct
+6,linear_0023,linear,1,x = 2/3,False,wrong
+6,linear_0023,linear,2,x = -1/3,True,correct
+6,linear_0024,linear,1,x = -13/6,False,wrong
+6,linear_0024,linear,2,x = -8/3,False,wrong
+6,linear_0024,linear,3,x = -5/3,True,correct
+6,linear_0025,linear,1,x = 2,False,wrong
+6,linear_0025,linear,2,x = 2,False,wrong
+6,linear_0025,linear,3,x = 3/2,True,correct
+6,linear_0026,linear,1,x = 1/2,False,wrong
+6,linear_0026,linear,2,x = 1/2,False,wrong
+6,linear_0026,linear,3,x = -1/2,False,wrong
+6,linear_0027,linear,1,x = 1/2,False,wrong
+6,linear_0027,linear,2,x = -1/2,False,wrong
+6,linear_0027,linear,3,x = 0,True,correct
+6,linear_0028,linear,1,x = 5/6,False,wrong
+6,linear_0028,linear,2,x = 4/3,True,correct
+6,linear_0029,linear,1,x = 19/6,False,wrong
+6,linear_0029,linear,2,x = 8/3,True,correct
+6,linear_0030,linear,1,x = -1,True,correct
+6,linear_0031,linear,1,x = 5/4,False,wrong
+6,linear_0031,linear,2,x = 9/4,False,wrong
+6,linear_0031,linear,3,x = 7/4,True,correct
+6,linear_0032,linear,1,x = 7/2,False,wrong
+6,linear_0032,linear,2,x = 3,False,wrong
+6,linear_0032,linear,3,x = 9/2,False,wrong
+6,linear_0033,linear,1,x = -1/2,False,wrong
+6,linear_0033,linear,2,x = -1,False,wrong
+6,linear_0033,linear,3,x = 0,True,correct
+6,linear_0034,linear,1,x = 4/5,False,wrong
+6,linear_0034,linear,2,x = 3/10,False,wrong
+6,linear_0034,linear,3,x = -1/5,True,correct
+6,linear_0035,linear,1,x = 4/3,False,wrong
+6,linear_0035,linear,2,x = -2/3,False,wrong
+6,linear_0035,linear,3,x = 4/3,False,wrong
+6,linear_0036,linear,1,x = 2/3,False,wrong
+6,linear_0036,linear,2,x = 7/6,True,correct
+6,linear_0037,linear,1,x = 1/2,False,wrong
+6,linear_0037,linear,2,x = 0,True,correct
+6,linear_0038,linear,1,x = 4/3,True,correct
+6,linear_0039,linear,1,x = -5/4,False,wrong
+6,linear_0039,linear,2,x = -7/4,True,correct
+6,quadratic_0040,quadratic,1,x = -3,False,incomplete
+6,quadratic_0040,quadratic,2,"x = -3, x = 0",True,correct
+6,quadratic_0041,quadratic,1,x = -2/3,False,incomplete
+6,quadratic_0041,quadratic,2,x = -5/3,False,wrong
+6,quadratic_0041,quadratic,3,x = -5/3,False,wrong
+6,quadratic_0042,quadratic,1,x = -1 + sqrt(3)/2,False,wrong
+6,quadratic_0042,quadratic,2,x = -1/2 + sqrt(3)/2,False,incomplete
+6,quadratic_0042,quadratic,3,x = -3/2 + sqrt(3)/2,False,wrong
+6,quadratic_0043,quadratic,1,no solution,True,correct
+6,quadratic_0044,quadratic,1,x = -19/6,False,wrong
+6,quadratic_0044,quadratic,2,x = -8/3,False,incomplete
+6,quadratic_0044,quadratic,3,x = -13/6,False,wrong
+6,quadratic_0045,quadratic,1,x = -1/2,False,incomplete
+6,quadratic_0045,quadratic,2,x = -1/2,False,incomplete
+6,quadratic_0045,quadratic,3,x = -1/2,False,incomplete
+6,quadratic_0046,quadratic,1,no solution,True,correct
+6,quadratic_0047,quadratic,1,no solution,True,correct
+6,quadratic_0048,quadratic,1,no solution,True,correct
+6,quadratic_0049,quadratic,1,"x = 1 - sqrt(3)/2, x = sqrt(3)/2 + 1",True,correct
+6,quadratic_0050,quadratic,1,"x = -7/8 + sqrt(65)/8, x = -sqrt(65)/8 - 7/8",True,correct
+6,quadratic_0051,quadratic,1,x = 1/2,False,wrong
+6,quadratic_0051,quadratic,2,x = -1/2,False,incomplete
+6,quadratic_0051,quadratic,3,"x = -1/2, x = 1",True,correct
+6,quadratic_0052,quadratic,1,x = -9/8 + sqrt(129)/8,False,wrong
+6,quadratic_0052,quadratic,2,x = -1/8 + sqrt(129)/8,False,incomplete
+6,quadratic_0052,quadratic,3,"x = -1/8 + sqrt(129)/8, x = -sqrt(129)/8 - 1/8",True,correct
+6,quadratic_0053,quadratic,1,x = 5/6 + sqrt(61)/6,False,incomplete
+6,quadratic_0053,quadratic,2,x = 5/6 + sqrt(61)/6,False,incomplete
+6,quadratic_0053,quadratic,3,"x = 5/6 + sqrt(61)/6, x = 5/6 - sqrt(61)/6",True,correct
+6,quadratic_0054,quadratic,1,"x = 5/2 - sqrt(17)/2, x = sqrt(17)/2 + 5/2",True,correct
+6,quadratic_0055,quadratic,1,"x = -4/3 + sqrt(22)/3, x = -sqrt(22)/3 - 4/3",True,correct
+6,quadratic_0056,quadratic,1,no solution,True,correct
+6,quadratic_0057,quadratic,1,no solution,True,correct
+6,quadratic_0058,quadratic,1,x = -1,False,incomplete
+6,quadratic_0058,quadratic,2,"x = -1, x = 5",True,correct
+6,quadratic_0059,quadratic,1,"x = 3/4 + sqrt(33)/4, x = 3/4 - sqrt(33)/4",True,correct
+6,quadratic_0060,quadratic,1,x = 1 + sqrt(33)/3,False,incomplete
+6,quadratic_0060,quadratic,2,"x = 1 + sqrt(33)/3, x = 1 - sqrt(33)/3",True,correct
+6,quadratic_0061,quadratic,1,x = -3/2 + sqrt(105)/6,False,wrong
+6,quadratic_0061,quadratic,2,x = -1/2 + sqrt(105)/6,False,incomplete
+6,quadratic_0061,quadratic,3,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+6,quadratic_0062,quadratic,1,no solution,True,correct
+6,quadratic_0063,quadratic,1,no solution,True,correct
+6,quadratic_0064,quadratic,1,x = -3 + sqrt(7),False,wrong
+6,quadratic_0064,quadratic,2,x = -5/2 + sqrt(7),False,wrong
+6,quadratic_0064,quadratic,3,"x = -2 + sqrt(7), x = -sqrt(7) - 2",True,correct
+6,quadratic_0065,quadratic,1,x = 1 - sqrt(14)/2,False,wrong
+6,quadratic_0065,quadratic,2,x = 5/2 - sqrt(14)/2,False,wrong
+6,quadratic_0065,quadratic,3,"x = 2 - sqrt(14)/2, x = sqrt(14)/2 + 2",True,correct
+6,quadratic_0066,quadratic,1,no solution,True,correct
+6,quadratic_0067,quadratic,1,"x = -4/3 + sqrt(7)/3, x = -4/3 - sqrt(7)/3",True,correct
+6,quadratic_0068,quadratic,1,x = -3,False,incomplete
+6,quadratic_0068,quadratic,2,"x = -3, x = 0",True,correct
+6,quadratic_0069,quadratic,1,"x = -1, x = 2",True,correct
+6,quadratic_0070,quadratic,1,x = 2 - sqrt(3),False,incomplete
+6,quadratic_0070,quadratic,2,x = 5/2 - sqrt(3),False,wrong
+6,quadratic_0070,quadratic,3,x = 2 - sqrt(3),False,incomplete
+6,quadratic_0071,quadratic,1,no solution,True,correct
+6,quadratic_0072,quadratic,1,x = -2/3 + sqrt(13)/6,False,wrong
+6,quadratic_0072,quadratic,2,"x = -7/6 + sqrt(13)/6, x = -7/6 - sqrt(13)/6",True,correct
+6,quadratic_0073,quadratic,1,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+6,quadratic_0074,quadratic,1,x = -4,False,incomplete
+6,quadratic_0074,quadratic,2,x = -4,False,incomplete
+6,quadratic_0074,quadratic,3,x = -5,False,wrong
+6,quadratic_0075,quadratic,1,no solution,True,correct
+6,quadratic_0076,quadratic,1,no solution,True,correct
+6,quadratic_0077,quadratic,1,no solution,True,correct
+6,quadratic_0078,quadratic,1,x = 1/2,False,wrong
+6,quadratic_0078,quadratic,2,"x = 0, x = 2",True,correct
+6,quadratic_0079,quadratic,1,no solution,True,correct
+6,rational_0080,rational,1,x = -2,False,wrong
+6,rational_0080,rational,2,x = -1,True,correct
+6,rational_0081,rational,1,x = 5,True,correct
+6,rational_0082,rational,1,no solution,True,correct
+6,rational_0083,rational,1,x = 19/2,False,wrong
+6,rational_0083,rational,2,"x = 9, x = -5",False,extraneous_root
+6,rational_0083,rational,3,"x = 9, x = -5",False,extraneous_root
+6,rational_0084,rational,1,"x = 1, x = -1",False,extraneous_root
+6,rational_0084,rational,2,"x = 1, x = -1",False,extraneous_root
+6,rational_0084,rational,3,x = 1/2,False,wrong
+6,rational_0085,rational,1,x = -11/2,False,wrong
+6,rational_0085,rational,2,x = -6,True,correct
+6,rational_0086,rational,1,x = 1,True,correct
+6,rational_0087,rational,1,x = -5/7,True,correct
+6,rational_0088,rational,1,x = 21,True,correct
+6,rational_0089,rational,1,"x = -16, x = -3",False,extraneous_root
+6,rational_0089,rational,2,"x = -16, x = -3",False,extraneous_root
+6,rational_0089,rational,3,x = -16,True,correct
+6,rational_0090,rational,1,"x = 2, x = -2",False,extraneous_root
+6,rational_0090,rational,2,"x = 2, x = -2",False,extraneous_root
+6,rational_0090,rational,3,x = 3/2,False,wrong
+6,rational_0091,rational,1,"x = -5/4, x = -2",False,extraneous_root
+6,rational_0091,rational,2,x = -5/4,True,correct
+6,rational_0092,rational,1,x = 1/5,True,correct
+6,rational_0093,rational,1,"x = -2/3, x = -3",False,extraneous_root
+6,rational_0093,rational,2,x = -2/3,True,correct
+6,rational_0094,rational,1,x = 5,True,correct
+6,rational_0095,rational,1,"x = -1/2, x = -2",False,extraneous_root
+6,rational_0095,rational,2,x = -1/2,True,correct
+6,rational_0096,rational,1,x = -17,True,correct
+6,rational_0097,rational,1,x = -1/2,False,wrong
+6,rational_0097,rational,2,x = 0,True,correct
+6,rational_0098,rational,1,"x = -3, x = -6",False,extraneous_root
+6,rational_0098,rational,2,x = -2,False,wrong
+6,rational_0098,rational,3,x = -3,True,correct
+6,rational_0099,rational,1,"x = -13, x = -3",False,extraneous_root
+6,rational_0099,rational,2,x = -25/2,False,wrong
+6,rational_0099,rational,3,x = -13,True,correct
+6,rational_0100,rational,1,"x = -2/3, x = -1",False,extraneous_root
+6,rational_0100,rational,2,x = -5/3,False,wrong
+6,rational_0100,rational,3,"x = -2/3, x = -1",False,extraneous_root
+6,rational_0101,rational,1,"x = 1/2, x = -3",False,extraneous_root
+6,rational_0101,rational,2,x = 3/2,False,wrong
+6,rational_0101,rational,3,x = 1/2,True,correct
+6,rational_0102,rational,1,no solution,True,correct
+6,rational_0103,rational,1,"x = 20/3, x = 5",False,extraneous_root
+6,rational_0103,rational,2,x = 37/6,False,wrong
+6,rational_0103,rational,3,x = 23/3,False,wrong
+6,rational_0104,rational,1,"x = 1/3, x = 6",False,extraneous_root
+6,rational_0104,rational,2,x = -2/3,False,wrong
+6,rational_0104,rational,3,x = 4/3,False,wrong
+6,rational_0105,rational,1,x = -17/9,True,correct
+6,rational_0106,rational,1,x = 1/3,False,wrong
+6,rational_0106,rational,2,x = 4/3,True,correct
+6,rational_0107,rational,1,x = 1/3,True,correct
+6,rational_0108,rational,1,x = -3,False,wrong
+6,rational_0108,rational,2,"x = -2, x = 1",False,extraneous_root
+6,rational_0108,rational,3,x = -2,True,correct
+6,rational_0109,rational,1,x = 11,False,wrong
+6,rational_0109,rational,2,"x = 10, x = 6",False,extraneous_root
+6,rational_0109,rational,3,"x = 10, x = 6",False,extraneous_root
+6,rational_0110,rational,1,"x = 35, x = 6",False,extraneous_root
+6,rational_0110,rational,2,x = 35,True,correct
+6,rational_0111,rational,1,"x = -7/2, x = 2",False,extraneous_root
+6,rational_0111,rational,2,"x = -7/2, x = 2",False,extraneous_root
+6,rational_0111,rational,3,x = -4,False,wrong
+6,rational_0112,rational,1,"x = 17/6, x = 4",False,extraneous_root
+6,rational_0112,rational,2,"x = 17/6, x = 4",False,extraneous_root
+6,rational_0112,rational,3,"x = 17/6, x = 4",False,extraneous_root
+6,rational_0113,rational,1,x = 31/3,False,wrong
+6,rational_0113,rational,2,"x = 34/3, x = 6",False,extraneous_root
+6,rational_0113,rational,3,x = 65/6,False,wrong
+6,rational_0114,rational,1,x = -28/5,False,wrong
+6,rational_0114,rational,2,x = -23/5,True,correct
+6,rational_0115,rational,1,"x = -9/4, x = -2",False,extraneous_root
+6,rational_0115,rational,2,x = -11/4,False,wrong
+6,rational_0115,rational,3,x = -9/4,True,correct
+6,rational_0116,rational,1,"x = -11/5, x = -3",False,extraneous_root
+6,rational_0116,rational,2,x = -11/5,True,correct
+6,rational_0117,rational,1,x = -5/3,False,wrong
+6,rational_0117,rational,2,"x = -2/3, x = -1",False,extraneous_root
+6,rational_0117,rational,3,x = -2/3,True,correct
+6,rational_0118,rational,1,x = 23/2,False,wrong
+6,rational_0118,rational,2,x = 12,False,wrong
+6,rational_0118,rational,3,x = 11,True,correct
+6,rational_0119,rational,1,x = 8,False,wrong
+6,rational_0119,rational,2,x = 15/2,False,wrong
+6,rational_0119,rational,3,x = 7,True,correct
+7,linear_0000,linear,1,x = -4,False,wrong
+7,linear_0000,linear,2,x = -2,False,wrong
+7,linear_0000,linear,3,x = -3,True,correct
+7,linear_0001,linear,1,x = 1/6,False,wrong
+7,linear_0001,linear,2,x = -4/3,False,wrong
+7,linear_0001,linear,3,x = -1/3,True,correct
+7,linear_0002,linear,1,x = -2/3,False,wrong
+7,linear_0002,linear,2,x = -5/3,True,correct
+7,linear_0003,linear,1,x = 2,False,wrong
+7,linear_0003,linear,2,x = 2,False,wrong
+7,linear_0003,linear,3,x = 2,False,wrong
+7,linear_0004,linear,1,x = -1,False,wrong
+7,linear_0004,linear,2,x = -1/2,True,correct
+7,linear_0005,linear,1,x = 0,False,wrong
+7,linear_0005,linear,2,x = 1,True,correct
+7,linear_0006,linear,1,x = 2,True,correct
+7,linear_0007,linear,1,x = -3,True,correct
+7,linear_0008,linear,1,x = 4/5,False,wrong
+7,linear_0008,linear,2,x = 9/5,True,correct
+7,linear_0009,linear,1,x = 5/2,False,wrong
+7,linear_0009,linear,2,x = 9/2,False,wrong
+7,linear_0009,linear,3,x = 5/2,False,wrong
+7,linear_0010,linear,1,x = -2,False,wrong
+7,linear_0010,linear,2,x = -2,False,wrong
+7,linear_0010,linear,3,x = -2,False,wrong
+7,linear_0011,linear,1,x = -5/4,False,wrong
+7,linear_0011,linear,2,x = -5/4,False,wrong
+7,linear_0011,linear,3,x = -1/4,True,correct
+7,linear_0012,linear,1,x = -21/10,False,wrong
+7,linear_0012,linear,2,x = -21/10,False,wrong
+7,linear_0012,linear,3,x = -8/5,True,correct
+7,linear_0013,linear,1,x = 1,False,wrong
+7,linear_0013,linear,2,x = -1,False,wrong
+7,linear_0013,linear,3,x = -1,False,wrong
+7,linear_0014,linear,1,x = -4,False,wrong
+7,linear_0014,linear,2,x = -7/2,True,correct
+7,linear_0015,linear,1,x = 7/10,False,wrong
+7,linear_0015,linear,2,x = 1/5,True,correct
+7,linear_0016,linear,1,x = -1/2,False,wrong
+7,linear_0016,linear,2,x = -1/2,False,wrong
+7,linear_0016,linear,3,x = 0,True,correct
+7,linear_0017,linear,1,x = -5/2,True,correct
+7,linear_0018,linear,1,x = 10/3,False,wrong
+7,linear_0018,linear,2,x = 7/3,True,correct
+7,linear_0019,linear,1,x = -5/2,False,wrong
+7,linear_0019,linear,2,x = -2,True,correct
+7,linear_0020,linear,1,x = 7/6,False,wrong
+7,linear_0020,linear,2,x = 2/3,True,correct
+7,linear_0021,linear,1,x = 1/6,False,wrong
+7,linear_0021,linear,2,x = 2/3,False,wrong
+7,linear_0021,linear,3,x = 7/6,True,correct
+7,linear_0022,linear,1,x = -7/3,False,wrong
+7,linear_0022,linear,2,x = -11/6,False,wrong
+7,linear_0022,linear,3,x = -4/3,True,correct
+7,linear_0023,linear,1,x = 2/3,False,wrong
+7,linear_0023,linear,2,x = -1/3,True,correct
+7,linear_0024,linear,1,x = -7/6,False,wrong
+7,linear_0024,linear,2,x = -13/6,False,wrong
+7,linear_0024,linear,3,x = -7/6,False,wrong
+7,linear_0025,linear,1,x = 2,False,wrong
+7,linear_0025,linear,2,x = 1,False,wrong
+7,linear_0025,linear,3,x = 1/2,False,wrong
+7,linear_0026,linear,1,x = 0,True,correct
+7,linear_0027,linear,1,x = 0,True,correct
+7,linear_0028,linear,1,x = 7/3,False,wrong
+7,linear_0028,linear,2,x = 1/3,False,wrong
+7,linear_0028,linear,3,x = 4/3,True,correct
+7,linear_0029,linear,1,x = 8/3,True,correct
+7,linear_0030,linear,1,x = -1/2,False,wrong
+7,linear_0030,linear,2,x = -1/2,False,wrong
+7,linear_0030,linear,3,x = 0,False,wrong
+7,linear_0031,linear,1,x = 5/4,False,wrong
+7,linear_0031,linear,2,x = 5/4,False,wrong
+7,linear_0031,linear,3,x = 7/4,True,correct
+7,linear_0032,linear,1,x = 5,False,wrong
+7,linear_0032,linear,2,x = 4,True,correct
+7,linear_0033,linear,1,x = -1/2,False,wrong
+7,linear_0033,linear,2,x = 0,True,correct
+7,linear_0034,linear,1,x = 4/5,False,wrong
+7,linear_0034,linear,2,x = -1/5,True,correct
+7,linear_0035,linear,1,x = 4/3,False,wrong
+7,linear_0035,linear,2,x = 4/3,False,wrong
+7,linear_0035,linear,3,x = 1/3,True,correct
+7,linear_0036,linear,1,x = 2/3,False,wrong
+7,linear_0036,linear,2,x = 7/6,True,correct
+7,linear_0037,linear,1,x = 1/2,False,wrong
+7,linear_0037,linear,2,x = -1/2,False,wrong
+7,linear_0037,linear,3,x = 0,True,correct
+7,linear_0038,linear,1,x = 5/6,False,wrong
+7,linear_0038,linear,2,x = 11/6,False,wrong
+7,linear_0038,linear,3,x = 4/3,True,correct
+7,linear_0039,linear,1,x = -7/4,True,correct
+7,quadratic_0040,quadratic,1,x = -3,False,incomplete
+7,quadratic_0040,quadratic,2,x = -3,False,incomplete
+7,quadratic_0040,quadratic,3,"x = -3, x = 0",True,correct
+7,quadratic_0041,quadratic,1,x = -5/3,False,wrong
+7,quadratic_0041,quadratic,2,x = -1/6,False,wrong
+7,quadratic_0041,quadratic,3,x = -1/6,False,wrong
+7,quadratic_0042,quadratic,1,x = sqrt(3)/2,False,wrong
+7,quadratic_0042,quadratic,2,x = sqrt(3)/2,False,wrong
+7,quadratic_0042,quadratic,3,x = -3/2 + sqrt(3)/2,False,wrong
+7,quadratic_0043,quadratic,1,no solution,True,correct
+7,quadratic_0044,quadratic,1,x = -11/3,False,wrong
+7,quadratic_0044,quadratic,2,"x = -8/3, x = 1",True,correct
+7,quadratic_0045,quadratic,1,x = 1/2,False,incomplete
+7,quadratic_0045,quadratic,2,x = -1/2,False,incomplete
+7,quadratic_0045,quadratic,3,"x = -1/2, x = 1/2",True,correct
+7,quadratic_0046,quadratic,1,no solution,True,correct
+7,quadratic_0047,quadratic,1,no solution,True,correct
+7,quadratic_0048,quadratic,1,no solution,True,correct
+7,quadratic_0049,quadratic,1,x = 1 - sqrt(3)/2,False,incomplete
+7,quadratic_0049,quadratic,2,x = 1 - sqrt(3)/2,False,incomplete
+7,quadratic_0049,quadratic,3,"x = 1 - sqrt(3)/2, x = sqrt(3)/2 + 1",True,correct
+7,quadratic_0050,quadratic,1,x = -7/8 + sqrt(65)/8,False,incomplete
+7,quadratic_0050,quadratic,2,x = 1/8 + sqrt(65)/8,False,wrong
+7,quadratic_0050,quadratic,3,"x = -7/8 + sqrt(65)/8, x = -sqrt(65)/8 - 7/8",True,correct
+7,quadratic_0051,quadratic,1,x = 1/2,False,wrong
+7,quadratic_0051,quadratic,2,x = -1/2,False,incomplete
+7,quadratic_0051,quadratic,3,"x = -1/2, x = 1",True,correct
+7,quadratic_0052,quadratic,1,x = -1/8 + sqrt(129)/8,False,incomplete
+7,quadratic_0052,quadratic,2,x = -1/8 + sqrt(129)/8,False,incomplete
+7,quadratic_0052,quadratic,3,x = -1/8 + sqrt(129)/8,False,incomplete
+7,quadratic_0053,quadratic,1,x = 1/3 + sqrt(61)/6,False,wrong
+7,quadratic_0053,quadratic,2,x = -1/6 + sqrt(61)/6,False,wrong
+7,quadratic_0053,quadratic,3,"x = 5/6 + sqrt(61)/6, x = 5/6 - sqrt(61)/6",True,correct
+7,quadratic_0054,quadratic,1,"x = 5/2 - sqrt(17)/2, x = sqrt(17)/2 + 5/2",True,correct
+7,quadratic_0055,quadratic,1,"x = -4/3 + sqrt(22)/3, x = -sqrt(22)/3 - 4/3",True,correct
+7,quadratic_0056,quadratic,1,no solution,True,correct
+7,quadratic_0057,quadratic,1,no solution,True,correct
+7,quadratic_0058,quadratic,1,"x = -1, x = 5",True,correct
+7,quadratic_0059,quadratic,1,x = 5/4 + sqrt(33)/4,False,wrong
+7,quadratic_0059,quadratic,2,"x = 3/4 + sqrt(33)/4, x = 3/4 - sqrt(33)/4",True,correct
+7,quadratic_0060,quadratic,1,x = 1 + sqrt(33)/3,False,incomplete
+7,quadratic_0060,quadratic,2,x = sqrt(33)/3 + 2,False,wrong
+7,quadratic_0060,quadratic,3,"x = 1 + sqrt(33)/3, x = 1 - sqrt(33)/3",True,correct
+7,quadratic_0061,quadratic,1,x = -1/2 + sqrt(105)/6,False,incomplete
+7,quadratic_0061,quadratic,2,x = -3/2 + sqrt(105)/6,False,wrong
+7,quadratic_0061,quadratic,3,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+7,quadratic_0062,quadratic,1,no solution,True,correct
+7,quadratic_0063,quadratic,1,no solution,True,correct
+7,quadratic_0064,quadratic,1,x = -2 + sqrt(7),False,incomplete
+7,quadratic_0064,quadratic,2,x = -1 + sqrt(7),False,wrong
+7,quadratic_0064,quadratic,3,x = -2 + sqrt(7),False,incomplete
+7,quadratic_0065,quadratic,1,x = 3/2 - sqrt(14)/2,False,wrong
+7,quadratic_0065,quadratic,2,x = 1 - sqrt(14)/2,False,wrong
+7,quadratic_0065,quadratic,3,"x = 2 - sqrt(14)/2, x = sqrt(14)/2 + 2",True,correct
+7,quadratic_0066,quadratic,1,no solution,True,correct
+7,quadratic_0067,quadratic,1,"x = -4/3 + sqrt(7)/3, x = -4/3 - sqrt(7)/3",True,correct
+7,quadratic_0068,quadratic,1,x = -3,False,incomplete
+7,quadratic_0068,quadratic,2,"x = -3, x = 0",True,correct
+7,quadratic_0069,quadratic,1,x = -1,False,incomplete
+7,quadratic_0069,quadratic,2,x = 0,False,wrong
+7,quadratic_0069,quadratic,3,"x = -1, x = 2",True,correct
+7,quadratic_0070,quadratic,1,x = 3 - sqrt(3),False,wrong
+7,quadratic_0070,quadratic,2,x = 2 - sqrt(3),False,incomplete
+7,quadratic_0070,quadratic,3,"x = 2 - sqrt(3), x = sqrt(3) + 2",True,correct
+7,quadratic_0071,quadratic,1,no solution,True,correct
+7,quadratic_0072,quadratic,1,"x = -7/6 + sqrt(13)/6, x = -7/6 - sqrt(13)/6",True,correct
+7,quadratic_0073,quadratic,1,x = -1/2 + sqrt(105)/6,False,incomplete
+7,quadratic_0073,quadratic,2,x = -1/2 + sqrt(105)/6,False,incomplete
+7,quadratic_0073,quadratic,3,"x = -1/2 + sqrt(105)/6, x = -sqrt(105)/6 - 1/2",True,correct
+7,quadratic_0074,quadratic,1,x = -5,False,wrong
+7,quadratic_0074,quadratic,2,x = -4,False,incomplete
+7,quadratic_0074,quadratic,3,"x = -4, x = 1",True,correct
+7,quadratic_0075,quadratic,1,no solution,True,correct
+7,quadratic_0076,quadratic,1,no solution,True,correct
+7,quadratic_0077,quadratic,1,no solution,True,correct
+7,quadratic_0078,quadratic,1,x = 1/2,False,wrong
+7,quadratic_0078,quadratic,2,x = -1,False,wrong
+7,quadratic_0078,quadratic,3,x = 0,False,incomplete
+7,quadratic_0079,quadratic,1,no solution,True,correct
+7,rational_0080,rational,1,"x = -1, x = 5",False,extraneous_root
+7,rational_0080,rational,2,x = -1,True,correct
+7,rational_0081,rational,1,x = 5,True,correct
+7,rational_0082,rational,1,no solution,True,correct
+7,rational_0083,rational,1,"x = 9, x = -5",False,extraneous_root
+7,rational_0083,rational,2,x = 8,False,wrong
+7,rational_0083,rational,3,x = 9,True,correct
+7,rational_0084,rational,1,x = 1,True,correct
+7,rational_0085,rational,1,x = -5,False,wrong
+7,rational_0085,rational,2,x = -7,False,wrong
+7,rational_0085,rational,3,x = -6,True,correct
+7,rational_0086,rational,1,x = 3/2,False,wrong
+7,rational_0086,rational,2,"x = 1, x = -1",False,extraneous_root
+7,rational_0086,rational,3,x = 1,True,correct
+7,rational_0087,rational,1,"x = -5/7, x = -3",False,extraneous_root
+7,rational_0087,rational,2,x = -17/14,False,wrong
+7,rational_0087,rational,3,x = -5/7,True,correct
+7,rational_0088,rational,1,x = 22,False,wrong
+7,rational_0088,rational,2,x = 21,True,correct
+7,rational_0089,rational,1,"x = -16, x = -3",False,extraneous_root
+7,rational_0089,rational,2,"x = -16, x = -3",False,extraneous_root
+7,rational_0089,rational,3,x = -16,True,correct
+7,rational_0090,rational,1,"x = 2, x = -2",False,extraneous_root
+7,rational_0090,rational,2,x = 5/2,False,wrong
+7,rational_0090,rational,3,x = 2,True,correct
+7,rational_0091,rational,1,x = -7/4,False,wrong
+7,rational_0091,rational,2,"x = -5/4, x = -2",False,extraneous_root
+7,rational_0091,rational,3,x = -5/4,True,correct
+7,rational_0092,rational,1,x = 6/5,False,wrong
+7,rational_0092,rational,2,x = 1/5,True,correct
+7,rational_0093,rational,1,x = -2/3,True,correct
+7,rational_0094,rational,1,x = 5,True,correct
+7,rational_0095,rational,1,x = -3/2,False,wrong
+7,rational_0095,rational,2,x = -1/2,True,correct
+7,rational_0096,rational,1,x = -33/2,False,wrong
+7,rational_0096,rational,2,x = -33/2,False,wrong
+7,rational_0096,rational,3,"x = -17, x = -6",False,extraneous_root
+7,rational_0097,rational,1,x = -1,False,wrong
+7,rational_0097,rational,2,x = 0,True,correct
+7,rational_0098,rational,1,x = -3,True,correct
+7,rational_0099,rational,1,x = -14,False,wrong
+7,rational_0099,rational,2,x = -13,True,correct
+7,rational_0100,rational,1,"x = -2/3, x = -1",False,extraneous_root
+7,rational_0100,rational,2,x = -2/3,True,correct
+7,rational_0101,rational,1,x = 1/2,True,correct
+7,rational_0102,rational,1,no solution,True,correct
+7,rational_0103,rational,1,x = 20/3,True,correct
+7,rational_0104,rational,1,x = -2/3,False,wrong
+7,rational_0104,rational,2,"x = 1/3, x = 6",False,extraneous_root
+7,rational_0104,rational,3,x = 1/3,True,correct
+7,rational_0105,rational,1,x = -43/18,False,wrong
+7,rational_0105,rational,2,x = -25/18,False,wrong
+7,rational_0105,rational,3,x = -25/18,False,wrong
+7,rational_0106,rational,1,x = 1/3,False,wrong
+7,rational_0106,rational,2,"x = 4/3, x = 2",False,extraneous_root
+7,rational_0106,rational,3,x = 4/3,True,correct
+7,rational_0107,rational,1,x = 1/3,True,correct
+7,rational_0108,rational,1,x = -2,True,correct
+7,rational_0109,rational,1,"x = 10, x = 6",False,extraneous_root
+7,rational_0109,rational,2,x = 10,True,correct
+7,rational_0110,rational,1,x = 35,True,correct
+7,rational_0111,rational,1,x = -3,False,wrong
+7,rational_0111,rational,2,x = -5/2,False,wrong
+7,rational_0111,rational,3,x = -7/2,True,correct
+7,rational_0112,rational,1,x = 17/6,True,correct
+7,rational_0113,rational,1,"x = 34/3, x = 6",False,extraneous_root
+7,rational_0113,rational,2,x = 71/6,False,wrong
+7,rational_0113,rational,3,x = 34/3,True,correct
+7,rational_0114,rational,1,"x = -23/5, x = -5",False,extraneous_root
+7,rational_0114,rational,2,x = -23/5,True,correct
+7,rational_0115,rational,1,x = -9/4,True,correct
+7,rational_0116,rational,1,x = -16/5,False,wrong
+7,rational_0116,rational,2,x = -11/5,True,correct
+7,rational_0117,rational,1,"x = -2/3, x = -1",False,extraneous_root
+7,rational_0117,rational,2,"x = -2/3, x = -1",False,extraneous_root
+7,rational_0117,rational,3,"x = -2/3, x = -1",False,extraneous_root
+7,rational_0118,rational,1,x = 12,False,wrong
+7,rational_0118,rational,2,x = 10,False,wrong
+7,rational_0118,rational,3,x = 21/2,False,wrong
+7,rational_0119,rational,1,x = 13/2,False,wrong
+7,rational_0119,rational,2,x = 7,True,correct

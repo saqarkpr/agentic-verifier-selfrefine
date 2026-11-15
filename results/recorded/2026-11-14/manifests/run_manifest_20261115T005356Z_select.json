@@ -1,0 +1,61 @@
+{
+  "utc": "2026-11-15T00:53:46+00:00",
+  "stages": [
+    "select"
+  ],
+  "repeat": 1,
+  "environment": {
+    "utc": "2026-11-15T00:53:46+00:00",
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "device": "Tesla T4",
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0",
+    "transformers": "5.17.0",
+    "trl": "1.13.0",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0",
+    "datasets": "4.8.5",
+    "sympy": "1.14.0"
+  },
+  "code_sha256": {
+    "agent_loop.py": "3ed1fad349fb70ff",
+    "analysis.py": "dce4e34c4a1e127b",
+    "analyze_agent_experiment.py": "b3636b9208026622",
+    "build_dpo_pairs_zeroshot.py": "30ef97ed868b1f27",
+    "build_preference_data.py": "2b7f5a2033af40f9",
+    "build_sft_data.py": "a677085e2b1ab81a",
+    "config.py": "0d32331a0e9fb8b5",
+    "evaluate_finetuned.py": "02837d77abb61fb1",
+    "evaluate_redesign_v2.py": "fcdf58ffbfd2f4eb",
+    "feedback_prompts.py": "97509443c6a11d6a",
+    "feedback_protocol_ablation.py": "cfa299880ae9cef4",
+    "flawed_solver.py": "0af545e85bcd477a",
+    "hf_solver.py": "c9312635d2c75c3d",
+    "inspect_base_outputs.py": "a5118fb227628cf2",
+    "make_figures.py": "9cf3392fb5fb33b9",
+    "reference_solution.py": "c92df28d8c43fef5",
+    "rerun_all.py": "f4d5e219adb02d59",
+    "run_dpo_seed_sweep.py": "1d0fe3a7370e72f3",
+    "run_experiment.py": "0e203bdcb619b122",
+    "run_llm_agent_experiment.py": "b39f6b3cc0cd04e3",
+    "select_checkpoint.py": "57d6b21c2e35d606",
+    "smoke_test.py": "50d9889e4df57d4a",
+    "splits.py": "384aba686229a4c5",
+    "summarize_eval.py": "71ea7599a6db1c9b",
+    "tasks.py": "4dcd8133060c6a61",
+    "train_lora_dpo.py": "a2f5b882f79f03df",
+    "train_lora_dpo_zeroshot.py": "2d2605004718fd70",
+    "train_lora_sft.py": "56bb8e1051e71dee",
+    "verifier.py": "f08ff78d1720e1c0"
+  },
+  "log": [
+    {
+      "stage": "select",
+      "script": "select_checkpoint.py",
+      "seconds": 576.9,
+      "returncode": 0
+    }
+  ],
+  "note": "Produced by rerun_all.py. results/recorded/manifest.json is NOT updated automatically -- promoting a regenerated number to `valid` is a judgement, not a side effect."
+}

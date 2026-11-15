@@ -1,0 +1,11 @@
+{
+  "model_choice": "sft_dpo",
+  "sft_merged": {
+    "path": "../results/sft-merged-model",
+    "modified": "2026-11-14T23:21:08"
+  },
+  "dpo_adapter": {
+    "path": "../results/lora-dpo-zeroshot-adapter",
+    "modified": "2026-11-14T23:24:37"
+  }
+}
